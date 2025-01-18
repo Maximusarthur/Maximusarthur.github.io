@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2025-01-17T14:00:41.863Z</updated>
+  <updated>2025-01-18T06:50:04.926Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -17,9 +17,425 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>Markdown 资源集</title>
+    <link href="http://example.com/2025/01/18/markdown_2/"/>
+    <id>http://example.com/2025/01/18/markdown_2/</id>
+    <published>2025-01-18T06:42:12.000Z</published>
+    <updated>2025-01-18T06:50:04.926Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="Markdown-资源集"><a href="#Markdown-资源集" class="headerlink" title="Markdown 资源集"></a>Markdown 资源集</h1><p>这是一个收集了各种优秀的Markdown资源（库、服务、编辑器、工具、速查表等）的列表。</p><hr><h2 id="目录"><a href="#目录" class="headerlink" title="目录"></a>目录</h2><!-- !toc (minlevel=2 omit="目录") --><ul><li><a href="#markdown">Markdown</a></li><li><a href="#markdown语法扩展">Markdown语法扩展</a><ul><li><a href="#multimarkdown-mmd">MultiMarkdown (MMD)</a></li><li><a href="#markdown-extra">Markdown Extra</a></li><li><a href="#markdown-extended-mde">Markdown Extended (MDE)</a></li></ul></li><li><a href="#手稿">手稿</a></li><li><a href="#commonmark">CommonMark</a></li><li><a href="#github风格的markdown-gfm">GitHub风格的Markdown (GFM)</a></li><li><a href="#纯味markdown-vfmd">纯味Markdown (VFMD)</a></li><li><a href="#markdown文档">Markdown文档</a><ul><li><a href="#markdown速查表--快速参考">Markdown速查表 / 快速参考</a></li><li><a href="#markdown入门指南--教程">Markdown入门指南 / 教程</a></li></ul></li><li><a href="#markdown构建模块">Markdown构建模块</a><ul><li><a href="#markdown库--工具">Markdown库 &amp; 工具</a></li><li><a href="#babelmark">Babelmark</a></li><li><a href="#markdown风格指南--最佳实践">Markdown风格指南 / 最佳实践</a></li><li><a href="#markdown-lint--风格规则检查器">Markdown Lint / 风格规则检查器</a></li><li><a href="#markdown-web组件--自定义元素">Markdown Web组件 / 自定义元素</a></li><li><a href="#markdown转网站--博客">Markdown转网站 / 博客</a></li><li><a href="#markdown转电子邮件">Markdown转电子邮件</a></li><li><a href="#markdown转演示文稿--幻灯片">Markdown转演示文稿 / 幻灯片</a></li><li><a href="#markdown转便携式文档格式-pdf">Markdown转便携式文档格式 (PDF)</a></li><li><a href="#markdown样式--文档--页面">Markdown样式 / 文档 / 页面</a></li><li><a href="#markdown转书籍">Markdown转书籍</a></li><li><a href="#markdown转目录-toc">Markdown转目录 (TOC)</a></li><li><a href="#markdown转markdown预处理器">Markdown转Markdown预处理器</a></li></ul></li><li><a href="#转换为markdown的工具">转换为Markdown的工具</a><ul><li><a href="#microsoft-word转markdown">Microsoft Word转Markdown</a></li><li><a href="#超文本标记语言-html转markdown">超文本标记语言 (HTML) 转Markdown</a></li><li><a href="#源代码转markdown">源代码转Markdown</a></li><li><a href="#技术文档转markdown">技术文档转Markdown</a></li><li><a href="#屏幕录像转markdown">屏幕录像转Markdown</a></li><li><a href="#json转markdown">JSON转Markdown</a></li></ul></li><li><a href="#书籍服务">书籍服务</a></li><li><a href="#文章">文章</a></li><li><a href="#元数据">元数据</a></li></ul><!-- toc! --><h2 id="Markdown"><a href="#Markdown" class="headerlink" title="Markdown"></a>Markdown</h2><p><em>email-style writing for the web by John Gruber and Aaron Swartz</em> </p><ul><li><strong>Markdown</strong> (web: <a href="http://daringfireball.net/projects/markdown">daringfireball.net/projects/markdown</a>) - 原始的Markdown语法编写和用Perl编写的处理器，由John Gruber编写；不再维护（最后一次更新于2004年12月）</li></ul><p>历史 / 起源</p><ul><li><p>Introducing Markdown by John Gruber - 2004年3月15日</p><blockquote><p>  我编写了一个名为Markdown的文本到HTML的格式化工具，现已可供下载。<br>Markdown允许网络写作者使用简单、易读的纯文本格式语法进行写作；<br>Markdown负责将其转换为有效的XHTML（或者，如果你愿意，也可以是HTML）。</p></blockquote></li><li><p>Dive into Markdown by John Gruber - 2004年3月19日</p><blockquote><p> 你不需要在发送电子邮件之前“预览”它——你写它，你读它，你编辑它，就在那里。</p><p> 事实上，我非常喜欢写电子邮件。电子邮件是我最喜欢的写作媒介。在过去的五年里，我发送了超过16,000封电子邮件。<br>平面文本电子邮件的约定使我能够清晰、准确地表达自己，而不会有任何干扰。</p><p>因此，有了Markdown。网络上的电子邮件风格写作。</p></blockquote></li><li><p>Markdown by Aaron Swartz - 2004年3月22日</p><blockquote><p>   几个月来，我一直在和John Gruber合作一个新项目。这个想法是通过允许你使用几乎相同的语法并自动将其转换为HTML，使编写简单的网页，<br>特别是博客文章，变得和写电子邮件一样容易。</p><p>  我们从上到下仔细研究了语法细节，试图开发出完美的格式，<br>我认为我们得到了一个非常棒的结果。我们进行了广泛的测试：在我们的博客上，在我的评论表单中，在我们的电子邮件中。</p></blockquote></li></ul><h2 id="Markdown语法扩展"><a href="#Markdown语法扩展" class="headerlink" title="Markdown语法扩展"></a>Markdown语法扩展</h2><ul><li><a href="http://daringfireball.net/projects/smartypants">SmartyPants</a> - 将(c)转换为？，””转换为？等 </li><li><a href="http://www.emoji-cheat-sheet.com">Emojis</a> - <a href="https://github.com/arvida/emoji-cheat-sheet.com">:octocat:</a></li><li><a href="http://criticmarkup.com">CriticMarkup</a> - <a href="https://github.com/CriticMarkup">:octocat:</a></li><li><a href="https://help.github.com/articles/github-flavored-markdown">GitHub风格的标记 (GFM)</a> - @mention，带[ ]和[x]的待办事项列表等</li></ul><h3 id="MultiMarkdown-MMD"><a href="#MultiMarkdown-MMD" class="headerlink" title="MultiMarkdown (MMD)"></a>MultiMarkdown (MMD)</h3><ul><li><a href="http://fletcherpenney.net/multimarkdown">MultiMarkdown (MMD)</a> - 由Fletcher Penney编写的Markdown扩展，增加了脚注、表格、定义列表、文档元数据（例如标题、作者、日期等）等；首次添加到MultiMarkdown.pl<ul><li><a href="https://rawgit.com/fletcher/human-markdown-reference/master/index.html">速查表</a>  - 语法快速参考</li><li><a href="https://github.com/fletcher/MMD-Test-Suite">测试套件 :octocat:</a></li></ul></li><li><a href="https://github.com/fletcher/MultiMarkdown">MultiMarkdown.pl :octocat:</a> - 历史上的MultiMarkdown.pl代码；用Perl编写的转换脚本（最后一次更新于2011年1月）</li></ul><h3 id="Markdown-Extra"><a href="#Markdown-Extra" class="headerlink" title="Markdown Extra"></a>Markdown Extra</h3><ul><li><a href="https://michelf.ca/projects/php-markdown/extra/">Markdown Extra</a> - 由Michel Fortin编写的Markdown扩展；首次添加到PHP Markdown (Extra)</li><li><a href="https://michelf.ca/projects/php-markdown/dingus/">Dingus</a>  - 在浏览器中尝试Markdown Extra</li></ul><h3 id="Markdown-Extended-MDE"><a href="#Markdown-Extended-MDE" class="headerlink" title="Markdown Extended (MDE)"></a>Markdown Extended (MDE)</h3><ul><li><a href="http://aboutmde.org">Markdown Extended (MDE) @ aboutmde.org</a><ul><li><a href="http://manifest.aboutmde.org">规范</a></li><li><a href="http://cheatsheet.aboutmde.org/">速查表</a> - 语法快速参考；示例并排显示</li><li><a href="http://dingus.aboutmde.org">Dingus</a> - 在浏览器中尝试Markdown Extended</li></ul></li><li><a href="https://github.com/piwi/markdown-extended">代码 :octocat:</a> - 用PHP编写的转换脚本</li></ul><h2 id="手稿"><a href="#手稿" class="headerlink" title="手稿"></a>手稿</h2><p><em>用于Markdown的免费书籍格式</em></p><p><strong>手稿</strong><br>(web: <a href="http://manuscripts.github.io"><code>manuscripts.github.io</code></a>,<br> github: <a href="https://github.com/manuscripts"><code>manuscripts</code></a>) -<br>添加book.yml用于书籍（元）信息，例如标题、作者、出版商、年份等。<br>和contents.yml用于目录和文件结构</p><ul><li>Manuscripts Book Starter Kit (github: <a href="https://github.com/manuscripts/book-starter"><code>manuscripts/book-starter</code></a>)</li></ul><h2 id="CommonMark"><a href="#CommonMark" class="headerlink" title="CommonMark"></a>CommonMark</h2><p><em>一个强烈规范、高度兼容的Markdown实现</em></p><p><strong>CommonMark</strong><br>(web: <a href="http://commonmark.org"><code>commonmark.org</code></a>)</p><ul><li>规范 (web: <a href="http://spec.commonmark.org"><code>spec.commonmark.org</code></a>) - 由John MacFarlane编辑 </li><li>Dingus (web: <a href="http://spec.commonmark.org/dingus"><code>spec.commonmark.org/dingus</code></a>) - 在浏览器中尝试CommonMark</li><li>讨论 (web: <a href="http://talk.commonmark.org"><code>talk.commonmark.org</code></a>)</li><li>代码 (github: <a href="https://github.com/jgm/CommonMark"><code>jgm/CommonMark</code></a>) - 规范和用JavaScript和C编写的参考代码</li></ul><h2 id="GitHub-Flavored-Markdown-GFM"><a href="#GitHub-Flavored-Markdown-GFM" class="headerlink" title="GitHub Flavored Markdown (GFM)"></a>GitHub Flavored Markdown (GFM)</h2><p><em>CommonMark with GitHub Extensions</em></p><p><strong>GitHub Flavored Markdown (GFM)</strong></p><ul><li>Spec (web: <a href="https://github.github.com/gfm">github.github.com/gfm</a>) </li><li>Code (github: <a href="https://github.com/github/cmark">github/cmark</a> - reference code in C (fork of cmark w/ extensions)</li></ul><p>扩展包括：</p><p>Leaf Blocks: 表格 ++<br>Container Blocks: 任务列表项 ++<br>Inlines: 删除线；自动链接；禁止原始 HTML</p><h2 id="Vanilla-Flavored-Markdown-VFMD"><a href="#Vanilla-Flavored-Markdown-VFMD" class="headerlink" title="Vanilla Flavored Markdown (VFMD)"></a>Vanilla Flavored Markdown (VFMD)</h2><p><em>A variant of Markdown with an unambiguous specification of its syntax</em> </p><p><strong>Vanilla Flavored Markdown (VFMD)</strong><br>(web: <a href="http://www.vfmd.org">vfmd.org</a>, github: <a href="https://github.com/vfmd">vfmd</a>) </p><ul><li>Spec (web: <a href="http://www.vfmd.org/vfmd-spec/specification">vfmd.org/vfmd-spec/specification</a>) - Edited by Roopesh Chander</li><li>Code (github: <a href="https://github.com/vfmd/vfmd-src">vfmd/vfmd-src</a>) - reference code in C++</li></ul><p>不同之处包括：</p><p>单词内强调；<br>引用链接/图片语法简化；<br>列表和 4 空格规则；<br>更好的自动链接检测；<br>双空行作为块的结束；<br>列表的起始数字；<br>嵌套结构错误；<br>包含原始 HTML；<br>字符编码</p><h2 id="Markdown-文档"><a href="#Markdown-文档" class="headerlink" title="Markdown 文档"></a>Markdown 文档</h2><h3 id="Markdown-速查表-快速参考"><a href="#Markdown-速查表-快速参考" class="headerlink" title="Markdown 速查表 / 快速参考"></a>Markdown 速查表 / 快速参考</h3><ul><li><a href="https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet">Markdown 速查表 :octocat:</a> </li><li><a href="https://github.com/lifeparticle/Markdown-Cheatsheet">终极 Markdown 速查表</a> </li></ul><h3 id="Markdown-入门指南-教程"><a href="#Markdown-入门指南-教程" class="headerlink" title="Markdown 入门指南 / 教程"></a>Markdown 入门指南 / 教程</h3><ul><li><a href="http://markdowntutorial.com">Markdown 教程</a> - <a href="https://github.com/gjtorikian/markdowntutorial.com">:octocat:</a> </li><li><a href="https://guides.github.com/features/mastering-markdown">掌握 Markdown @ GitHub 指南</a> </li><li><a href="https://help.github.com/articles/markdown-basics">Markdown 基础 @ GitHub 帮助</a> </li><li><a href="https://www.markdownguide.org/">Markdown 指南</a> </li></ul><h2 id="Markdown-构建块"><a href="#Markdown-构建块" class="headerlink" title="Markdown 构建块"></a>Markdown 构建块</h2><h3 id="Markdown-库-amp-工具"><a href="#Markdown-库-amp-工具" class="headerlink" title="Markdown 库 &amp; 工具"></a>Markdown 库 &amp; 工具</h3><p><a name="pandoc"></a><br><strong>Pandoc</strong><br>(web: <a href="http://pandoc.org">pandoc.org</a>, github: <a href="https://github.com/jgm/pandoc">github.com/jgm/pandoc</a>) - 一个通用文档转换器（用 Haskell 编写）</p><p><strong>kramdown</strong><br>(web: <a href="http://kramdown.gettalong.org">kramdown.gettalong.org</a>, github: <a href="https://github.com/gettalong/kramdown">gettalong/kramdown</a>, gem: <a href="https://rubygems.org/gems/kramdown">kramdown</a>) - Markdown 库和命令行工具（用 Ruby 编写）</p><p><strong>Markdown Extended (MDE)</strong><br>(github: <a href="https://github.com/e-picas/markdown-extended">e-picas/markdown-extended</a> - 将纯文本输入（字符串或文件）转换为各种输出格式（用 PHP 编写）<br><a name="marked"></a><br><strong>marked</strong><br>(web: <a href="https://marked.js.org">marked.js.org</a>, github: <a href="https://github.com/markedjs/marked">marked :octocat:</a>) - 一个 Markdown 解析器和编译器。为速度而构建。（用 Javascript 编写）</p><p><a name="markdown-it"></a></p><p><strong>markdown-it</strong><br>(web: <a href="https://markdown-it.github.io/">markdown-it.github.io</a>, github: <a href="https://github.com/markdown-it/markdown-it">markdown-it :octocat:</a>) - Javascript Markdown 解析器。100% CommonMark 支持，扩展，语法插件和高速。<br>可通过 <a href="https://www.npmjs.com/search?q=keywords:markdown-it-plugin">插件</a> 进行扩展。</p><p><strong>concat-md</strong><br>(<a href="https://www.npmjs.com/package/concat-md">npm</a>, <a href="https://github.com/ozum/concat-md#readme">github</a>) - CLI 和 API 用于连接 Markdown 文件并根据需要进行修改。还可以从 FrontMatter、文件名和目录名添加标题，降低现有标题的级别以符合添加的标题。</p><p><strong>mdcode</strong><br>(github: <a href="https://github.com/szkiba/mdcode">mdcode</a>) - Markdown 代码块编写工具。它支持可测试的代码块，实现代码块与源文件之间的双向同步。</p><h3 id="Babelmark"><a href="#Babelmark" class="headerlink" title="Babelmark"></a>Babelmark</h3><ul><li><a href="">Babelmark 2</a> - 一个用于比较各种 Markdown 语法实现输出的工具<ul><li><a href="http://johnmacfarlane.net/babelmark2/faq.html">Babelmark 2 F.A.Q.</a> - 常见问题（及答案）例如 … ??</li></ul></li></ul><h3 id="Markdown-风格指南-最佳实践"><a href="#Markdown-风格指南-最佳实践" class="headerlink" title="Markdown 风格指南 / 最佳实践"></a>Markdown 风格指南 / 最佳实践</h3><p>待完成</p><h3 id="Markdown-Lint-风格规则检查器"><a href="#Markdown-Lint-风格规则检查器" class="headerlink" title="Markdown Lint / 风格规则检查器"></a>Markdown Lint / 风格规则检查器</h3><ul><li><a href="https://github.com/DavidAnson/markdownlint">markdownlint</a> - 一个 Node.js 风格检查器和 lint 工具，为 Markdown/CommonMark 文件提供一套良好的默认设置。允许自定义。</li><li><a href="https://github.com/executablebooks/mdformat">mdformat</a> - CommonMark 兼容的 Markdown 格式化器</li><li><a href="">mdlint</a> 待完成</li><li><a href="https://github.com/hougesen/mdsf">mdsf</a> - 使用你偏好的代码格式化器来格式化 Markdown 代码片段。</li><li><a href="https://github.com/DavidAnson/vscode-markdownlint">vscode-markdownlint</a> - <a href="https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint">Visual Studio Code 插件</a> 启用 markdown 文件的原位 linting。</li></ul><h3 id="Markdown-Web-组件-自定义元素"><a href="#Markdown-Web-组件-自定义元素" class="headerlink" title="Markdown Web 组件 / 自定义元素"></a>Markdown Web 组件 / 自定义元素</h3><ul><li><a href="https://github.com/MarketingPipeline/Markdown-Tag">Markdown-Tag</a> - 使用 md 标签在任何网站上渲染 Markdown 到 HTML</li><li><a href=""><code>&lt;x-markdown&gt;</code></a> - 待完成</li></ul><h3 id="Markdown-转网站-博客"><a href="#Markdown-转网站-博客" class="headerlink" title="Markdown 转网站 / 博客"></a>Markdown 转网站 / 博客</h3><p><strong>Jekyll</strong><br>(web: <a href="http://jekyllrb.com">jekyllrb.com</a>, github: <a href="https://github.com/jekyll/jekyll">jekyll/jekyll :octocat:</a>, gem: <a href="https://rubygems.org/gems/jekyll">jekyll :gem:</a>) - 将你的纯文本转换为静态网站和博客（用 Ruby 编写）</p><p><strong>Middleman</strong><br>(web: <a href="https://middlemanapp.com">middlemanapp.com</a>, github: <a href="https://github.com/middleman/middleman">middleman/middleman :octocat:</a>, gem: <a href="https://rubygems.org/gems/middleman">middleman :gem:</a>) - 使网站开发变得简单（用 Ruby 编写）</p><p><strong>Slate</strong> (github: <a href="https://github.com/lord/slate">lord/slate :octocat:</a>) - 基于 <strong>Middleman</strong> 的美丽 API 文档</p><p><strong>Shins</strong> (github: <a href="https://github.com/Mermade/shins">Mermade/shins :octocat:</a>, npm: <a href="https://www.npmjs.com/package/shins">shins</a>) – 美丽的 API 文档，使用 node.js（<strong>Slate</strong> 的移植）</p><p><strong>md-fileserver</strong> (github: <a href="https://github.com/commenthol/md-fileserver">md-fileserver :octocat:</a>, npm: <a href="https://www.npmjs.com/package/md-fileserver">md-fileserver</a>) – 在浏览器中本地查看 markdown 文件。</p><p><strong>Compiiile</strong> (github: <a href="https://github.com/compiiile/compiiile">@compiiile/compiiile :octocat:</a>, npm: <a href="https://www.npmjs.com/package/@compiiile/compiiile">@compiiile/compiiile</a>) – 预览和提供包含 Markdown 文件的文件夹，支持全文搜索和演示幻灯片。</p><h3 id="Markdown-转电子邮件"><a href="#Markdown-转电子邮件" class="headerlink" title="Markdown 转电子邮件"></a>Markdown 转电子邮件</h3><p><strong>Markdown Here</strong><br>(web: <a href="http://markdown-here.com">markdown-here.com</a>, github: <a href="https://github.com/adam-p/markdown-here">adam-p/markdown-here</a>) - 一个浏览器扩展，用于渲染用 Markdown 编写的电子邮件；<br>适用于 Chrome、Firefox、Safari、Thunderbird 等；<br>除了电子邮件，还适用于 Evernote、Google Groups、Blogger 等</p><h3 id="Markdown-转演示文稿-幻灯片"><a href="#Markdown-转演示文稿-幻灯片" class="headerlink" title="Markdown 转演示文稿 / 幻灯片"></a>Markdown 转演示文稿 / 幻灯片</h3><p><strong>Slide Show (S9)</strong></p><ul><li>网站：<a href="http://slideshow-s9.github.io">slideshow-s9.github.io</a></li><li>GitHub：<a href="https://github.com/slideshow-s9">slideshow-s9/slideshow</a></li><li><p>Gem：<a href="https://rubygems.org/gems/slideshow">slideshow</a></p><ul><li>这是一个用 Ruby 编写的免费 Web 替代品，用于 PowerPoint 和 Keynote。</li></ul></li><li><p>模板 (GitHub：<a href="https://github.com/slideshow-templates">slideshow-templates</a>)</p></li></ul><p><strong>Slidev</strong></p><ul><li>GitHub：<a href="http://github.com/slidevjs/slidev">slidev</a><ul><li>Slidev 允许你从 Markdown 文件创建幻灯片。你可以在 Markdown 中包含 HTML 和 Vue 组件。</li></ul></li></ul><p><strong>Markpress</strong></p><ul><li>GitHub：<a href="https://github.com/gamell/markpress">markpress</a><ul><li>一个命令行工具和 Node 包，用于将 Markdown 文件转换为自包含的 <a href="https://github.com/impress/impress.js/">impressjs</a> HTML 演示文稿。<a href="https://gamell.github.io/markpress">示例</a></li></ul></li></ul><p><strong>nodePPT</strong></p><ul><li>GitHub：<a href="https://github.com/ksky521/nodePPT">nodePPT</a><ul><li>一个支持基于 GFM 的 Markdown 的 Web 演示工具。</li></ul></li></ul><p><strong>Deckset</strong></p><ul><li>网站：<a href="http://www.decksetapp.com">Deckset</a><ul><li>一款 macOS 桌面应用程序，可在精美设计的模板中呈现 Markdown 演示文稿。</li></ul></li></ul><p><strong>GitPitch</strong></p><ul><li>网站：<a href="http://gitpitch.com/">GitPitch</a></li><li>GitHub：<a href="https://github.com/gitpitch/gitpitch/">gitpitch</a><ul><li>在 GitHub、GitLab、Bitbucket、GitBucket、Gitea 和 Gogs 上为每个人提供 Markdown 演示文稿。<a href="https://gitpitch.com/gitpitch/gitpitch/master">示例</a></li></ul></li></ul><p><strong>zoetic</strong></p><ul><li>GitHub：<a href="https://github.com/kantord/zoetic">zoetic</a><ul><li>在演示时，使用你的网络摄像头作为背景的 Markdown 演示文稿。</li></ul></li></ul><h3 id="Markdown-转便携式文档格式-PDF"><a href="#Markdown-转便携式文档格式-PDF" class="headerlink" title="Markdown 转便携式文档格式 (PDF)"></a>Markdown 转便携式文档格式 (PDF)</h3><ul><li><a href="https://github.com/alanshaw/markdown-pdf">markdown-pdf</a><ul><li>一个将 Markdown 文件转换为 PDF 的工具。</li></ul></li></ul><h3 id="Markdown-样式-文档-页面"><a href="#Markdown-样式-文档-页面" class="headerlink" title="Markdown 样式 / 文档 / 页面"></a>Markdown 样式 / 文档 / 页面</h3><p><strong>页面设计的禅意</strong></p><ul><li>GitHub：<a href="https://github.com/pagedesigns">pagedesigns</a></li></ul><h3 id="Markdown-转书籍"><a href="#Markdown-转书籍" class="headerlink" title="Markdown 转书籍"></a>Markdown 转书籍</h3><p><strong>书籍设计的禅意</strong></p><ul><li>GitHub：<a href="https://github.com/bookdesigns">bookdesigns</a></li></ul><p><strong>Hyper Book (H9)</strong></p><ul><li>GitHub：<a href="https://github.com/hybook">hybook</a></li><li>Gem：<a href="https://rubygems.org/gems/hybook">hybook</a><ul><li><a href="https://github.com/book-templates">模板</a></li></ul></li></ul><h3 id="Markdown-转目录-TOC"><a href="#Markdown-转目录-TOC" class="headerlink" title="Markdown 转目录 (TOC)"></a>Markdown 转目录 (TOC)</h3><ul><li><strong>使用 <a href="https://github.com/jonschlinkert/remarkable">remarkable</a> 生成 Markdown 目录 (TOC)</strong><ul><li>GitHub：<a href="https://github.com/jonschlinkert/markdown-toc">markdown-toc</a></li></ul></li><li><a href="#markedpp">markedpp</a> Markdown 到 Markdown 预处理器</li><li><a href="https://github.com/tallclair/mdtoc">mdtoc</a><ul><li>为 CI 设计的独立 TOC 生成器</li></ul></li></ul><h3 id="Markdown-到-Markdown-预处理器"><a href="#Markdown-到-Markdown-预处理器" class="headerlink" title="Markdown 到 Markdown 预处理器"></a>Markdown 到 Markdown 预处理器</h3><ul><li><strong>markedpp</strong><ul><li>GitHub：<a href="https://github.com/commenthol/markedpp">markedpp</a></li><li>添加对目录 (TOC)、编号标题、包含其他 Markdown 文件和/或创建引用列表的支持，适用于不同的 Markdown 处理器，如 <a href="#marked">marked</a>、<a href="#markdown-it">markdown-it</a>、<a href="#pandoc">pandoc</a>，或用于在 github.com、gitlab.com、bitbucket.org 或 ghost.org 上托管。</li></ul></li></ul><h2 id="转换为-Markdown-的工具"><a href="#转换为-Markdown-的工具" class="headerlink" title="转换为 Markdown 的工具"></a>转换为 Markdown 的工具</h2><h3 id="Microsoft-Word-转-Markdown"><a href="#Microsoft-Word-转-Markdown" class="headerlink" title="Microsoft Word 转 Markdown"></a>Microsoft Word 转 Markdown</h3><ul><li><a href="https://github.com/benbalter/word-to-markdown">word-to-markdown gem</a><ul><li>Gem：<a href="https://rubygems.org/gems/word-to-markdown">word-to-markdown</a></li><li>从 Microsoft Word 文档的“监狱”中“解放”内容；转换为纯文本 Markdown。</li></ul></li></ul><h3 id="超文本标记语言-HTML-转-Markdown"><a href="#超文本标记语言-HTML-转-Markdown" class="headerlink" title="超文本标记语言 (HTML) 转 Markdown"></a>超文本标记语言 (HTML) 转 Markdown</h3><h4 id="Ruby"><a href="#Ruby" class="headerlink" title="Ruby"></a>Ruby</h4><ul><li><a href="https://github.com/xijo/reverse_markdown">reverse_markdown</a><ul><li>Gem：<a href="https://rubygems.org/gems/reverse_markdown">reverse_markdown</a></li><li>将简单的 HTML 映射回 Markdown。</li></ul></li><li><a href="https://github.com/29decibel/html2markdown">html2markdown</a><ul><li>Gem：<a href="https://rubygems.org/gems/html2markdown">html2markdown</a></li><li>简单且灵活的 HTML 到 Markdown 转换器。</li></ul></li><li><a href="https://github.com/jcheatham/hypertextmarkdown">hypertextmarkdown</a><ul><li>Gem：<a href="https://rubygems.org/gems/hypertextmarkdown">hypertextmarkdown</a></li><li>HTML 到 Markdown 转换器。</li></ul></li><li><a href="https://github.com/pmorton/html2md">html2md</a><ul><li>Gem：<a href="https://rubygems.org/gems/html2md">html2md</a></li><li>转换基本的 HTML 到 Markdown。</li></ul></li><li><a href="https://github.com/soffes/unmarkdown">unmarkdown</a><ul><li>Gem：<a href="https://rubygems.org/gems/unmarkdown">unmarkdown</a></li><li>转换 HTML 到 Markdown。</li></ul></li><li><a href="https://github.com/conversation/upmark">upmark</a><ul><li>Gem：<a href="https://rubygems.org/gems/upmark">upmark</a></li><li>一个 HTML 到 Markdown 转换器。</li></ul></li><li><a href="https://github.com/mislav/remark">remark</a><ul><li>用 Ruby 编写的 HTML 到 Markdown 转换器。</li></ul></li></ul><h4 id="JavaScript-Node-js"><a href="#JavaScript-Node-js" class="headerlink" title="JavaScript / Node.js"></a>JavaScript / Node.js</h4><ul><li><a href="https://github.com/domchristie/turndown">turndown</a><ul><li>npm 包：<a href="https://www.npmjs.com/package/turndown">turndown</a></li><li>演示网站：<a href="http://domchristie.github.io/turndown/">turndown</a></li><li>用 JavaScript 编写的 HTML 到 Markdown 转换器（以前称为 <code>to-markdown</code>）。</li></ul></li><li><a href="https://github.com/alexgorbatchev/html2markdown">html2markdown</a><ul><li>npm 包：<a href="https://www.npmjs.com/package/html2markdown">html2markdown</a></li><li>转换 HTML 到 Markdown。</li></ul></li><li><a href="http://markitdown.medusis.com">Markitdown</a><ul><li>一个客户端 Web 应用程序，允许你粘贴来自网页的格式化文本（例如，链接保持完整）并接收 Markdown 输出。</li><li>GitHub：<a href="https://github.com/bambax/markitdown.medusis.com">Markitdown.medusis.com</a></li><li>一个用于将富文本转换为 Markdown 的客户端 Web 应用程序。</li></ul></li></ul><h4 id="其他"><a href="#其他" class="headerlink" title="其他"></a>其他</h4><ul><li><a href="http://heckyesmarkdown.com">heckyesmarkdown.com</a><ul><li>立即转换网页为 Markdown；该服务提供了一个简单的界面，将任何合理的网页转换为 Markdown（注意：该服务似乎使用 Readability API 从源页面中删除所有非内容的多余部分，然后再进行 Markdown 转换）。</li></ul></li></ul><h3 id="源代码转-Markdown"><a href="#源代码转-Markdown" class="headerlink" title="源代码转 Markdown"></a>源代码转 Markdown</h3><p>从源代码生成 API 文档的 Markdown，然后使用许多 <a href="#markdown-to-website--blog">Markdown 转网站</a> 工具之一将其托管和提供服务。</p><ul><li><a href="https://github.com/Mermade/widdershins">widdershins</a><ul><li>将 <a href="https://www.openapis.org">OpenAPI/Swagger</a> REST API 文档转换为 Markdown。</li></ul></li><li><a href="https://github.com/sourcey/moxygen">Moxygen</a><ul><li>将 <a href="http://www.stack.nl/~dimitri/doxygen/">Doxygen</a>（C++，但也支持其他流行的编程语言，如 C、Objective-C、C#、PHP、Java、Python、IDL、Fortran、VHDL、Tcl，以及在一定程度上支持 D）文档转换为 Markdown。</li></ul></li><li><a href="https://github.com/raml2html/markdown-theme">raml2html/markdown-theme</a><ul><li>使用 raml2html 将 <a href="http://raml.org">RAML</a> REST API 文档转换为 Markdown。</li></ul></li><li><a href="https://github.com/jsdoc2md/jsdoc-to-markdown">jsdoc-to-markdown</a><ul><li>通过 JSDoc 将 JavaScript API 文档转换为 Markdown。</li></ul></li><li><a href="https://github.com/albinotonnina/mmarkdown">mmarkdown</a><ul><li>解释 Markdown 文件中的 mmd 代码块，并生成更酷的版本。</li></ul></li><li><a href="https://gitlab.com/alex20465/markpush">markpush</a><ul><li>Firefox/Chrome 扩展，以可读的 Markdown 格式推送 Git 仓库中的文章。</li></ul></li></ul><h3 id="技术文档转-Markdown"><a href="#技术文档转-Markdown" class="headerlink" title="技术文档转 Markdown"></a>技术文档转 Markdown</h3><ul><li><a href="https://github.com/jelovirt/dita-ot-markdown">dita-ot-markdown</a> – 将 DITA 转换为 Markdown，并与标准 DITA OT 工具链集成</li></ul><h3 id="屏幕录像转-Markdown"><a href="#屏幕录像转-Markdown" class="headerlink" title="屏幕录像转 Markdown"></a>屏幕录像转 Markdown</h3><ul><li><a href="https://paircast.io">Paircast</a> - 将桌面视频、git 差异和语音转录整合成 Markdown 文档。</li></ul><h3 id="JSON-转-Markdown"><a href="#JSON-转-Markdown" class="headerlink" title="JSON 转 Markdown"></a>JSON 转 Markdown</h3><p>JavaScript / Node.js</p><ul><li><a href="https://github.com/IonicaBizau/json2md">json2md</a> - 一个 JSON 到 Markdown 的转换器。</li><li><a href="https://github.com/kgar/ts-markdown">ts-markdown</a> - 一个可扩展的 TypeScript Markdown 生成器，它接受 JSON 并创建 Markdown 文档。</li></ul><h2 id="出版服务"><a href="#出版服务" class="headerlink" title="出版服务"></a>出版服务</h2><ul><li><a href="https://www.softcover.io">Softcover.io</a> - 由 Michael Hartl 等人提供的命令行出版工具<ul><li><a href="https://github.com/softcover/softcover">Softcover</a> - 书籍生成、构建和发布的命令行工具</li><li><a href="https://rubygems.org/gems/softcover">RubyGems</a> - RubyGems 上的 Softcover 包</li></ul></li><li><a href="https://www.gitbook.com">GitBook.com</a> - 使用 Markdown 和 Git 编写和发布书籍，由 Samy Pessé 等人提供<ul><li><a href="https://github.com/GitbookIO/gitbook">GitBook</a> - 使用 GitHub/Git 和 Markdown（或 AsciiDoc）构建精美书籍的命令行工具（和 Node.js 库）</li></ul></li></ul><!-- break --><ul><li><a href="https://github.com/bitbooks">Bitbooks.cc (已停止；已存档)</a> - Bitbooks 将包含 Markdown 文件的仓库转换为美观的、托管的在线书籍 - 由 Bryan Braun 提供<ul><li><a href="https://github.com/bryanbraun/franklin">Franklin</a> - 为在线书籍优化的静态网站框架</li></ul></li></ul><h2 id="文章"><a href="#文章" class="headerlink" title="文章"></a>文章</h2><ul><li><a href="http://ericholscher.com/blog/2016/mar/15/dont-use-markdown-for-technical-docs">为什么你不应该使用 Markdown 编写文档</a> - Eric Holscher，2016 年 3 月</li><li><a href="https://mister-gold.pro/posts/en/asciidoc-vs-markdown/">停止使用 Markdown 编写文档</a> - Anton Zolotukhin，2018 年 4 月</li><li><a href="http://roopc.net/posts/2014/markdown-cfg">为什么 Markdown 没有正式语法？</a> - Roopesh Chander，2014 年 9 月</li><li><a href="https://medium.com/towards-data-science/the-ultimate-markdown-cheat-sheet-3d3976b31a0">终极 Markdown 速查表</a></li></ul><span id="more"></span>]]></content>
+    
+    
+    <summary type="html">&lt;h1 id=&quot;Markdown-资源集&quot;&gt;&lt;a href=&quot;#Markdown-资源集&quot; class=&quot;headerlink&quot; title=&quot;Markdown 资源集&quot;&gt;&lt;/a&gt;Markdown 资源集&lt;/h1&gt;&lt;p&gt;这是一个收集了各种优秀的Markdown资源（库、服务、编辑器、工具、速查表等）的列表。&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&quot;目录&quot;&gt;&lt;a href=&quot;#目录&quot; class=&quot;headerlink&quot; title=&quot;目录&quot;&gt;&lt;/a&gt;目录&lt;/h2&gt;&lt;!-- !toc (minlevel=2 omit=&quot;目录&quot;) --&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;#markdown&quot;&gt;Markdown&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#markdown语法扩展&quot;&gt;Markdown语法扩展&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;#multimarkdown-mmd&quot;&gt;MultiMarkdown (MMD)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#markdown-extra&quot;&gt;Markdown Extra&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#markdown-extended-mde&quot;&gt;Markdown Extended (MDE)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#手稿&quot;&gt;手稿&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#commonmark&quot;&gt;CommonMark&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#github风格的markdown-gfm&quot;&gt;GitHub风格的Markdown (GFM)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#纯味markdown-vfmd&quot;&gt;纯味Markdown (VFMD)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#markdown文档&quot;&gt;Markdown文档&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;#markdown速查表--快速参考&quot;&gt;Markdown速查表 / 快速参考&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#markdown入门指南--教程&quot;&gt;Markdown入门指南 / 教程&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#markdown构建模块&quot;&gt;Markdown构建模块&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;#markdown库--工具&quot;&gt;Markdown库 &amp;amp; 工具&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#babelmark&quot;&gt;Babelmark&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#markdown风格指南--最佳实践&quot;&gt;Markdown风格指南 / 最佳实践&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#markdown-lint--风格规则检查器&quot;&gt;Markdown Lint / 风格规则检查器&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#markdown-web组件--自定义元素&quot;&gt;Markdown Web组件 / 自定义元素&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#markdown转网站--博客&quot;&gt;Markdown转网站 / 博客&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#markdown转电子邮件&quot;&gt;Markdown转电子邮件&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#markdown转演示文稿--幻灯片&quot;&gt;Markdown转演示文稿 / 幻灯片&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#markdown转便携式文档格式-pdf&quot;&gt;Markdown转便携式文档格式 (PDF)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#markdown样式--文档--页面&quot;&gt;Markdown样式 / 文档 / 页面&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#markdown转书籍&quot;&gt;Markdown转书籍&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#markdown转目录-toc&quot;&gt;Markdown转目录 (TOC)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#markdown转markdown预处理器&quot;&gt;Markdown转Markdown预处理器&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#转换为markdown的工具&quot;&gt;转换为Markdown的工具&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;#microsoft-word转markdown&quot;&gt;Microsoft Word转Markdown&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#超文本标记语言-html转markdown&quot;&gt;超文本标记语言 (HTML) 转Markdown&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#源代码转markdown&quot;&gt;源代码转Markdown&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#技术文档转markdown&quot;&gt;技术文档转Markdown&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#屏幕录像转markdown&quot;&gt;屏幕录像转Markdown&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#json转markdown&quot;&gt;JSON转Markdown&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#书籍服务&quot;&gt;书籍服务&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#文章&quot;&gt;文章&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#元数据&quot;&gt;元数据&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;!-- toc! --&gt;
+&lt;h2 id=&quot;Markdown&quot;&gt;&lt;a href=&quot;#Markdown&quot; class=&quot;headerlink&quot; title=&quot;Markdown&quot;&gt;&lt;/a&gt;Markdown&lt;/h2&gt;&lt;p&gt;&lt;em&gt;email-style writing for the web by John Gruber and Aaron Swartz&lt;/em&gt; &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Markdown&lt;/strong&gt; (web: &lt;a href=&quot;http://daringfireball.net/projects/markdown&quot;&gt;daringfireball.net/projects/markdown&lt;/a&gt;) - 原始的Markdown语法编写和用Perl编写的处理器，由John Gruber编写；不再维护（最后一次更新于2004年12月）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;历史 / 起源&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Introducing Markdown by John Gruber - 2004年3月15日&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;  我编写了一个名为Markdown的文本到HTML的格式化工具，现已可供下载。&lt;br&gt;Markdown允许网络写作者使用简单、易读的纯文本格式语法进行写作；&lt;br&gt;Markdown负责将其转换为有效的XHTML（或者，如果你愿意，也可以是HTML）。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Dive into Markdown by John Gruber - 2004年3月19日&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt; 你不需要在发送电子邮件之前“预览”它——你写它，你读它，你编辑它，就在那里。&lt;/p&gt;
+&lt;p&gt; 事实上，我非常喜欢写电子邮件。电子邮件是我最喜欢的写作媒介。在过去的五年里，我发送了超过16,000封电子邮件。&lt;br&gt;平面文本电子邮件的约定使我能够清晰、准确地表达自己，而不会有任何干扰。&lt;/p&gt;
+&lt;p&gt;因此，有了Markdown。网络上的电子邮件风格写作。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Markdown by Aaron Swartz - 2004年3月22日&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;   几个月来，我一直在和John Gruber合作一个新项目。这个想法是通过允许你使用几乎相同的语法并自动将其转换为HTML，使编写简单的网页，&lt;br&gt;特别是博客文章，变得和写电子邮件一样容易。&lt;/p&gt;
+&lt;p&gt;  我们从上到下仔细研究了语法细节，试图开发出完美的格式，&lt;br&gt;我认为我们得到了一个非常棒的结果。我们进行了广泛的测试：在我们的博客上，在我的评论表单中，在我们的电子邮件中。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;Markdown语法扩展&quot;&gt;&lt;a href=&quot;#Markdown语法扩展&quot; class=&quot;headerlink&quot; title=&quot;Markdown语法扩展&quot;&gt;&lt;/a&gt;Markdown语法扩展&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://daringfireball.net/projects/smartypants&quot;&gt;SmartyPants&lt;/a&gt; - 将(c)转换为？，””转换为？等 &lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.emoji-cheat-sheet.com&quot;&gt;Emojis&lt;/a&gt; - &lt;a href=&quot;https://github.com/arvida/emoji-cheat-sheet.com&quot;&gt;:octocat:&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://criticmarkup.com&quot;&gt;CriticMarkup&lt;/a&gt; - &lt;a href=&quot;https://github.com/CriticMarkup&quot;&gt;:octocat:&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://help.github.com/articles/github-flavored-markdown&quot;&gt;GitHub风格的标记 (GFM)&lt;/a&gt; - @mention，带[ ]和[x]的待办事项列表等&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;MultiMarkdown-MMD&quot;&gt;&lt;a href=&quot;#MultiMarkdown-MMD&quot; class=&quot;headerlink&quot; title=&quot;MultiMarkdown (MMD)&quot;&gt;&lt;/a&gt;MultiMarkdown (MMD)&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://fletcherpenney.net/multimarkdown&quot;&gt;MultiMarkdown (MMD)&lt;/a&gt; - 由Fletcher Penney编写的Markdown扩展，增加了脚注、表格、定义列表、文档元数据（例如标题、作者、日期等）等；首次添加到MultiMarkdown.pl&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://rawgit.com/fletcher/human-markdown-reference/master/index.html&quot;&gt;速查表&lt;/a&gt;  - 语法快速参考&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/fletcher/MMD-Test-Suite&quot;&gt;测试套件 :octocat:&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/fletcher/MultiMarkdown&quot;&gt;MultiMarkdown.pl :octocat:&lt;/a&gt; - 历史上的MultiMarkdown.pl代码；用Perl编写的转换脚本（最后一次更新于2011年1月）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;Markdown-Extra&quot;&gt;&lt;a href=&quot;#Markdown-Extra&quot; class=&quot;headerlink&quot; title=&quot;Markdown Extra&quot;&gt;&lt;/a&gt;Markdown Extra&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://michelf.ca/projects/php-markdown/extra/&quot;&gt;Markdown Extra&lt;/a&gt; - 由Michel Fortin编写的Markdown扩展；首次添加到PHP Markdown (Extra)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://michelf.ca/projects/php-markdown/dingus/&quot;&gt;Dingus&lt;/a&gt;  - 在浏览器中尝试Markdown Extra&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;Markdown-Extended-MDE&quot;&gt;&lt;a href=&quot;#Markdown-Extended-MDE&quot; class=&quot;headerlink&quot; title=&quot;Markdown Extended (MDE)&quot;&gt;&lt;/a&gt;Markdown Extended (MDE)&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://aboutmde.org&quot;&gt;Markdown Extended (MDE) @ aboutmde.org&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://manifest.aboutmde.org&quot;&gt;规范&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://cheatsheet.aboutmde.org/&quot;&gt;速查表&lt;/a&gt; - 语法快速参考；示例并排显示&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://dingus.aboutmde.org&quot;&gt;Dingus&lt;/a&gt; - 在浏览器中尝试Markdown Extended&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/piwi/markdown-extended&quot;&gt;代码 :octocat:&lt;/a&gt; - 用PHP编写的转换脚本&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;手稿&quot;&gt;&lt;a href=&quot;#手稿&quot; class=&quot;headerlink&quot; title=&quot;手稿&quot;&gt;&lt;/a&gt;手稿&lt;/h2&gt;&lt;p&gt;&lt;em&gt;用于Markdown的免费书籍格式&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;手稿&lt;/strong&gt;&lt;br&gt;(web: &lt;a href=&quot;http://manuscripts.github.io&quot;&gt;&lt;code&gt;manuscripts.github.io&lt;/code&gt;&lt;/a&gt;,&lt;br&gt; github: &lt;a href=&quot;https://github.com/manuscripts&quot;&gt;&lt;code&gt;manuscripts&lt;/code&gt;&lt;/a&gt;) -&lt;br&gt;添加book.yml用于书籍（元）信息，例如标题、作者、出版商、年份等。&lt;br&gt;和contents.yml用于目录和文件结构&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Manuscripts Book Starter Kit (github: &lt;a href=&quot;https://github.com/manuscripts/book-starter&quot;&gt;&lt;code&gt;manuscripts/book-starter&lt;/code&gt;&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;CommonMark&quot;&gt;&lt;a href=&quot;#CommonMark&quot; class=&quot;headerlink&quot; title=&quot;CommonMark&quot;&gt;&lt;/a&gt;CommonMark&lt;/h2&gt;&lt;p&gt;&lt;em&gt;一个强烈规范、高度兼容的Markdown实现&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;CommonMark&lt;/strong&gt;&lt;br&gt;(web: &lt;a href=&quot;http://commonmark.org&quot;&gt;&lt;code&gt;commonmark.org&lt;/code&gt;&lt;/a&gt;)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;规范 (web: &lt;a href=&quot;http://spec.commonmark.org&quot;&gt;&lt;code&gt;spec.commonmark.org&lt;/code&gt;&lt;/a&gt;) - 由John MacFarlane编辑 &lt;/li&gt;
+&lt;li&gt;Dingus (web: &lt;a href=&quot;http://spec.commonmark.org/dingus&quot;&gt;&lt;code&gt;spec.commonmark.org/dingus&lt;/code&gt;&lt;/a&gt;) - 在浏览器中尝试CommonMark&lt;/li&gt;
+&lt;li&gt;讨论 (web: &lt;a href=&quot;http://talk.commonmark.org&quot;&gt;&lt;code&gt;talk.commonmark.org&lt;/code&gt;&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;代码 (github: &lt;a href=&quot;https://github.com/jgm/CommonMark&quot;&gt;&lt;code&gt;jgm/CommonMark&lt;/code&gt;&lt;/a&gt;) - 规范和用JavaScript和C编写的参考代码&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;GitHub-Flavored-Markdown-GFM&quot;&gt;&lt;a href=&quot;#GitHub-Flavored-Markdown-GFM&quot; class=&quot;headerlink&quot; title=&quot;GitHub Flavored Markdown (GFM)&quot;&gt;&lt;/a&gt;GitHub Flavored Markdown (GFM)&lt;/h2&gt;&lt;p&gt;&lt;em&gt;CommonMark with GitHub Extensions&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;GitHub Flavored Markdown (GFM)&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Spec (web: &lt;a href=&quot;https://github.github.com/gfm&quot;&gt;github.github.com/gfm&lt;/a&gt;) &lt;/li&gt;
+&lt;li&gt;Code (github: &lt;a href=&quot;https://github.com/github/cmark&quot;&gt;github/cmark&lt;/a&gt; - reference code in C (fork of cmark w/ extensions)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;扩展包括：&lt;/p&gt;
+&lt;p&gt;Leaf Blocks: 表格 ++&lt;br&gt;Container Blocks: 任务列表项 ++&lt;br&gt;Inlines: 删除线；自动链接；禁止原始 HTML&lt;/p&gt;
+&lt;h2 id=&quot;Vanilla-Flavored-Markdown-VFMD&quot;&gt;&lt;a href=&quot;#Vanilla-Flavored-Markdown-VFMD&quot; class=&quot;headerlink&quot; title=&quot;Vanilla Flavored Markdown (VFMD)&quot;&gt;&lt;/a&gt;Vanilla Flavored Markdown (VFMD)&lt;/h2&gt;&lt;p&gt;&lt;em&gt;A variant of Markdown with an unambiguous specification of its syntax&lt;/em&gt; &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Vanilla Flavored Markdown (VFMD)&lt;/strong&gt;&lt;br&gt;(web: &lt;a href=&quot;http://www.vfmd.org&quot;&gt;vfmd.org&lt;/a&gt;, github: &lt;a href=&quot;https://github.com/vfmd&quot;&gt;vfmd&lt;/a&gt;) &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Spec (web: &lt;a href=&quot;http://www.vfmd.org/vfmd-spec/specification&quot;&gt;vfmd.org/vfmd-spec/specification&lt;/a&gt;) - Edited by Roopesh Chander&lt;/li&gt;
+&lt;li&gt;Code (github: &lt;a href=&quot;https://github.com/vfmd/vfmd-src&quot;&gt;vfmd/vfmd-src&lt;/a&gt;) - reference code in C++&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;不同之处包括：&lt;/p&gt;
+&lt;p&gt;单词内强调；&lt;br&gt;引用链接/图片语法简化；&lt;br&gt;列表和 4 空格规则；&lt;br&gt;更好的自动链接检测；&lt;br&gt;双空行作为块的结束；&lt;br&gt;列表的起始数字；&lt;br&gt;嵌套结构错误；&lt;br&gt;包含原始 HTML；&lt;br&gt;字符编码&lt;/p&gt;
+&lt;h2 id=&quot;Markdown-文档&quot;&gt;&lt;a href=&quot;#Markdown-文档&quot; class=&quot;headerlink&quot; title=&quot;Markdown 文档&quot;&gt;&lt;/a&gt;Markdown 文档&lt;/h2&gt;&lt;h3 id=&quot;Markdown-速查表-快速参考&quot;&gt;&lt;a href=&quot;#Markdown-速查表-快速参考&quot; class=&quot;headerlink&quot; title=&quot;Markdown 速查表 / 快速参考&quot;&gt;&lt;/a&gt;Markdown 速查表 / 快速参考&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet&quot;&gt;Markdown 速查表 :octocat:&lt;/a&gt; &lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/lifeparticle/Markdown-Cheatsheet&quot;&gt;终极 Markdown 速查表&lt;/a&gt; &lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;Markdown-入门指南-教程&quot;&gt;&lt;a href=&quot;#Markdown-入门指南-教程&quot; class=&quot;headerlink&quot; title=&quot;Markdown 入门指南 / 教程&quot;&gt;&lt;/a&gt;Markdown 入门指南 / 教程&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://markdowntutorial.com&quot;&gt;Markdown 教程&lt;/a&gt; - &lt;a href=&quot;https://github.com/gjtorikian/markdowntutorial.com&quot;&gt;:octocat:&lt;/a&gt; &lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://guides.github.com/features/mastering-markdown&quot;&gt;掌握 Markdown @ GitHub 指南&lt;/a&gt; &lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://help.github.com/articles/markdown-basics&quot;&gt;Markdown 基础 @ GitHub 帮助&lt;/a&gt; &lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.markdownguide.org/&quot;&gt;Markdown 指南&lt;/a&gt; &lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;Markdown-构建块&quot;&gt;&lt;a href=&quot;#Markdown-构建块&quot; class=&quot;headerlink&quot; title=&quot;Markdown 构建块&quot;&gt;&lt;/a&gt;Markdown 构建块&lt;/h2&gt;&lt;h3 id=&quot;Markdown-库-amp-工具&quot;&gt;&lt;a href=&quot;#Markdown-库-amp-工具&quot; class=&quot;headerlink&quot; title=&quot;Markdown 库 &amp;amp; 工具&quot;&gt;&lt;/a&gt;Markdown 库 &amp;amp; 工具&lt;/h3&gt;&lt;p&gt;&lt;a name=&quot;pandoc&quot;&gt;&lt;/a&gt;&lt;br&gt;&lt;strong&gt;Pandoc&lt;/strong&gt;&lt;br&gt;(web: &lt;a href=&quot;http://pandoc.org&quot;&gt;pandoc.org&lt;/a&gt;, github: &lt;a href=&quot;https://github.com/jgm/pandoc&quot;&gt;github.com/jgm/pandoc&lt;/a&gt;) - 一个通用文档转换器（用 Haskell 编写）&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;kramdown&lt;/strong&gt;&lt;br&gt;(web: &lt;a href=&quot;http://kramdown.gettalong.org&quot;&gt;kramdown.gettalong.org&lt;/a&gt;, github: &lt;a href=&quot;https://github.com/gettalong/kramdown&quot;&gt;gettalong/kramdown&lt;/a&gt;, gem: &lt;a href=&quot;https://rubygems.org/gems/kramdown&quot;&gt;kramdown&lt;/a&gt;) - Markdown 库和命令行工具（用 Ruby 编写）&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Markdown Extended (MDE)&lt;/strong&gt;&lt;br&gt;(github: &lt;a href=&quot;https://github.com/e-picas/markdown-extended&quot;&gt;e-picas/markdown-extended&lt;/a&gt; - 将纯文本输入（字符串或文件）转换为各种输出格式（用 PHP 编写）&lt;br&gt;&lt;a name=&quot;marked&quot;&gt;&lt;/a&gt;&lt;br&gt;&lt;strong&gt;marked&lt;/strong&gt;&lt;br&gt;(web: &lt;a href=&quot;https://marked.js.org&quot;&gt;marked.js.org&lt;/a&gt;, github: &lt;a href=&quot;https://github.com/markedjs/marked&quot;&gt;marked :octocat:&lt;/a&gt;) - 一个 Markdown 解析器和编译器。为速度而构建。（用 Javascript 编写）&lt;/p&gt;
+&lt;p&gt;&lt;a name=&quot;markdown-it&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;markdown-it&lt;/strong&gt;&lt;br&gt;(web: &lt;a href=&quot;https://markdown-it.github.io/&quot;&gt;markdown-it.github.io&lt;/a&gt;, github: &lt;a href=&quot;https://github.com/markdown-it/markdown-it&quot;&gt;markdown-it :octocat:&lt;/a&gt;) - Javascript Markdown 解析器。100% CommonMark 支持，扩展，语法插件和高速。&lt;br&gt;可通过 &lt;a href=&quot;https://www.npmjs.com/search?q=keywords:markdown-it-plugin&quot;&gt;插件&lt;/a&gt; 进行扩展。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;concat-md&lt;/strong&gt;&lt;br&gt;(&lt;a href=&quot;https://www.npmjs.com/package/concat-md&quot;&gt;npm&lt;/a&gt;, &lt;a href=&quot;https://github.com/ozum/concat-md#readme&quot;&gt;github&lt;/a&gt;) - CLI 和 API 用于连接 Markdown 文件并根据需要进行修改。还可以从 FrontMatter、文件名和目录名添加标题，降低现有标题的级别以符合添加的标题。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;mdcode&lt;/strong&gt;&lt;br&gt;(github: &lt;a href=&quot;https://github.com/szkiba/mdcode&quot;&gt;mdcode&lt;/a&gt;) - Markdown 代码块编写工具。它支持可测试的代码块，实现代码块与源文件之间的双向同步。&lt;/p&gt;
+&lt;h3 id=&quot;Babelmark&quot;&gt;&lt;a href=&quot;#Babelmark&quot; class=&quot;headerlink&quot; title=&quot;Babelmark&quot;&gt;&lt;/a&gt;Babelmark&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;&quot;&gt;Babelmark 2&lt;/a&gt; - 一个用于比较各种 Markdown 语法实现输出的工具&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://johnmacfarlane.net/babelmark2/faq.html&quot;&gt;Babelmark 2 F.A.Q.&lt;/a&gt; - 常见问题（及答案）例如 … ??&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;Markdown-风格指南-最佳实践&quot;&gt;&lt;a href=&quot;#Markdown-风格指南-最佳实践&quot; class=&quot;headerlink&quot; title=&quot;Markdown 风格指南 / 最佳实践&quot;&gt;&lt;/a&gt;Markdown 风格指南 / 最佳实践&lt;/h3&gt;&lt;p&gt;待完成&lt;/p&gt;
+&lt;h3 id=&quot;Markdown-Lint-风格规则检查器&quot;&gt;&lt;a href=&quot;#Markdown-Lint-风格规则检查器&quot; class=&quot;headerlink&quot; title=&quot;Markdown Lint / 风格规则检查器&quot;&gt;&lt;/a&gt;Markdown Lint / 风格规则检查器&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/DavidAnson/markdownlint&quot;&gt;markdownlint&lt;/a&gt; - 一个 Node.js 风格检查器和 lint 工具，为 Markdown/CommonMark 文件提供一套良好的默认设置。允许自定义。&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/executablebooks/mdformat&quot;&gt;mdformat&lt;/a&gt; - CommonMark 兼容的 Markdown 格式化器&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;&quot;&gt;mdlint&lt;/a&gt; 待完成&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/hougesen/mdsf&quot;&gt;mdsf&lt;/a&gt; - 使用你偏好的代码格式化器来格式化 Markdown 代码片段。&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/DavidAnson/vscode-markdownlint&quot;&gt;vscode-markdownlint&lt;/a&gt; - &lt;a href=&quot;https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint&quot;&gt;Visual Studio Code 插件&lt;/a&gt; 启用 markdown 文件的原位 linting。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;Markdown-Web-组件-自定义元素&quot;&gt;&lt;a href=&quot;#Markdown-Web-组件-自定义元素&quot; class=&quot;headerlink&quot; title=&quot;Markdown Web 组件 / 自定义元素&quot;&gt;&lt;/a&gt;Markdown Web 组件 / 自定义元素&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/MarketingPipeline/Markdown-Tag&quot;&gt;Markdown-Tag&lt;/a&gt; - 使用 md 标签在任何网站上渲染 Markdown 到 HTML&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;&quot;&gt;&lt;code&gt;&amp;lt;x-markdown&amp;gt;&lt;/code&gt;&lt;/a&gt; - 待完成&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;Markdown-转网站-博客&quot;&gt;&lt;a href=&quot;#Markdown-转网站-博客&quot; class=&quot;headerlink&quot; title=&quot;Markdown 转网站 / 博客&quot;&gt;&lt;/a&gt;Markdown 转网站 / 博客&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;Jekyll&lt;/strong&gt;&lt;br&gt;(web: &lt;a href=&quot;http://jekyllrb.com&quot;&gt;jekyllrb.com&lt;/a&gt;, github: &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;jekyll/jekyll :octocat:&lt;/a&gt;, gem: &lt;a href=&quot;https://rubygems.org/gems/jekyll&quot;&gt;jekyll :gem:&lt;/a&gt;) - 将你的纯文本转换为静态网站和博客（用 Ruby 编写）&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Middleman&lt;/strong&gt;&lt;br&gt;(web: &lt;a href=&quot;https://middlemanapp.com&quot;&gt;middlemanapp.com&lt;/a&gt;, github: &lt;a href=&quot;https://github.com/middleman/middleman&quot;&gt;middleman/middleman :octocat:&lt;/a&gt;, gem: &lt;a href=&quot;https://rubygems.org/gems/middleman&quot;&gt;middleman :gem:&lt;/a&gt;) - 使网站开发变得简单（用 Ruby 编写）&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Slate&lt;/strong&gt; (github: &lt;a href=&quot;https://github.com/lord/slate&quot;&gt;lord/slate :octocat:&lt;/a&gt;) - 基于 &lt;strong&gt;Middleman&lt;/strong&gt; 的美丽 API 文档&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Shins&lt;/strong&gt; (github: &lt;a href=&quot;https://github.com/Mermade/shins&quot;&gt;Mermade/shins :octocat:&lt;/a&gt;, npm: &lt;a href=&quot;https://www.npmjs.com/package/shins&quot;&gt;shins&lt;/a&gt;) – 美丽的 API 文档，使用 node.js（&lt;strong&gt;Slate&lt;/strong&gt; 的移植）&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;md-fileserver&lt;/strong&gt; (github: &lt;a href=&quot;https://github.com/commenthol/md-fileserver&quot;&gt;md-fileserver :octocat:&lt;/a&gt;, npm: &lt;a href=&quot;https://www.npmjs.com/package/md-fileserver&quot;&gt;md-fileserver&lt;/a&gt;) – 在浏览器中本地查看 markdown 文件。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Compiiile&lt;/strong&gt; (github: &lt;a href=&quot;https://github.com/compiiile/compiiile&quot;&gt;@compiiile/compiiile :octocat:&lt;/a&gt;, npm: &lt;a href=&quot;https://www.npmjs.com/package/@compiiile/compiiile&quot;&gt;@compiiile/compiiile&lt;/a&gt;) – 预览和提供包含 Markdown 文件的文件夹，支持全文搜索和演示幻灯片。&lt;/p&gt;
+&lt;h3 id=&quot;Markdown-转电子邮件&quot;&gt;&lt;a href=&quot;#Markdown-转电子邮件&quot; class=&quot;headerlink&quot; title=&quot;Markdown 转电子邮件&quot;&gt;&lt;/a&gt;Markdown 转电子邮件&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;Markdown Here&lt;/strong&gt;&lt;br&gt;(web: &lt;a href=&quot;http://markdown-here.com&quot;&gt;markdown-here.com&lt;/a&gt;, github: &lt;a href=&quot;https://github.com/adam-p/markdown-here&quot;&gt;adam-p/markdown-here&lt;/a&gt;) - 一个浏览器扩展，用于渲染用 Markdown 编写的电子邮件；&lt;br&gt;适用于 Chrome、Firefox、Safari、Thunderbird 等；&lt;br&gt;除了电子邮件，还适用于 Evernote、Google Groups、Blogger 等&lt;/p&gt;
+&lt;h3 id=&quot;Markdown-转演示文稿-幻灯片&quot;&gt;&lt;a href=&quot;#Markdown-转演示文稿-幻灯片&quot; class=&quot;headerlink&quot; title=&quot;Markdown 转演示文稿 / 幻灯片&quot;&gt;&lt;/a&gt;Markdown 转演示文稿 / 幻灯片&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;Slide Show (S9)&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;网站：&lt;a href=&quot;http://slideshow-s9.github.io&quot;&gt;slideshow-s9.github.io&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;GitHub：&lt;a href=&quot;https://github.com/slideshow-s9&quot;&gt;slideshow-s9/slideshow&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Gem：&lt;a href=&quot;https://rubygems.org/gems/slideshow&quot;&gt;slideshow&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;这是一个用 Ruby 编写的免费 Web 替代品，用于 PowerPoint 和 Keynote。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;模板 (GitHub：&lt;a href=&quot;https://github.com/slideshow-templates&quot;&gt;slideshow-templates&lt;/a&gt;)&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Slidev&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;GitHub：&lt;a href=&quot;http://github.com/slidevjs/slidev&quot;&gt;slidev&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;Slidev 允许你从 Markdown 文件创建幻灯片。你可以在 Markdown 中包含 HTML 和 Vue 组件。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Markpress&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;GitHub：&lt;a href=&quot;https://github.com/gamell/markpress&quot;&gt;markpress&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;一个命令行工具和 Node 包，用于将 Markdown 文件转换为自包含的 &lt;a href=&quot;https://github.com/impress/impress.js/&quot;&gt;impressjs&lt;/a&gt; HTML 演示文稿。&lt;a href=&quot;https://gamell.github.io/markpress&quot;&gt;示例&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;nodePPT&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;GitHub：&lt;a href=&quot;https://github.com/ksky521/nodePPT&quot;&gt;nodePPT&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;一个支持基于 GFM 的 Markdown 的 Web 演示工具。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Deckset&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;网站：&lt;a href=&quot;http://www.decksetapp.com&quot;&gt;Deckset&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;一款 macOS 桌面应用程序，可在精美设计的模板中呈现 Markdown 演示文稿。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;GitPitch&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;网站：&lt;a href=&quot;http://gitpitch.com/&quot;&gt;GitPitch&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;GitHub：&lt;a href=&quot;https://github.com/gitpitch/gitpitch/&quot;&gt;gitpitch&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;在 GitHub、GitLab、Bitbucket、GitBucket、Gitea 和 Gogs 上为每个人提供 Markdown 演示文稿。&lt;a href=&quot;https://gitpitch.com/gitpitch/gitpitch/master&quot;&gt;示例&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;zoetic&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;GitHub：&lt;a href=&quot;https://github.com/kantord/zoetic&quot;&gt;zoetic&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;在演示时，使用你的网络摄像头作为背景的 Markdown 演示文稿。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;Markdown-转便携式文档格式-PDF&quot;&gt;&lt;a href=&quot;#Markdown-转便携式文档格式-PDF&quot; class=&quot;headerlink&quot; title=&quot;Markdown 转便携式文档格式 (PDF)&quot;&gt;&lt;/a&gt;Markdown 转便携式文档格式 (PDF)&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/alanshaw/markdown-pdf&quot;&gt;markdown-pdf&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;一个将 Markdown 文件转换为 PDF 的工具。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;Markdown-样式-文档-页面&quot;&gt;&lt;a href=&quot;#Markdown-样式-文档-页面&quot; class=&quot;headerlink&quot; title=&quot;Markdown 样式 / 文档 / 页面&quot;&gt;&lt;/a&gt;Markdown 样式 / 文档 / 页面&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;页面设计的禅意&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;GitHub：&lt;a href=&quot;https://github.com/pagedesigns&quot;&gt;pagedesigns&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;Markdown-转书籍&quot;&gt;&lt;a href=&quot;#Markdown-转书籍&quot; class=&quot;headerlink&quot; title=&quot;Markdown 转书籍&quot;&gt;&lt;/a&gt;Markdown 转书籍&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;书籍设计的禅意&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;GitHub：&lt;a href=&quot;https://github.com/bookdesigns&quot;&gt;bookdesigns&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Hyper Book (H9)&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;GitHub：&lt;a href=&quot;https://github.com/hybook&quot;&gt;hybook&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Gem：&lt;a href=&quot;https://rubygems.org/gems/hybook&quot;&gt;hybook&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/book-templates&quot;&gt;模板&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;Markdown-转目录-TOC&quot;&gt;&lt;a href=&quot;#Markdown-转目录-TOC&quot; class=&quot;headerlink&quot; title=&quot;Markdown 转目录 (TOC)&quot;&gt;&lt;/a&gt;Markdown 转目录 (TOC)&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;使用 &lt;a href=&quot;https://github.com/jonschlinkert/remarkable&quot;&gt;remarkable&lt;/a&gt; 生成 Markdown 目录 (TOC)&lt;/strong&gt;&lt;ul&gt;
+&lt;li&gt;GitHub：&lt;a href=&quot;https://github.com/jonschlinkert/markdown-toc&quot;&gt;markdown-toc&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#markedpp&quot;&gt;markedpp&lt;/a&gt; Markdown 到 Markdown 预处理器&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/tallclair/mdtoc&quot;&gt;mdtoc&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;为 CI 设计的独立 TOC 生成器&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;Markdown-到-Markdown-预处理器&quot;&gt;&lt;a href=&quot;#Markdown-到-Markdown-预处理器&quot; class=&quot;headerlink&quot; title=&quot;Markdown 到 Markdown 预处理器&quot;&gt;&lt;/a&gt;Markdown 到 Markdown 预处理器&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;markedpp&lt;/strong&gt;&lt;ul&gt;
+&lt;li&gt;GitHub：&lt;a href=&quot;https://github.com/commenthol/markedpp&quot;&gt;markedpp&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;添加对目录 (TOC)、编号标题、包含其他 Markdown 文件和/或创建引用列表的支持，适用于不同的 Markdown 处理器，如 &lt;a href=&quot;#marked&quot;&gt;marked&lt;/a&gt;、&lt;a href=&quot;#markdown-it&quot;&gt;markdown-it&lt;/a&gt;、&lt;a href=&quot;#pandoc&quot;&gt;pandoc&lt;/a&gt;，或用于在 github.com、gitlab.com、bitbucket.org 或 ghost.org 上托管。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;转换为-Markdown-的工具&quot;&gt;&lt;a href=&quot;#转换为-Markdown-的工具&quot; class=&quot;headerlink&quot; title=&quot;转换为 Markdown 的工具&quot;&gt;&lt;/a&gt;转换为 Markdown 的工具&lt;/h2&gt;&lt;h3 id=&quot;Microsoft-Word-转-Markdown&quot;&gt;&lt;a href=&quot;#Microsoft-Word-转-Markdown&quot; class=&quot;headerlink&quot; title=&quot;Microsoft Word 转 Markdown&quot;&gt;&lt;/a&gt;Microsoft Word 转 Markdown&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/benbalter/word-to-markdown&quot;&gt;word-to-markdown gem&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;Gem：&lt;a href=&quot;https://rubygems.org/gems/word-to-markdown&quot;&gt;word-to-markdown&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;从 Microsoft Word 文档的“监狱”中“解放”内容；转换为纯文本 Markdown。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;超文本标记语言-HTML-转-Markdown&quot;&gt;&lt;a href=&quot;#超文本标记语言-HTML-转-Markdown&quot; class=&quot;headerlink&quot; title=&quot;超文本标记语言 (HTML) 转 Markdown&quot;&gt;&lt;/a&gt;超文本标记语言 (HTML) 转 Markdown&lt;/h3&gt;&lt;h4 id=&quot;Ruby&quot;&gt;&lt;a href=&quot;#Ruby&quot; class=&quot;headerlink&quot; title=&quot;Ruby&quot;&gt;&lt;/a&gt;Ruby&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/xijo/reverse_markdown&quot;&gt;reverse_markdown&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;Gem：&lt;a href=&quot;https://rubygems.org/gems/reverse_markdown&quot;&gt;reverse_markdown&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;将简单的 HTML 映射回 Markdown。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/29decibel/html2markdown&quot;&gt;html2markdown&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;Gem：&lt;a href=&quot;https://rubygems.org/gems/html2markdown&quot;&gt;html2markdown&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;简单且灵活的 HTML 到 Markdown 转换器。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/jcheatham/hypertextmarkdown&quot;&gt;hypertextmarkdown&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;Gem：&lt;a href=&quot;https://rubygems.org/gems/hypertextmarkdown&quot;&gt;hypertextmarkdown&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;HTML 到 Markdown 转换器。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/pmorton/html2md&quot;&gt;html2md&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;Gem：&lt;a href=&quot;https://rubygems.org/gems/html2md&quot;&gt;html2md&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;转换基本的 HTML 到 Markdown。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/soffes/unmarkdown&quot;&gt;unmarkdown&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;Gem：&lt;a href=&quot;https://rubygems.org/gems/unmarkdown&quot;&gt;unmarkdown&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;转换 HTML 到 Markdown。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/conversation/upmark&quot;&gt;upmark&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;Gem：&lt;a href=&quot;https://rubygems.org/gems/upmark&quot;&gt;upmark&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;一个 HTML 到 Markdown 转换器。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/mislav/remark&quot;&gt;remark&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;用 Ruby 编写的 HTML 到 Markdown 转换器。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&quot;JavaScript-Node-js&quot;&gt;&lt;a href=&quot;#JavaScript-Node-js&quot; class=&quot;headerlink&quot; title=&quot;JavaScript / Node.js&quot;&gt;&lt;/a&gt;JavaScript / Node.js&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/domchristie/turndown&quot;&gt;turndown&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;npm 包：&lt;a href=&quot;https://www.npmjs.com/package/turndown&quot;&gt;turndown&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;演示网站：&lt;a href=&quot;http://domchristie.github.io/turndown/&quot;&gt;turndown&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;用 JavaScript 编写的 HTML 到 Markdown 转换器（以前称为 &lt;code&gt;to-markdown&lt;/code&gt;）。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/alexgorbatchev/html2markdown&quot;&gt;html2markdown&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;npm 包：&lt;a href=&quot;https://www.npmjs.com/package/html2markdown&quot;&gt;html2markdown&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;转换 HTML 到 Markdown。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://markitdown.medusis.com&quot;&gt;Markitdown&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;一个客户端 Web 应用程序，允许你粘贴来自网页的格式化文本（例如，链接保持完整）并接收 Markdown 输出。&lt;/li&gt;
+&lt;li&gt;GitHub：&lt;a href=&quot;https://github.com/bambax/markitdown.medusis.com&quot;&gt;Markitdown.medusis.com&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;一个用于将富文本转换为 Markdown 的客户端 Web 应用程序。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&quot;其他&quot;&gt;&lt;a href=&quot;#其他&quot; class=&quot;headerlink&quot; title=&quot;其他&quot;&gt;&lt;/a&gt;其他&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://heckyesmarkdown.com&quot;&gt;heckyesmarkdown.com&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;立即转换网页为 Markdown；该服务提供了一个简单的界面，将任何合理的网页转换为 Markdown（注意：该服务似乎使用 Readability API 从源页面中删除所有非内容的多余部分，然后再进行 Markdown 转换）。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;源代码转-Markdown&quot;&gt;&lt;a href=&quot;#源代码转-Markdown&quot; class=&quot;headerlink&quot; title=&quot;源代码转 Markdown&quot;&gt;&lt;/a&gt;源代码转 Markdown&lt;/h3&gt;&lt;p&gt;从源代码生成 API 文档的 Markdown，然后使用许多 &lt;a href=&quot;#markdown-to-website--blog&quot;&gt;Markdown 转网站&lt;/a&gt; 工具之一将其托管和提供服务。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/Mermade/widdershins&quot;&gt;widdershins&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;将 &lt;a href=&quot;https://www.openapis.org&quot;&gt;OpenAPI/Swagger&lt;/a&gt; REST API 文档转换为 Markdown。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/sourcey/moxygen&quot;&gt;Moxygen&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;将 &lt;a href=&quot;http://www.stack.nl/~dimitri/doxygen/&quot;&gt;Doxygen&lt;/a&gt;（C++，但也支持其他流行的编程语言，如 C、Objective-C、C#、PHP、Java、Python、IDL、Fortran、VHDL、Tcl，以及在一定程度上支持 D）文档转换为 Markdown。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/raml2html/markdown-theme&quot;&gt;raml2html/markdown-theme&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;使用 raml2html 将 &lt;a href=&quot;http://raml.org&quot;&gt;RAML&lt;/a&gt; REST API 文档转换为 Markdown。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/jsdoc2md/jsdoc-to-markdown&quot;&gt;jsdoc-to-markdown&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;通过 JSDoc 将 JavaScript API 文档转换为 Markdown。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/albinotonnina/mmarkdown&quot;&gt;mmarkdown&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;解释 Markdown 文件中的 mmd 代码块，并生成更酷的版本。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://gitlab.com/alex20465/markpush&quot;&gt;markpush&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;Firefox/Chrome 扩展，以可读的 Markdown 格式推送 Git 仓库中的文章。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;技术文档转-Markdown&quot;&gt;&lt;a href=&quot;#技术文档转-Markdown&quot; class=&quot;headerlink&quot; title=&quot;技术文档转 Markdown&quot;&gt;&lt;/a&gt;技术文档转 Markdown&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/jelovirt/dita-ot-markdown&quot;&gt;dita-ot-markdown&lt;/a&gt; – 将 DITA 转换为 Markdown，并与标准 DITA OT 工具链集成&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;屏幕录像转-Markdown&quot;&gt;&lt;a href=&quot;#屏幕录像转-Markdown&quot; class=&quot;headerlink&quot; title=&quot;屏幕录像转 Markdown&quot;&gt;&lt;/a&gt;屏幕录像转 Markdown&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://paircast.io&quot;&gt;Paircast&lt;/a&gt; - 将桌面视频、git 差异和语音转录整合成 Markdown 文档。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;JSON-转-Markdown&quot;&gt;&lt;a href=&quot;#JSON-转-Markdown&quot; class=&quot;headerlink&quot; title=&quot;JSON 转 Markdown&quot;&gt;&lt;/a&gt;JSON 转 Markdown&lt;/h3&gt;&lt;p&gt;JavaScript / Node.js&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/IonicaBizau/json2md&quot;&gt;json2md&lt;/a&gt; - 一个 JSON 到 Markdown 的转换器。&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/kgar/ts-markdown&quot;&gt;ts-markdown&lt;/a&gt; - 一个可扩展的 TypeScript Markdown 生成器，它接受 JSON 并创建 Markdown 文档。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;出版服务&quot;&gt;&lt;a href=&quot;#出版服务&quot; class=&quot;headerlink&quot; title=&quot;出版服务&quot;&gt;&lt;/a&gt;出版服务&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.softcover.io&quot;&gt;Softcover.io&lt;/a&gt; - 由 Michael Hartl 等人提供的命令行出版工具&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/softcover/softcover&quot;&gt;Softcover&lt;/a&gt; - 书籍生成、构建和发布的命令行工具&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://rubygems.org/gems/softcover&quot;&gt;RubyGems&lt;/a&gt; - RubyGems 上的 Softcover 包&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.gitbook.com&quot;&gt;GitBook.com&lt;/a&gt; - 使用 Markdown 和 Git 编写和发布书籍，由 Samy Pessé 等人提供&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/GitbookIO/gitbook&quot;&gt;GitBook&lt;/a&gt; - 使用 GitHub/Git 和 Markdown（或 AsciiDoc）构建精美书籍的命令行工具（和 Node.js 库）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;!-- break --&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/bitbooks&quot;&gt;Bitbooks.cc (已停止；已存档)&lt;/a&gt; - Bitbooks 将包含 Markdown 文件的仓库转换为美观的、托管的在线书籍 - 由 Bryan Braun 提供&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/bryanbraun/franklin&quot;&gt;Franklin&lt;/a&gt; - 为在线书籍优化的静态网站框架&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;文章&quot;&gt;&lt;a href=&quot;#文章&quot; class=&quot;headerlink&quot; title=&quot;文章&quot;&gt;&lt;/a&gt;文章&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://ericholscher.com/blog/2016/mar/15/dont-use-markdown-for-technical-docs&quot;&gt;为什么你不应该使用 Markdown 编写文档&lt;/a&gt; - Eric Holscher，2016 年 3 月&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://mister-gold.pro/posts/en/asciidoc-vs-markdown/&quot;&gt;停止使用 Markdown 编写文档&lt;/a&gt; - Anton Zolotukhin，2018 年 4 月&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://roopc.net/posts/2014/markdown-cfg&quot;&gt;为什么 Markdown 没有正式语法？&lt;/a&gt; - Roopesh Chander，2014 年 9 月&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://medium.com/towards-data-science/the-ultimate-markdown-cheat-sheet-3d3976b31a0&quot;&gt;终极 Markdown 速查表&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</summary>
+    
+    
+    
+    
+    <category term="markdown" scheme="http://example.com/tags/markdown/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Markdown 语法学习笔记</title>
-    <link href="http://example.com/2025/01/17/maximus-first-blog/"/>
-    <id>http://example.com/2025/01/17/maximus-first-blog/</id>
+    <link href="http://example.com/2025/01/17/markdown_1/"/>
+    <id>http://example.com/2025/01/17/markdown_1/</id>
     <published>2025-01-17T13:42:29.000Z</published>
     <updated>2025-01-17T14:00:41.863Z</updated>
     
@@ -264,17 +680,17 @@
   
   <entry>
     <title>Hello World</title>
-    <link href="http://example.com/2025/01/17/hello-world/"/>
-    <id>http://example.com/2025/01/17/hello-world/</id>
+    <link href="http://example.com/2025/01/17/Hexo/"/>
+    <id>http://example.com/2025/01/17/Hexo/</id>
     <published>2025-01-17T08:18:32.317Z</published>
-    <updated>1985-10-26T08:15:00.000Z</updated>
+    <updated>2025-01-18T06:48:52.668Z</updated>
     
-    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+    <content type="html"><![CDATA[<p>Welcome to <a href="">Hexo</a>! This is your very first post. Check <a href="">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="">troubleshooting</a> or you can ask me on <a href="">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
     
     
       
       
-    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt; for</summary>
+    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;&quot;&gt;documentation&lt;/a&gt; for more info. If you get any problems w</summary>
       
     
     
