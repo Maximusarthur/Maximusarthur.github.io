@@ -1,35 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>Hexo</title>
-    <url>/2025/01/17/Hexo/</url>
-    <content><![CDATA[<p>Welcome to <a href="">Hexo</a>! This is your very first post. Check <a href="">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="">troubleshooting</a> or you can ask me on <a href="">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo clean &amp;&amp; hexo g &amp;&amp; hexo s</span><br><span class="line">hexo clean &amp;&amp; hexo g &amp;&amp; hexo d</span><br></pre></td></tr></table></figure>
-<span id="more"></span>
-<h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
-<h2 id="博客摘要"><a href="#博客摘要" class="headerlink" title="博客摘要"></a>博客摘要</h2><h3 id="方法一：写概述"><a href="#方法一：写概述" class="headerlink" title="方法一：写概述"></a>方法一：写概述</h3><p>在文章的<code>front-matter</code>中添加<code>description</code>，其中description中的内容就会被显示在首页上，其余一律不显示。</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">title: 让首页显示部分内容</span><br><span class="line">date: 2020-02-23 22:55:10</span><br><span class="line">description: 这是显示在首页的概述，正文内容均会被隐藏。</span><br></pre></td></tr></table></figure>
-<p>比较不方便的是还得写一下概述，很多时候会懒得写概述，于是就需要第二种方法了。</p>
-<h3 id="方法二：文章截断"><a href="#方法二：文章截断" class="headerlink" title="方法二：文章截断"></a>方法二：文章截断</h3><p>在需要截断的地方加入：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;!--more--&gt;</span><br></pre></td></tr></table></figure>
-<p>首页就会显示这条以上的所有内容，隐藏接下来的所有内容。<br>例如本文会显示到修改配置上面。</p>
-<p>这个明显就方便很多，但当然有利有弊，比如开头都是废话首页看着就不是很好看，因此我一般会先选择方法二，如果感觉文章前面的写的不太好再用方法一。</p>
-]]></content>
-      <categories>
-        <category>Web</category>
-      </categories>
-      <tags>
-        <tag>Hexo</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Markdown 资源集</title>
     <url>/2025/01/18/markdown_2/</url>
     <content><![CDATA[<h1 id="Markdown-资源集"><a href="#Markdown-资源集" class="headerlink" title="Markdown 资源集"></a>Markdown 资源集</h1><p>这是一个收集了各种优秀的Markdown资源（库、服务、编辑器、工具、速查表等）的列表。</p>
@@ -437,6 +408,35 @@
       </categories>
       <tags>
         <tag>Markdown</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Hexo</title>
+    <url>/2025/01/17/Hexo/</url>
+    <content><![CDATA[<p>Welcome to <a href="">Hexo</a>! This is your very first post. Check <a href="">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="">troubleshooting</a> or you can ask me on <a href="">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo clean &amp;&amp; hexo g &amp;&amp; hexo s</span><br><span class="line">hexo clean &amp;&amp; hexo g &amp;&amp; hexo d</span><br></pre></td></tr></table></figure>
+<span id="more"></span>
+<h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+<h2 id="博客摘要"><a href="#博客摘要" class="headerlink" title="博客摘要"></a>博客摘要</h2><h3 id="方法一：写概述"><a href="#方法一：写概述" class="headerlink" title="方法一：写概述"></a>方法一：写概述</h3><p>在文章的<code>front-matter</code>中添加<code>description</code>，其中description中的内容就会被显示在首页上，其余一律不显示。</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">title: 让首页显示部分内容</span><br><span class="line">date: 2020-02-23 22:55:10</span><br><span class="line">description: 这是显示在首页的概述，正文内容均会被隐藏。</span><br></pre></td></tr></table></figure>
+<p>比较不方便的是还得写一下概述，很多时候会懒得写概述，于是就需要第二种方法了。</p>
+<h3 id="方法二：文章截断"><a href="#方法二：文章截断" class="headerlink" title="方法二：文章截断"></a>方法二：文章截断</h3><p>在需要截断的地方加入：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;!--more--&gt;</span><br></pre></td></tr></table></figure>
+<p>首页就会显示这条以上的所有内容，隐藏接下来的所有内容。<br>例如本文会显示到修改配置上面。</p>
+<p>这个明显就方便很多，但当然有利有弊，比如开头都是废话首页看着就不是很好看，因此我一般会先选择方法二，如果感觉文章前面的写的不太好再用方法一。</p>
+]]></content>
+      <categories>
+        <category>Web</category>
+      </categories>
+      <tags>
+        <tag>Hexo</tag>
       </tags>
   </entry>
   <entry>
@@ -1013,6 +1013,104 @@
 <p>Markdown 将会把它转换为：</p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">4 &amp;lt; 5</span><br></pre></td></tr></table></figure>
 <p>需要特别注意的是，在 Markdown 的块级元素和内联元素中， <code>&lt;</code> 和 <code>&amp;</code> 两个符号都会被自动转换成 HTML 实体，这项特性让你可以很容易地用 Markdown 写 HTML。（在 HTML 语法中，你要手动把所有的 <code>&lt;</code> 和 <code>&amp;</code> 都转换为 HTML 实体。）</p>
+]]></content>
+      <categories>
+        <category>Web</category>
+      </categories>
+      <tags>
+        <tag>Markdown</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Markdown拓展语法学习</title>
+    <url>/2025/01/20/markdown_4/</url>
+    <content><![CDATA[<h1 id="设计字体、字号和颜色"><a href="#设计字体、字号和颜色" class="headerlink" title="设计字体、字号和颜色"></a>设计字体、字号和颜色</h1><figure class="highlight text"><table><tr><td class="code"><pre><span class="line">&lt;font face=&#x27;黑体&#x27; color=#ff0000 size=4&gt;我是正文&lt;/font&gt;</span><br></pre></td></tr></table></figure>
+<p><font face='黑体' color=#ff0000 size=4>我是正文</font></p>
+<h4 id="RGB颜色值与十六进制颜色码对照表"><a href="#RGB颜色值与十六进制颜色码对照表" class="headerlink" title="RGB颜色值与十六进制颜色码对照表"></a><a href="https://www.cnblogs.com/remember-forget/p/8134849.html" title="发布于 2017-12-28 11:34">RGB颜色值与十六进制颜色码对照表</a></h4><span id="more"></span>
+<h1 id="分割线"><a href="#分割线" class="headerlink" title="分割线"></a>分割线</h1><p>你可以在一行中用三个以上的星号、减号、底线来建立一个分隔线，行内不能有其他东西。你也可以在星号或是减号中间插入空格。下面每种写法都可以建立分隔线：</p>
+<figure class="highlight text"><table><tr><td class="code"><pre><span class="line">* * *  </span><br><span class="line">***  </span><br><span class="line">**********  </span><br><span class="line">- - -  </span><br><span class="line">_________________  </span><br><span class="line">```  </span><br><span class="line"></span><br><span class="line">效果如下：</span><br><span class="line">* * *  </span><br><span class="line">***  </span><br><span class="line">**********  </span><br><span class="line">- - -  </span><br><span class="line">_________________  </span><br><span class="line"></span><br><span class="line"># 为文字添加背景色</span><br><span class="line"></span><br><span class="line">由于 style 标签和标签的 style 属性不被支持，所以这里只能是借助 table, tr, td 等表格标签的 bgcolor 属性来实现背景色。故这里对于文字背景色的设置，只是将那一整行看作一个表格，更改了那个格子的背景色（bgcolor）。 语法：</span><br><span class="line"></span><br><span class="line">```text  </span><br><span class="line">&lt;table&gt;&lt;tr&gt;&lt;td bgcolor=yellow&gt;背景色yellow&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;  </span><br><span class="line">```  </span><br><span class="line"></span><br><span class="line">&lt;table&gt;&lt;tr&gt;&lt;td bgcolor=yellow&gt;背景色yellow&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;  </span><br><span class="line"></span><br><span class="line"></span><br><span class="line"># 设置文字居中</span><br><span class="line"></span><br><span class="line">```text  </span><br><span class="line">&lt;center&gt;居中&lt;/center&gt;  </span><br><span class="line">&lt;p align=&quot;left&quot;&gt;左对齐&lt;/p&gt;  </span><br><span class="line">&lt;p align=&quot;right&quot;&gt;右对齐&lt;/p&gt;  </span><br><span class="line">```  </span><br><span class="line"></span><br><span class="line">效果如下：</span><br><span class="line">&lt;center&gt;居中&lt;/center&gt;  </span><br><span class="line">&lt;p align=&quot;left&quot;&gt;左对齐&lt;/p&gt;  </span><br><span class="line">&lt;p align=&quot;right&quot;&gt;右对齐&lt;/p&gt;  </span><br><span class="line"></span><br><span class="line"></span><br><span class="line"># 加入上下标</span><br><span class="line"></span><br><span class="line">使用HTML中下标下标的语法即可, 语法：</span><br><span class="line"></span><br><span class="line">```text  </span><br><span class="line">H&lt;sub&gt;2&lt;/sub&gt;O  CO&lt;sub&gt;2&lt;/sub&gt;  </span><br><span class="line">爆米&lt;sup&gt;TM&lt;/sup&gt;  </span><br><span class="line">```  </span><br><span class="line"></span><br><span class="line">H&lt;sub&gt;2&lt;/sub&gt;O  CO&lt;sub&gt;2&lt;/sub&gt;  </span><br><span class="line">爆米&lt;sup&gt;TM&lt;/sup&gt;</span><br><span class="line"></span><br><span class="line">一些Markdown处理器允许您创建术语及其对应定义的_定义列表_。要创建定义列表，请在第一行上键入术语。在下一行，键入一个冒号，后跟一个空格和定义。</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+<p>First Term<br>: This is the definition of the first term.</p>
+<p>Second Term<br>: This is one definition of the second term.<br>: This is another definition of the second term.<br><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line">HTML看起来像这样：</span><br><span class="line"></span><br></pre></td></tr></table></figure></p>
+<p><dl><br>  <dt>First Term</dt><br>  <dd>This is the definition of the first term.</dd><br>  <dt>Second Term</dt><br>  <dd>This is one definition of the second term. </dd><br>  <dd>This is another definition of the second term.</dd><br></dl><br><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line">呈现的输出如下所示：</span><br><span class="line"></span><br><span class="line">First Term</span><br><span class="line"></span><br><span class="line">This is the definition of the first term.</span><br><span class="line"></span><br><span class="line">Second Term</span><br><span class="line"></span><br><span class="line">This is one definition of the second term.</span><br><span class="line"></span><br><span class="line">This is another definition of the second term.</span><br><span class="line"></span><br><span class="line"># 公式</span><br><span class="line"></span><br><span class="line">**Markdown Preview Enhanced** 使用 [KaTeX](https://github.com/Khan/KaTeX) 或者 [MathJax](https://github.com/mathjax/MathJax) 来渲染数学表达式。</span><br><span class="line"></span><br><span class="line">KaTeX 拥有比 MathJax 更快的性能，但是它却少了很多 MathJax 拥有的特性。你可以查看 KaTeX supported functions/symbols 来了解 KaTeX 支持那些符号和函数。</span><br><span class="line"></span><br><span class="line">默认下的分隔符：</span><br><span class="line"></span><br></pre></td></tr></table></figure></p>
+<ul>
+<li><code>$...$</code> 或者 <code>\(...\)</code> 中的数学表达式将会在行内显示。</li>
+<li><code>$$...$$</code> 或者 <code>\[...\]</code> 或者 <code>``</code>math ` 中的数学表达式将会在块内显示。<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line">![](https://www.runoob.com/wp-content/uploads/2019/03/0e408954-fda8-11e5-9eb4-562d7c0ca431.gif)</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+$$<br>\begin{Bmatrix}<br> a &amp; b \<br> c &amp; d<br>\end{Bmatrix}<br>$$<br>$$<br>\begin{CD}<br> A @&gt;a&gt;&gt; B \<br>@VbVV @AAcA \<br> C @= D<br>\end{CD}<br>$$<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">输出结果为：</span><br><span class="line"></span><br><span class="line">$$</span><br><span class="line">\begin&#123;Bmatrix&#125;</span><br><span class="line">a &amp; b \\</span><br><span class="line">c &amp; d</span><br><span class="line">\end&#123;Bmatrix&#125;</span><br><span class="line">$$</span><br><span class="line">$$</span><br><span class="line">\begin&#123;CD&#125;</span><br><span class="line">A @&gt;a&gt;&gt; B \\</span><br><span class="line">@VbVV @AAcA \\</span><br><span class="line">C @= D</span><br><span class="line">\end&#123;CD&#125;</span><br><span class="line">$$</span><br><span class="line"></span><br><span class="line">$$</span><br><span class="line">\begin&#123;pmatrix&#125;</span><br><span class="line">1 &amp; a_1 &amp; a_1^2 &amp; \cdots &amp; a_1^n \\</span><br><span class="line">1 &amp; a_2 &amp; a_2^2 &amp; \cdots &amp; a_2^n \\</span><br><span class="line">\vdots &amp; \vdots &amp; \vdots &amp; \ddots &amp; \vdots \\</span><br><span class="line">1 &amp; a_m &amp; a_m^2 &amp; \cdots &amp; a_m^n \\</span><br><span class="line">\end&#123;pmatrix&#125;</span><br><span class="line">$$</span><br><span class="line"></span><br><span class="line"># 画流程图、时序图、甘特图</span><br><span class="line">## 1、横向流程图源码格式</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+graph LR<br>A[方形] –&gt;B(圆角)<br>  B –&gt; C{条件a}<br>  C –&gt;|a=1| D[结果1]<br>  C –&gt;|a=2| E[结果2]<br>  F[横向流程图]<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line">## 2、竖向流程图源码格式</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+graph TD<br>A[方形] –&gt; B(圆角)<br>  B –&gt; C{条件a}<br>  C –&gt; |a=1| D[结果1]<br>  C –&gt; |a=2| E[结果2]<br>  F[竖向流程图]<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line">## 3、UML标准时序图样例</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+%% 时序图例子,-&gt; 直线，–&gt;虚线，-&gt;&gt;实线箭头<br>sequenceDiagram<br>  participant 张三<br>  participant 李四<br>  张三-&gt;王五: 王五你好吗？<br>  loop 健康检查<pre><code>王五-&gt;王五: 与疾病战斗
+</code></pre>  end<br>  Note right of 王五: 合理 食物 <br/>看医生…<br>  李四–&gt;&gt;张三: 很好!<br>  王五-&gt;李四: 你怎么样?<br>  李四–&gt;王五: 很好!<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line">## 4、甘特图样例</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+%% 语法示例<pre><code>gantt
+dateFormat  YYYY-MM-DD
+title 软件开发甘特图
+section 设计
+需求                      :done,    des1, 2014-01-06,2014-01-08
+原型                      :active,  des2, 2014-01-09, 3d
+UI设计                     :         des3, after des2, 5d
+</code></pre>  未来任务                     :         des4, after des3, 5d<pre><code>section 开发
+学习准备理解需求                      :crit, done, 2014-01-06,24h
+设计框架                             :crit, done, after des2, 2d
+开发                                 :crit, active, 3d
+未来任务                              :crit, 5d
+耍                                   :2d
+section 测试
+功能测试                              :active, a1, after des3, 3d
+压力测试                               :after a1  , 20h
+测试报告                               : 48h
+</code></pre><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line"># 效果图如下</span><br><span class="line"></span><br><span class="line">## 1、横向流程图源码格式</span><br><span class="line"></span><br><span class="line">```mermaid</span><br><span class="line">graph LR</span><br><span class="line">A[方形] --&gt;B(圆角)</span><br><span class="line">    B --&gt; C&#123;条件a&#125;</span><br><span class="line">    C --&gt;|a=1| D[结果1]</span><br><span class="line">    C --&gt;|a=2| E[结果2]</span><br><span class="line">    F[横向流程图]</span><br></pre></td></tr></table></figure>
+</li>
+</ul>
+<h2 id="2、竖向流程图源码格式"><a href="#2、竖向流程图源码格式" class="headerlink" title="2、竖向流程图源码格式"></a>2、竖向流程图源码格式</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">graph TD</span><br><span class="line">A[方形] --&gt; B(圆角)</span><br><span class="line">    B --&gt; C&#123;条件a&#125;</span><br><span class="line">    C --&gt; |a=1| D[结果1]</span><br><span class="line">    C --&gt; |a=2| E[结果2]</span><br><span class="line">    F[竖向流程图]</span><br></pre></td></tr></table></figure>
+<h2 id="3、UML标准时序图"><a href="#3、UML标准时序图" class="headerlink" title="3、UML标准时序图"></a>3、UML标准时序图</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">%% 时序图例子,-&gt; 直线，--&gt;虚线，-&gt;&gt;实线箭头</span><br><span class="line">  sequenceDiagram</span><br><span class="line">    participant 张三</span><br><span class="line">    participant 李四</span><br><span class="line">    张三-&gt;王五: 王五你好吗？</span><br><span class="line">    loop 健康检查</span><br><span class="line">        王五-&gt;王五: 与疾病战斗</span><br><span class="line">    end</span><br><span class="line">    Note right of 王五: 合理 食物 &lt;br/&gt;看医生...</span><br><span class="line">    李四--&gt;&gt;张三: 很好!</span><br><span class="line">    王五-&gt;李四: 你怎么样?</span><br><span class="line">    李四--&gt;王五: 很好!</span><br></pre></td></tr></table></figure>
+<h2 id="4、甘特图"><a href="#4、甘特图" class="headerlink" title="4、甘特图"></a>4、甘特图</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">%% 语法示例</span><br><span class="line">        gantt</span><br><span class="line">        dateFormat  YYYY-MM-DD</span><br><span class="line">        title 软件开发甘特图</span><br><span class="line">        section 设计</span><br><span class="line">        需求                      :done,    des1, 2014-01-06,2014-01-08</span><br><span class="line">        原型                      :active,  des2, 2014-01-09, 3d</span><br><span class="line">        UI设计                     :         des3, after des2, 5d</span><br><span class="line">    未来任务                     :         des4, after des3, 5d</span><br><span class="line">        section 开发</span><br><span class="line">        学习准备理解需求                      :crit, done, 2014-01-06,24h</span><br><span class="line">        设计框架                             :crit, done, after des2, 2d</span><br><span class="line">        开发                                 :crit, active, 3d</span><br><span class="line">        未来任务                              :crit, 5d</span><br><span class="line">        耍                                   :2d</span><br><span class="line">        section 测试</span><br><span class="line">        功能测试                              :active, a1, after des3, 3d</span><br><span class="line">        压力测试                               :after a1  , 20h</span><br><span class="line">        测试报告                               : 48h</span><br></pre></td></tr></table></figure>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">timeline LR</span><br><span class="line">    title GPT-Academic项目发展历程</span><br><span class="line">    section 2.x</span><br><span class="line">        1.0~2.2: 基础功能: 引入模块化函数插件: 可折叠式布局: 函数插件支持热重载</span><br><span class="line">        2.3~2.5: 增强多线程交互性: 新增PDF全文翻译功能: 新增输入区切换位置的功能: 自更新</span><br><span class="line">        2.6: 重构了插件结构: 提高了交互性: 加入更多插件</span><br><span class="line">    section 3.x</span><br><span class="line">        3.0~3.1: 对chatglm支持: 对其他小型llm支持: 支持同时问询多个gpt模型: 支持多个apikey负载均衡</span><br><span class="line">        3.2~3.3: 函数插件支持更多参数接口: 保存对话功能: 解读任意语言代码: 同时询问任意的LLM组合: 互联网信息综合功能</span><br><span class="line">        3.4: 加入arxiv论文翻译: 加入latex论文批改功能</span><br><span class="line">        3.44: 正式支持Azure: 优化界面易用性</span><br><span class="line">        3.46: 自定义ChatGLM2微调模型: 实时语音对话</span><br><span class="line">        3.49: 支持阿里达摩院通义千问: 上海AI-Lab书生: 讯飞星火: 支持百度千帆平台 &amp; 文心一言</span><br><span class="line">        3.50: 虚空终端: 支持插件分类: 改进UI: 设计新主题</span><br><span class="line">        3.53: 动态选择不同界面主题: 提高稳定性: 解决多用户冲突问题</span><br><span class="line">        3.55: 动态代码解释器: 重构前端界面: 引入悬浮窗口与菜单栏</span><br><span class="line">        3.56: 动态追加基础功能按钮: 新汇报PDF汇总页面</span><br><span class="line">        3.57: GLM3, 星火v3: 支持文心一言v4: 修复本地模型的并发BUG</span><br><span class="line">        3.60: 引入AutoGen</span><br><span class="line">        3.70: 引入Mermaid绘图: 实现GPT画脑图等功能</span><br><span class="line">        3.80(TODO): 优化AutoGen插件主题: 设计衍生插件</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+<h1 id="脚注"><a href="#脚注" class="headerlink" title="脚注"></a>脚注</h1><p>脚注使您可以添加注释和参考，而不会使文档正文混乱。当您创建脚注时，带有脚注的上标数字会出现在您添加脚注参考的位置。读者可以单击链接以跳至页面底部的脚注内容。</p>
+<p>要创建脚注参考，请在方括号（<code>[^1]</code>）内添加插入符号和标识符。标识符可以是数字或单词，但不能包含空格或制表符。标识符仅将脚注参考与脚注本身相关联-在输出中，脚注按顺序编号。</p>
+<p>在括号内使用另一个插入符号和数字添加脚注，并用冒号和文本（<code>[^1]: My footnote.</code>）。您不必在文档末尾添加脚注。您可以将它们放在除列表，块引号和表之类的其他元素之外的任何位置。</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">Here&#x27;s a simple footnote,[^1] and here&#x27;s a longer one.[^bignote]</span><br><span class="line"></span><br><span class="line">[^1]: This is the first footnote.</span><br><span class="line"></span><br><span class="line">[^bignote]: Here&#x27;s one with multiple paragraphs and code.</span><br><span class="line"></span><br><span class="line">    Indent paragraphs to include them in the footnote.</span><br><span class="line"></span><br><span class="line">    `&#123; my code &#125;`</span><br><span class="line"></span><br><span class="line">    Add as many paragraphs as you like.</span><br></pre></td></tr></table></figure>
+<p>呈现的输出如下所示：</p>
+<p>Here’s a simple footnote,[^1] and here’s a longer one.[^bignote]</p>
+<p>[^1]: This is the first footnote.</p>
+<p>[^bignote]: Here’s one with multiple paragraphs and code.</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">Indent paragraphs to include them in the footnote.</span><br><span class="line"></span><br><span class="line">`&#123; my code &#125;`</span><br><span class="line"></span><br><span class="line">Add as many paragraphs as you like.</span><br></pre></td></tr></table></figure>
+<h1 id="任务列表"><a href="#任务列表" class="headerlink" title="任务列表"></a>任务列表</h1><p>任务列表使您可以创建带有复选框的项目列表。在支持任务列表的Markdown应用程序中，复选框将显示在内容旁边。要创建任务列表，请在任务列表项之前添加破折号<code>-</code>和方括号<code>[ ]</code>，并在<code>[ ]</code>前面加上空格。要选择一个复选框，请在方括号<code>[x]</code>之间添加 x 。</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">- [x] Write the press release</span><br><span class="line">- [ ] Update the website</span><br><span class="line">- [ ] Contact the media</span><br></pre></td></tr></table></figure>
+<p>呈现的输出如下所示：</p>
+<ul>
+<li>[x] Write the press release</li>
+<li>[ ] Update the website</li>
+<li>[ ] Contact the media</li>
+</ul>
+<h1 id="删除线"><a href="#删除线" class="headerlink" title="删除线"></a>删除线</h1><p>您可以通过在单词中心放置一条水平线来删除单词。结果看起来<del>像这样</del>。此功能使您可以指示某些单词是一个错误，要从文档中删除。若要删除单词，请在单词前后使用两个波浪号<code>~~</code>。</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">~~世界是平坦的。~~ 我们现在知道世界是圆的。</span><br></pre></td></tr></table></figure>
+<p>呈现的输出如下所示：</p>
+<p><del>世界是平坦的。</del> 我们现在知道世界是圆的。</p>
+<h1 id="使用-Emoji-表情"><a href="#使用-Emoji-表情" class="headerlink" title="使用 Emoji 表情"></a>使用 Emoji 表情</h1><p>有两种方法可以将表情符号添加到Markdown文件中：将表情符号复制并粘贴到Markdown格式的文本中，或者键入<em>emoji shortcodes</em>。</p>
+<h2 id="复制和粘贴表情符号"><a href="#复制和粘贴表情符号" class="headerlink" title="复制和粘贴表情符号"></a>复制和粘贴表情符号</h2><p>在大多数情况下，您可以简单地从<a href="https://emojipedia.org/">Emojipedia (opens new window)</a>等来源复制表情符号并将其粘贴到文档中。许多Markdown应用程序会自动以Markdown格式的文本显示表情符号。从Markdown应用程序导出的HTML和PDF文件应显示表情符号。</p>
+<p><strong>Tip:</strong> 如果您使用的是静态网站生成器，请确保将HTML页面编码为UTF-8。.</p>
+<h2 id="使用表情符号简码"><a href="#使用表情符号简码" class="headerlink" title="使用表情符号简码"></a>使用表情符号简码</h2><p>一些Markdown应用程序允许您通过键入表情符号短代码来插入表情符号。这些以冒号开头和结尾，并包含表情符号的名称。</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">去露营了！ :tent: 很快回来。</span><br><span class="line"></span><br><span class="line">真好笑！ :joy:</span><br></pre></td></tr></table></figure>
+<p>呈现的输出如下所示：</p>
+<p>去露营了！⛺很快回来。</p>
+<p>真好笑！😂</p>
+<p><strong>Note:</strong> 注意：您可以使用此<a href="https://gist.github.com/rxaviers/7360908">表情符号简码列表</a>，但请记住，表情符号简码因应用程序而异。有关更多信息，请参阅Markdown应用程序的文档。</p>
+<h1 id="围栏代码块"><a href="#围栏代码块" class="headerlink" title="围栏代码块"></a>围栏代码块</h1><p>Markdown基本语法允许您通过将行缩进四个空格或一个制表符来创建<a href="https://markdown.com.cn/basic-syntax/code-blocks.html">代码块</a>。如果发现不方便，请尝试使用受保护的代码块。根据Markdown处理器或编辑器的不同，您将在代码块之前和之后的行上使用三个反引号（(<code>``</code> `）或三个波浪号（~~~）。</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">```</span><br><span class="line">&#123;</span><br><span class="line">  &quot;firstName&quot;: &quot;John&quot;,</span><br><span class="line">  &quot;lastName&quot;: &quot;Smith&quot;,</span><br><span class="line">  &quot;age&quot;: 25</span><br><span class="line">&#125;</span><br><span class="line">```</span><br></pre></td></tr></table></figure>
+<p>呈现的输出如下所示：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&#123;</span><br><span class="line">  &quot;firstName&quot;: &quot;John&quot;,</span><br><span class="line">  &quot;lastName&quot;: &quot;Smith&quot;,</span><br><span class="line">  &quot;age&quot;: 25</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p><strong>Tip:</strong>要在代码块中显示反引号？请参阅了解如何<a href="https://markdown.com.cn/basic-syntax/escaping-backticks.html">转义</a>它们。</p>
+<h2 id="语法高亮"><a href="#语法高亮" class="headerlink" title="语法高亮"></a>语法高亮</h2><p>许多Markdown处理器都支持受围栏代码块的语法突出显示。使用此功能，您可以为编写代码的任何语言添加颜色突出显示。要添加语法突出显示，请在受防护的代码块之前的反引号旁边指定一种语言。</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">```json</span><br><span class="line">&#123;</span><br><span class="line">  &quot;firstName&quot;: &quot;John&quot;,</span><br><span class="line">  &quot;lastName&quot;: &quot;Smith&quot;,</span><br><span class="line">  &quot;age&quot;: 25</span><br><span class="line">&#125;</span><br><span class="line">```</span><br></pre></td></tr></table></figure>
+<p>呈现的输出如下所示：</p>
+<p>{ “firstName”: “John”, “lastName”: “Smith”, “age”: 25 }</p>
+<h1 id="自动网址链接"><a href="#自动网址链接" class="headerlink" title="自动网址链接"></a>自动网址链接</h1><p>许多Markdown处理器会自动将URL转换为链接。这意味着如果您输入<a href="http://www.example.com，即使您未[使用方括号](https://markdown.com.cn/basic-syntax/links.html)，您的Markdown处理器也会自动将其转换为链接。">http://www.example.com，即使您未[使用方括号](https://markdown.com.cn/basic-syntax/links.html)，您的Markdown处理器也会自动将其转换为链接。</a></p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">http://www.example.com</span><br></pre></td></tr></table></figure>
+<p>呈现的输出如下所示：</p>
+<p><a href="http://www.example.com/">http://www.example.com(opens new window)</a></p>
+<h2 id="禁用自动URL链接"><a href="#禁用自动URL链接" class="headerlink" title="禁用自动URL链接"></a>禁用自动URL链接</h2><p>如果您不希望自动链接URL，则可以通过将URL表示为带反引号的代码来删除该链接。</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">`http://www.example.com`</span><br></pre></td></tr></table></figure>
+<p>呈现的输出如下所示：</p>
+<p><code>http://www.example.com</code></p>
 ]]></content>
       <categories>
         <category>Web</category>
