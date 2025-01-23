@@ -1,416 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>Markdown 资源集</title>
-    <url>/2025/01/18/markdown_2/</url>
-    <content><![CDATA[<h1 id="Markdown-资源集"><a href="#Markdown-资源集" class="headerlink" title="Markdown 资源集"></a>Markdown 资源集</h1><p>这是一个收集了各种优秀的Markdown资源（库、服务、编辑器、工具、速查表等）的列表。</p>
-<span id="more"></span>
-<hr>
-<h2 id="目录"><a href="#目录" class="headerlink" title="目录"></a>目录</h2><!-- !toc (minlevel=2 omit="目录") -->
-<ul>
-<li><a href="#markdown">Markdown</a></li>
-<li><a href="#markdown语法扩展">Markdown语法扩展</a><ul>
-<li><a href="#multimarkdown-mmd">MultiMarkdown (MMD)</a></li>
-<li><a href="#markdown-extra">Markdown Extra</a></li>
-<li><a href="#markdown-extended-mde">Markdown Extended (MDE)</a></li>
-</ul>
-</li>
-<li><a href="#手稿">手稿</a></li>
-<li><a href="#commonmark">CommonMark</a></li>
-<li><a href="#github风格的markdown-gfm">GitHub风格的Markdown (GFM)</a></li>
-<li><a href="#纯味markdown-vfmd">纯味Markdown (VFMD)</a></li>
-<li><a href="#markdown文档">Markdown文档</a><ul>
-<li><a href="#markdown速查表--快速参考">Markdown速查表 / 快速参考</a></li>
-<li><a href="#markdown入门指南--教程">Markdown入门指南 / 教程</a></li>
-</ul>
-</li>
-<li><a href="#markdown构建模块">Markdown构建模块</a><ul>
-<li><a href="#markdown库--工具">Markdown库 &amp; 工具</a></li>
-<li><a href="#babelmark">Babelmark</a></li>
-<li><a href="#markdown风格指南--最佳实践">Markdown风格指南 / 最佳实践</a></li>
-<li><a href="#markdown-lint--风格规则检查器">Markdown Lint / 风格规则检查器</a></li>
-<li><a href="#markdown-web组件--自定义元素">Markdown Web组件 / 自定义元素</a></li>
-<li><a href="#markdown转网站--博客">Markdown转网站 / 博客</a></li>
-<li><a href="#markdown转电子邮件">Markdown转电子邮件</a></li>
-<li><a href="#markdown转演示文稿--幻灯片">Markdown转演示文稿 / 幻灯片</a></li>
-<li><a href="#markdown转便携式文档格式-pdf">Markdown转便携式文档格式 (PDF)</a></li>
-<li><a href="#markdown样式--文档--页面">Markdown样式 / 文档 / 页面</a></li>
-<li><a href="#markdown转书籍">Markdown转书籍</a></li>
-<li><a href="#markdown转目录-toc">Markdown转目录 (TOC)</a></li>
-<li><a href="#markdown转markdown预处理器">Markdown转Markdown预处理器</a></li>
-</ul>
-</li>
-<li><a href="#转换为markdown的工具">转换为Markdown的工具</a><ul>
-<li><a href="#microsoft-word转markdown">Microsoft Word转Markdown</a></li>
-<li><a href="#超文本标记语言-html转markdown">超文本标记语言 (HTML) 转Markdown</a></li>
-<li><a href="#源代码转markdown">源代码转Markdown</a></li>
-<li><a href="#技术文档转markdown">技术文档转Markdown</a></li>
-<li><a href="#屏幕录像转markdown">屏幕录像转Markdown</a></li>
-<li><a href="#json转markdown">JSON转Markdown</a></li>
-</ul>
-</li>
-<li><a href="#书籍服务">书籍服务</a></li>
-<li><a href="#文章">文章</a></li>
-<li><a href="#元数据">元数据</a></li>
-</ul>
-<!-- toc! -->
-<h2 id="Markdown"><a href="#Markdown" class="headerlink" title="Markdown"></a>Markdown</h2><p><em>email-style writing for the web by John Gruber and Aaron Swartz</em> </p>
-<ul>
-<li><strong>Markdown</strong> (web: <a href="http://daringfireball.net/projects/markdown">daringfireball.net/projects/markdown</a>) - 原始的Markdown语法编写和用Perl编写的处理器，由John Gruber编写；不再维护（最后一次更新于2004年12月）</li>
-</ul>
-<p>历史 / 起源</p>
-<ul>
-<li><p>Introducing Markdown by John Gruber - 2004年3月15日</p>
-<blockquote>
-<p>  我编写了一个名为Markdown的文本到HTML的格式化工具，现已可供下载。<br>Markdown允许网络写作者使用简单、易读的纯文本格式语法进行写作；<br>Markdown负责将其转换为有效的XHTML（或者，如果你愿意，也可以是HTML）。</p>
-</blockquote>
-</li>
-<li><p>Dive into Markdown by John Gruber - 2004年3月19日</p>
-<blockquote>
-<p> 你不需要在发送电子邮件之前“预览”它——你写它，你读它，你编辑它，就在那里。</p>
-<p> 事实上，我非常喜欢写电子邮件。电子邮件是我最喜欢的写作媒介。在过去的五年里，我发送了超过16,000封电子邮件。<br>平面文本电子邮件的约定使我能够清晰、准确地表达自己，而不会有任何干扰。</p>
-<p>因此，有了Markdown。网络上的电子邮件风格写作。</p>
-</blockquote>
-</li>
-<li><p>Markdown by Aaron Swartz - 2004年3月22日</p>
-<blockquote>
-<p>   几个月来，我一直在和John Gruber合作一个新项目。这个想法是通过允许你使用几乎相同的语法并自动将其转换为HTML，使编写简单的网页，<br>特别是博客文章，变得和写电子邮件一样容易。</p>
-<p>  我们从上到下仔细研究了语法细节，试图开发出完美的格式，<br>我认为我们得到了一个非常棒的结果。我们进行了广泛的测试：在我们的博客上，在我的评论表单中，在我们的电子邮件中。</p>
-</blockquote>
-</li>
-</ul>
-<h2 id="Markdown语法扩展"><a href="#Markdown语法扩展" class="headerlink" title="Markdown语法扩展"></a>Markdown语法扩展</h2><ul>
-<li><a href="http://daringfireball.net/projects/smartypants">SmartyPants</a> - 将(c)转换为？，””转换为？等 </li>
-<li><a href="http://www.emoji-cheat-sheet.com">Emojis</a> - <a href="https://github.com/arvida/emoji-cheat-sheet.com">:octocat:</a></li>
-<li><a href="http://criticmarkup.com">CriticMarkup</a> - <a href="https://github.com/CriticMarkup">:octocat:</a></li>
-<li><a href="https://help.github.com/articles/github-flavored-markdown">GitHub风格的标记 (GFM)</a> - @mention，带[ ]和[x]的待办事项列表等</li>
-</ul>
-<h3 id="MultiMarkdown-MMD"><a href="#MultiMarkdown-MMD" class="headerlink" title="MultiMarkdown (MMD)"></a>MultiMarkdown (MMD)</h3><ul>
-<li><a href="http://fletcherpenney.net/multimarkdown">MultiMarkdown (MMD)</a> - 由Fletcher Penney编写的Markdown扩展，增加了脚注、表格、定义列表、文档元数据（例如标题、作者、日期等）等；首次添加到MultiMarkdown.pl<ul>
-<li><a href="https://rawgit.com/fletcher/human-markdown-reference/master/index.html">速查表</a>  - 语法快速参考</li>
-<li><a href="https://github.com/fletcher/MMD-Test-Suite">测试套件 :octocat:</a></li>
-</ul>
-</li>
-<li><a href="https://github.com/fletcher/MultiMarkdown">MultiMarkdown.pl :octocat:</a> - 历史上的MultiMarkdown.pl代码；用Perl编写的转换脚本（最后一次更新于2011年1月）</li>
-</ul>
-<h3 id="Markdown-Extra"><a href="#Markdown-Extra" class="headerlink" title="Markdown Extra"></a>Markdown Extra</h3><ul>
-<li><a href="https://michelf.ca/projects/php-markdown/extra/">Markdown Extra</a> - 由Michel Fortin编写的Markdown扩展；首次添加到PHP Markdown (Extra)</li>
-<li><a href="https://michelf.ca/projects/php-markdown/dingus/">Dingus</a>  - 在浏览器中尝试Markdown Extra</li>
-</ul>
-<h3 id="Markdown-Extended-MDE"><a href="#Markdown-Extended-MDE" class="headerlink" title="Markdown Extended (MDE)"></a>Markdown Extended (MDE)</h3><ul>
-<li><a href="http://aboutmde.org">Markdown Extended (MDE) @ aboutmde.org</a><ul>
-<li><a href="http://manifest.aboutmde.org">规范</a></li>
-<li><a href="http://cheatsheet.aboutmde.org/">速查表</a> - 语法快速参考；示例并排显示</li>
-<li><a href="http://dingus.aboutmde.org">Dingus</a> - 在浏览器中尝试Markdown Extended</li>
-</ul>
-</li>
-<li><a href="https://github.com/piwi/markdown-extended">代码 :octocat:</a> - 用PHP编写的转换脚本</li>
-</ul>
-<h2 id="手稿"><a href="#手稿" class="headerlink" title="手稿"></a>手稿</h2><p><em>用于Markdown的免费书籍格式</em></p>
-<p><strong>手稿</strong><br>(web: <a href="http://manuscripts.github.io"><code>manuscripts.github.io</code></a>,<br> github: <a href="https://github.com/manuscripts"><code>manuscripts</code></a>) -<br>添加book.yml用于书籍（元）信息，例如标题、作者、出版商、年份等。<br>和contents.yml用于目录和文件结构</p>
-<ul>
-<li>Manuscripts Book Starter Kit (github: <a href="https://github.com/manuscripts/book-starter"><code>manuscripts/book-starter</code></a>)</li>
-</ul>
-<h2 id="CommonMark"><a href="#CommonMark" class="headerlink" title="CommonMark"></a>CommonMark</h2><p><em>一个强烈规范、高度兼容的Markdown实现</em></p>
-<p><strong>CommonMark</strong><br>(web: <a href="http://commonmark.org"><code>commonmark.org</code></a>)</p>
-<ul>
-<li>规范 (web: <a href="http://spec.commonmark.org"><code>spec.commonmark.org</code></a>) - 由John MacFarlane编辑 </li>
-<li>Dingus (web: <a href="http://spec.commonmark.org/dingus"><code>spec.commonmark.org/dingus</code></a>) - 在浏览器中尝试CommonMark</li>
-<li>讨论 (web: <a href="http://talk.commonmark.org"><code>talk.commonmark.org</code></a>)</li>
-<li>代码 (github: <a href="https://github.com/jgm/CommonMark"><code>jgm/CommonMark</code></a>) - 规范和用JavaScript和C编写的参考代码</li>
-</ul>
-<h2 id="GitHub-Flavored-Markdown-GFM"><a href="#GitHub-Flavored-Markdown-GFM" class="headerlink" title="GitHub Flavored Markdown (GFM)"></a>GitHub Flavored Markdown (GFM)</h2><p><em>CommonMark with GitHub Extensions</em></p>
-<p><strong>GitHub Flavored Markdown (GFM)</strong></p>
-<ul>
-<li>Spec (web: <a href="https://github.github.com/gfm">github.github.com/gfm</a>) </li>
-<li>Code (github: <a href="https://github.com/github/cmark">github/cmark</a> - reference code in C (fork of cmark w/ extensions)</li>
-</ul>
-<p>扩展包括：</p>
-<p>Leaf Blocks: 表格 ++<br>Container Blocks: 任务列表项 ++<br>Inlines: 删除线；自动链接；禁止原始 HTML</p>
-<h2 id="Vanilla-Flavored-Markdown-VFMD"><a href="#Vanilla-Flavored-Markdown-VFMD" class="headerlink" title="Vanilla Flavored Markdown (VFMD)"></a>Vanilla Flavored Markdown (VFMD)</h2><p><em>A variant of Markdown with an unambiguous specification of its syntax</em> </p>
-<p><strong>Vanilla Flavored Markdown (VFMD)</strong><br>(web: <a href="http://www.vfmd.org">vfmd.org</a>, github: <a href="https://github.com/vfmd">vfmd</a>) </p>
-<ul>
-<li>Spec (web: <a href="http://www.vfmd.org/vfmd-spec/specification">vfmd.org/vfmd-spec/specification</a>) - Edited by Roopesh Chander</li>
-<li>Code (github: <a href="https://github.com/vfmd/vfmd-src">vfmd/vfmd-src</a>) - reference code in C++</li>
-</ul>
-<p>不同之处包括：</p>
-<p>单词内强调；<br>引用链接/图片语法简化；<br>列表和 4 空格规则；<br>更好的自动链接检测；<br>双空行作为块的结束；<br>列表的起始数字；<br>嵌套结构错误；<br>包含原始 HTML；<br>字符编码</p>
-<h2 id="Markdown-文档"><a href="#Markdown-文档" class="headerlink" title="Markdown 文档"></a>Markdown 文档</h2><h3 id="Markdown-速查表-快速参考"><a href="#Markdown-速查表-快速参考" class="headerlink" title="Markdown 速查表 / 快速参考"></a>Markdown 速查表 / 快速参考</h3><ul>
-<li><a href="https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet">Markdown 速查表 :octocat:</a> </li>
-<li><a href="https://github.com/lifeparticle/Markdown-Cheatsheet">终极 Markdown 速查表</a> </li>
-</ul>
-<h3 id="Markdown-入门指南-教程"><a href="#Markdown-入门指南-教程" class="headerlink" title="Markdown 入门指南 / 教程"></a>Markdown 入门指南 / 教程</h3><ul>
-<li><a href="http://markdowntutorial.com">Markdown 教程</a> - <a href="https://github.com/gjtorikian/markdowntutorial.com">:octocat:</a> </li>
-<li><a href="https://guides.github.com/features/mastering-markdown">掌握 Markdown @ GitHub 指南</a> </li>
-<li><a href="https://help.github.com/articles/markdown-basics">Markdown 基础 @ GitHub 帮助</a> </li>
-<li><a href="https://www.markdownguide.org/">Markdown 指南</a> </li>
-</ul>
-<h2 id="Markdown-构建块"><a href="#Markdown-构建块" class="headerlink" title="Markdown 构建块"></a>Markdown 构建块</h2><h3 id="Markdown-库-amp-工具"><a href="#Markdown-库-amp-工具" class="headerlink" title="Markdown 库 &amp; 工具"></a>Markdown 库 &amp; 工具</h3><p><a name="pandoc"></a><br><strong>Pandoc</strong><br>(web: <a href="http://pandoc.org">pandoc.org</a>, github: <a href="https://github.com/jgm/pandoc">github.com/jgm/pandoc</a>) - 一个通用文档转换器（用 Haskell 编写）</p>
-<p><strong>kramdown</strong><br>(web: <a href="http://kramdown.gettalong.org">kramdown.gettalong.org</a>, github: <a href="https://github.com/gettalong/kramdown">gettalong/kramdown</a>, gem: <a href="https://rubygems.org/gems/kramdown">kramdown</a>) - Markdown 库和命令行工具（用 Ruby 编写）</p>
-<p><strong>Markdown Extended (MDE)</strong><br>(github: <a href="https://github.com/e-picas/markdown-extended">e-picas/markdown-extended</a> - 将纯文本输入（字符串或文件）转换为各种输出格式（用 PHP 编写）<br><a name="marked"></a><br><strong>marked</strong><br>(web: <a href="https://marked.js.org">marked.js.org</a>, github: <a href="https://github.com/markedjs/marked">marked :octocat:</a>) - 一个 Markdown 解析器和编译器。为速度而构建。（用 Javascript 编写）</p>
-<p><a name="markdown-it"></a></p>
-<p><strong>markdown-it</strong><br>(web: <a href="https://markdown-it.github.io/">markdown-it.github.io</a>, github: <a href="https://github.com/markdown-it/markdown-it">markdown-it :octocat:</a>) - Javascript Markdown 解析器。100% CommonMark 支持，扩展，语法插件和高速。<br>可通过 <a href="https://www.npmjs.com/search?q=keywords:markdown-it-plugin">插件</a> 进行扩展。</p>
-<p><strong>concat-md</strong><br>(<a href="https://www.npmjs.com/package/concat-md">npm</a>, <a href="https://github.com/ozum/concat-md#readme">github</a>) - CLI 和 API 用于连接 Markdown 文件并根据需要进行修改。还可以从 FrontMatter、文件名和目录名添加标题，降低现有标题的级别以符合添加的标题。</p>
-<p><strong>mdcode</strong><br>(github: <a href="https://github.com/szkiba/mdcode">mdcode</a>) - Markdown 代码块编写工具。它支持可测试的代码块，实现代码块与源文件之间的双向同步。</p>
-<h3 id="Babelmark"><a href="#Babelmark" class="headerlink" title="Babelmark"></a>Babelmark</h3><ul>
-<li><a href="">Babelmark 2</a> - 一个用于比较各种 Markdown 语法实现输出的工具<ul>
-<li><a href="http://johnmacfarlane.net/babelmark2/faq.html">Babelmark 2 F.A.Q.</a> - 常见问题（及答案）例如 … ??</li>
-</ul>
-</li>
-</ul>
-<h3 id="Markdown-风格指南-最佳实践"><a href="#Markdown-风格指南-最佳实践" class="headerlink" title="Markdown 风格指南 / 最佳实践"></a>Markdown 风格指南 / 最佳实践</h3><p>待完成</p>
-<h3 id="Markdown-Lint-风格规则检查器"><a href="#Markdown-Lint-风格规则检查器" class="headerlink" title="Markdown Lint / 风格规则检查器"></a>Markdown Lint / 风格规则检查器</h3><ul>
-<li><a href="https://github.com/DavidAnson/markdownlint">markdownlint</a> - 一个 Node.js 风格检查器和 lint 工具，为 Markdown/CommonMark 文件提供一套良好的默认设置。允许自定义。</li>
-<li><a href="https://github.com/executablebooks/mdformat">mdformat</a> - CommonMark 兼容的 Markdown 格式化器</li>
-<li><a href="">mdlint</a> 待完成</li>
-<li><a href="https://github.com/hougesen/mdsf">mdsf</a> - 使用你偏好的代码格式化器来格式化 Markdown 代码片段。</li>
-<li><a href="https://github.com/DavidAnson/vscode-markdownlint">vscode-markdownlint</a> - <a href="https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint">Visual Studio Code 插件</a> 启用 markdown 文件的原位 linting。</li>
-</ul>
-<h3 id="Markdown-Web-组件-自定义元素"><a href="#Markdown-Web-组件-自定义元素" class="headerlink" title="Markdown Web 组件 / 自定义元素"></a>Markdown Web 组件 / 自定义元素</h3><ul>
-<li><a href="https://github.com/MarketingPipeline/Markdown-Tag">Markdown-Tag</a> - 使用 md 标签在任何网站上渲染 Markdown 到 HTML</li>
-<li><a href=""><code>&lt;x-markdown&gt;</code></a> - 待完成</li>
-</ul>
-<h3 id="Markdown-转网站-博客"><a href="#Markdown-转网站-博客" class="headerlink" title="Markdown 转网站 / 博客"></a>Markdown 转网站 / 博客</h3><p><strong>Jekyll</strong><br>(web: <a href="http://jekyllrb.com">jekyllrb.com</a>, github: <a href="https://github.com/jekyll/jekyll">jekyll/jekyll :octocat:</a>, gem: <a href="https://rubygems.org/gems/jekyll">jekyll :gem:</a>) - 将你的纯文本转换为静态网站和博客（用 Ruby 编写）</p>
-<p><strong>Middleman</strong><br>(web: <a href="https://middlemanapp.com">middlemanapp.com</a>, github: <a href="https://github.com/middleman/middleman">middleman/middleman :octocat:</a>, gem: <a href="https://rubygems.org/gems/middleman">middleman :gem:</a>) - 使网站开发变得简单（用 Ruby 编写）</p>
-<p><strong>Slate</strong> (github: <a href="https://github.com/lord/slate">lord/slate :octocat:</a>) - 基于 <strong>Middleman</strong> 的美丽 API 文档</p>
-<p><strong>Shins</strong> (github: <a href="https://github.com/Mermade/shins">Mermade/shins :octocat:</a>, npm: <a href="https://www.npmjs.com/package/shins">shins</a>) – 美丽的 API 文档，使用 node.js（<strong>Slate</strong> 的移植）</p>
-<p><strong>md-fileserver</strong> (github: <a href="https://github.com/commenthol/md-fileserver">md-fileserver :octocat:</a>, npm: <a href="https://www.npmjs.com/package/md-fileserver">md-fileserver</a>) – 在浏览器中本地查看 markdown 文件。</p>
-<p><strong>Compiiile</strong> (github: <a href="https://github.com/compiiile/compiiile">@compiiile/compiiile :octocat:</a>, npm: <a href="https://www.npmjs.com/package/@compiiile/compiiile">@compiiile/compiiile</a>) – 预览和提供包含 Markdown 文件的文件夹，支持全文搜索和演示幻灯片。</p>
-<h3 id="Markdown-转电子邮件"><a href="#Markdown-转电子邮件" class="headerlink" title="Markdown 转电子邮件"></a>Markdown 转电子邮件</h3><p><strong>Markdown Here</strong><br>(web: <a href="http://markdown-here.com">markdown-here.com</a>, github: <a href="https://github.com/adam-p/markdown-here">adam-p/markdown-here</a>) - 一个浏览器扩展，用于渲染用 Markdown 编写的电子邮件；<br>适用于 Chrome、Firefox、Safari、Thunderbird 等；<br>除了电子邮件，还适用于 Evernote、Google Groups、Blogger 等</p>
-<h3 id="Markdown-转演示文稿-幻灯片"><a href="#Markdown-转演示文稿-幻灯片" class="headerlink" title="Markdown 转演示文稿 / 幻灯片"></a>Markdown 转演示文稿 / 幻灯片</h3><p><strong>Slide Show (S9)</strong></p>
-<ul>
-<li>网站：<a href="http://slideshow-s9.github.io">slideshow-s9.github.io</a></li>
-<li>GitHub：<a href="https://github.com/slideshow-s9">slideshow-s9/slideshow</a></li>
-<li><p>Gem：<a href="https://rubygems.org/gems/slideshow">slideshow</a></p>
-<ul>
-<li>这是一个用 Ruby 编写的免费 Web 替代品，用于 PowerPoint 和 Keynote。</li>
-</ul>
-</li>
-<li><p>模板 (GitHub：<a href="https://github.com/slideshow-templates">slideshow-templates</a>)</p>
-</li>
-</ul>
-<p><strong>Slidev</strong></p>
-<ul>
-<li>GitHub：<a href="http://github.com/slidevjs/slidev">slidev</a><ul>
-<li>Slidev 允许你从 Markdown 文件创建幻灯片。你可以在 Markdown 中包含 HTML 和 Vue 组件。</li>
-</ul>
-</li>
-</ul>
-<p><strong>Markpress</strong></p>
-<ul>
-<li>GitHub：<a href="https://github.com/gamell/markpress">markpress</a><ul>
-<li>一个命令行工具和 Node 包，用于将 Markdown 文件转换为自包含的 <a href="https://github.com/impress/impress.js/">impressjs</a> HTML 演示文稿。<a href="https://gamell.github.io/markpress">示例</a></li>
-</ul>
-</li>
-</ul>
-<p><strong>nodePPT</strong></p>
-<ul>
-<li>GitHub：<a href="https://github.com/ksky521/nodePPT">nodePPT</a><ul>
-<li>一个支持基于 GFM 的 Markdown 的 Web 演示工具。</li>
-</ul>
-</li>
-</ul>
-<p><strong>Deckset</strong></p>
-<ul>
-<li>网站：<a href="http://www.decksetapp.com">Deckset</a><ul>
-<li>一款 macOS 桌面应用程序，可在精美设计的模板中呈现 Markdown 演示文稿。</li>
-</ul>
-</li>
-</ul>
-<p><strong>GitPitch</strong></p>
-<ul>
-<li>网站：<a href="http://gitpitch.com/">GitPitch</a></li>
-<li>GitHub：<a href="https://github.com/gitpitch/gitpitch/">gitpitch</a><ul>
-<li>在 GitHub、GitLab、Bitbucket、GitBucket、Gitea 和 Gogs 上为每个人提供 Markdown 演示文稿。<a href="https://gitpitch.com/gitpitch/gitpitch/master">示例</a></li>
-</ul>
-</li>
-</ul>
-<p><strong>zoetic</strong></p>
-<ul>
-<li>GitHub：<a href="https://github.com/kantord/zoetic">zoetic</a><ul>
-<li>在演示时，使用你的网络摄像头作为背景的 Markdown 演示文稿。</li>
-</ul>
-</li>
-</ul>
-<h3 id="Markdown-转便携式文档格式-PDF"><a href="#Markdown-转便携式文档格式-PDF" class="headerlink" title="Markdown 转便携式文档格式 (PDF)"></a>Markdown 转便携式文档格式 (PDF)</h3><ul>
-<li><a href="https://github.com/alanshaw/markdown-pdf">markdown-pdf</a><ul>
-<li>一个将 Markdown 文件转换为 PDF 的工具。</li>
-</ul>
-</li>
-</ul>
-<h3 id="Markdown-样式-文档-页面"><a href="#Markdown-样式-文档-页面" class="headerlink" title="Markdown 样式 / 文档 / 页面"></a>Markdown 样式 / 文档 / 页面</h3><p><strong>页面设计的禅意</strong></p>
-<ul>
-<li>GitHub：<a href="https://github.com/pagedesigns">pagedesigns</a></li>
-</ul>
-<h3 id="Markdown-转书籍"><a href="#Markdown-转书籍" class="headerlink" title="Markdown 转书籍"></a>Markdown 转书籍</h3><p><strong>书籍设计的禅意</strong></p>
-<ul>
-<li>GitHub：<a href="https://github.com/bookdesigns">bookdesigns</a></li>
-</ul>
-<p><strong>Hyper Book (H9)</strong></p>
-<ul>
-<li>GitHub：<a href="https://github.com/hybook">hybook</a></li>
-<li>Gem：<a href="https://rubygems.org/gems/hybook">hybook</a><ul>
-<li><a href="https://github.com/book-templates">模板</a></li>
-</ul>
-</li>
-</ul>
-<h3 id="Markdown-转目录-TOC"><a href="#Markdown-转目录-TOC" class="headerlink" title="Markdown 转目录 (TOC)"></a>Markdown 转目录 (TOC)</h3><ul>
-<li><strong>使用 <a href="https://github.com/jonschlinkert/remarkable">remarkable</a> 生成 Markdown 目录 (TOC)</strong><ul>
-<li>GitHub：<a href="https://github.com/jonschlinkert/markdown-toc">markdown-toc</a></li>
-</ul>
-</li>
-<li><a href="#markedpp">markedpp</a> Markdown 到 Markdown 预处理器</li>
-<li><a href="https://github.com/tallclair/mdtoc">mdtoc</a><ul>
-<li>为 CI 设计的独立 TOC 生成器</li>
-</ul>
-</li>
-</ul>
-<h3 id="Markdown-到-Markdown-预处理器"><a href="#Markdown-到-Markdown-预处理器" class="headerlink" title="Markdown 到 Markdown 预处理器"></a>Markdown 到 Markdown 预处理器</h3><ul>
-<li><strong>markedpp</strong><ul>
-<li>GitHub：<a href="https://github.com/commenthol/markedpp">markedpp</a></li>
-<li>添加对目录 (TOC)、编号标题、包含其他 Markdown 文件和/或创建引用列表的支持，适用于不同的 Markdown 处理器，如 <a href="#marked">marked</a>、<a href="#markdown-it">markdown-it</a>、<a href="#pandoc">pandoc</a>，或用于在 github.com、gitlab.com、bitbucket.org 或 ghost.org 上托管。</li>
-</ul>
-</li>
-</ul>
-<h2 id="转换为-Markdown-的工具"><a href="#转换为-Markdown-的工具" class="headerlink" title="转换为 Markdown 的工具"></a>转换为 Markdown 的工具</h2><h3 id="Microsoft-Word-转-Markdown"><a href="#Microsoft-Word-转-Markdown" class="headerlink" title="Microsoft Word 转 Markdown"></a>Microsoft Word 转 Markdown</h3><ul>
-<li><a href="https://github.com/benbalter/word-to-markdown">word-to-markdown gem</a><ul>
-<li>Gem：<a href="https://rubygems.org/gems/word-to-markdown">word-to-markdown</a></li>
-<li>从 Microsoft Word 文档的“监狱”中“解放”内容；转换为纯文本 Markdown。</li>
-</ul>
-</li>
-</ul>
-<h3 id="超文本标记语言-HTML-转-Markdown"><a href="#超文本标记语言-HTML-转-Markdown" class="headerlink" title="超文本标记语言 (HTML) 转 Markdown"></a>超文本标记语言 (HTML) 转 Markdown</h3><h4 id="Ruby"><a href="#Ruby" class="headerlink" title="Ruby"></a>Ruby</h4><ul>
-<li><a href="https://github.com/xijo/reverse_markdown">reverse_markdown</a><ul>
-<li>Gem：<a href="https://rubygems.org/gems/reverse_markdown">reverse_markdown</a></li>
-<li>将简单的 HTML 映射回 Markdown。</li>
-</ul>
-</li>
-<li><a href="https://github.com/29decibel/html2markdown">html2markdown</a><ul>
-<li>Gem：<a href="https://rubygems.org/gems/html2markdown">html2markdown</a></li>
-<li>简单且灵活的 HTML 到 Markdown 转换器。</li>
-</ul>
-</li>
-<li><a href="https://github.com/jcheatham/hypertextmarkdown">hypertextmarkdown</a><ul>
-<li>Gem：<a href="https://rubygems.org/gems/hypertextmarkdown">hypertextmarkdown</a></li>
-<li>HTML 到 Markdown 转换器。</li>
-</ul>
-</li>
-<li><a href="https://github.com/pmorton/html2md">html2md</a><ul>
-<li>Gem：<a href="https://rubygems.org/gems/html2md">html2md</a></li>
-<li>转换基本的 HTML 到 Markdown。</li>
-</ul>
-</li>
-<li><a href="https://github.com/soffes/unmarkdown">unmarkdown</a><ul>
-<li>Gem：<a href="https://rubygems.org/gems/unmarkdown">unmarkdown</a></li>
-<li>转换 HTML 到 Markdown。</li>
-</ul>
-</li>
-<li><a href="https://github.com/conversation/upmark">upmark</a><ul>
-<li>Gem：<a href="https://rubygems.org/gems/upmark">upmark</a></li>
-<li>一个 HTML 到 Markdown 转换器。</li>
-</ul>
-</li>
-<li><a href="https://github.com/mislav/remark">remark</a><ul>
-<li>用 Ruby 编写的 HTML 到 Markdown 转换器。</li>
-</ul>
-</li>
-</ul>
-<h4 id="JavaScript-Node-js"><a href="#JavaScript-Node-js" class="headerlink" title="JavaScript / Node.js"></a>JavaScript / Node.js</h4><ul>
-<li><a href="https://github.com/domchristie/turndown">turndown</a><ul>
-<li>npm 包：<a href="https://www.npmjs.com/package/turndown">turndown</a></li>
-<li>演示网站：<a href="http://domchristie.github.io/turndown/">turndown</a></li>
-<li>用 JavaScript 编写的 HTML 到 Markdown 转换器（以前称为 <code>to-markdown</code>）。</li>
-</ul>
-</li>
-<li><a href="https://github.com/alexgorbatchev/html2markdown">html2markdown</a><ul>
-<li>npm 包：<a href="https://www.npmjs.com/package/html2markdown">html2markdown</a></li>
-<li>转换 HTML 到 Markdown。</li>
-</ul>
-</li>
-<li><a href="http://markitdown.medusis.com">Markitdown</a><ul>
-<li>一个客户端 Web 应用程序，允许你粘贴来自网页的格式化文本（例如，链接保持完整）并接收 Markdown 输出。</li>
-<li>GitHub：<a href="https://github.com/bambax/markitdown.medusis.com">Markitdown.medusis.com</a></li>
-<li>一个用于将富文本转换为 Markdown 的客户端 Web 应用程序。</li>
-</ul>
-</li>
-</ul>
-<h4 id="其他"><a href="#其他" class="headerlink" title="其他"></a>其他</h4><ul>
-<li><a href="http://heckyesmarkdown.com">heckyesmarkdown.com</a><ul>
-<li>立即转换网页为 Markdown；该服务提供了一个简单的界面，将任何合理的网页转换为 Markdown（注意：该服务似乎使用 Readability API 从源页面中删除所有非内容的多余部分，然后再进行 Markdown 转换）。</li>
-</ul>
-</li>
-</ul>
-<h3 id="源代码转-Markdown"><a href="#源代码转-Markdown" class="headerlink" title="源代码转 Markdown"></a>源代码转 Markdown</h3><p>从源代码生成 API 文档的 Markdown，然后使用许多 <a href="#markdown-to-website--blog">Markdown 转网站</a> 工具之一将其托管和提供服务。</p>
-<ul>
-<li><a href="https://github.com/Mermade/widdershins">widdershins</a><ul>
-<li>将 <a href="https://www.openapis.org">OpenAPI/Swagger</a> REST API 文档转换为 Markdown。</li>
-</ul>
-</li>
-<li><a href="https://github.com/sourcey/moxygen">Moxygen</a><ul>
-<li>将 <a href="http://www.stack.nl/~dimitri/doxygen/">Doxygen</a>（C++，但也支持其他流行的编程语言，如 C、Objective-C、C#、PHP、Java、Python、IDL、Fortran、VHDL、Tcl，以及在一定程度上支持 D）文档转换为 Markdown。</li>
-</ul>
-</li>
-<li><a href="https://github.com/raml2html/markdown-theme">raml2html/markdown-theme</a><ul>
-<li>使用 raml2html 将 <a href="http://raml.org">RAML</a> REST API 文档转换为 Markdown。</li>
-</ul>
-</li>
-<li><a href="https://github.com/jsdoc2md/jsdoc-to-markdown">jsdoc-to-markdown</a><ul>
-<li>通过 JSDoc 将 JavaScript API 文档转换为 Markdown。</li>
-</ul>
-</li>
-<li><a href="https://github.com/albinotonnina/mmarkdown">mmarkdown</a><ul>
-<li>解释 Markdown 文件中的 mmd 代码块，并生成更酷的版本。</li>
-</ul>
-</li>
-<li><a href="https://gitlab.com/alex20465/markpush">markpush</a><ul>
-<li>Firefox/Chrome 扩展，以可读的 Markdown 格式推送 Git 仓库中的文章。</li>
-</ul>
-</li>
-</ul>
-<h3 id="技术文档转-Markdown"><a href="#技术文档转-Markdown" class="headerlink" title="技术文档转 Markdown"></a>技术文档转 Markdown</h3><ul>
-<li><a href="https://github.com/jelovirt/dita-ot-markdown">dita-ot-markdown</a> – 将 DITA 转换为 Markdown，并与标准 DITA OT 工具链集成</li>
-</ul>
-<h3 id="屏幕录像转-Markdown"><a href="#屏幕录像转-Markdown" class="headerlink" title="屏幕录像转 Markdown"></a>屏幕录像转 Markdown</h3><ul>
-<li><a href="https://paircast.io">Paircast</a> - 将桌面视频、git 差异和语音转录整合成 Markdown 文档。</li>
-</ul>
-<h3 id="JSON-转-Markdown"><a href="#JSON-转-Markdown" class="headerlink" title="JSON 转 Markdown"></a>JSON 转 Markdown</h3><p>JavaScript / Node.js</p>
-<ul>
-<li><a href="https://github.com/IonicaBizau/json2md">json2md</a> - 一个 JSON 到 Markdown 的转换器。</li>
-<li><a href="https://github.com/kgar/ts-markdown">ts-markdown</a> - 一个可扩展的 TypeScript Markdown 生成器，它接受 JSON 并创建 Markdown 文档。</li>
-</ul>
-<h2 id="出版服务"><a href="#出版服务" class="headerlink" title="出版服务"></a>出版服务</h2><ul>
-<li><a href="https://www.softcover.io">Softcover.io</a> - 由 Michael Hartl 等人提供的命令行出版工具<ul>
-<li><a href="https://github.com/softcover/softcover">Softcover</a> - 书籍生成、构建和发布的命令行工具</li>
-<li><a href="https://rubygems.org/gems/softcover">RubyGems</a> - RubyGems 上的 Softcover 包</li>
-</ul>
-</li>
-<li><a href="https://www.gitbook.com">GitBook.com</a> - 使用 Markdown 和 Git 编写和发布书籍，由 Samy Pessé 等人提供<ul>
-<li><a href="https://github.com/GitbookIO/gitbook">GitBook</a> - 使用 GitHub/Git 和 Markdown（或 AsciiDoc）构建精美书籍的命令行工具（和 Node.js 库）</li>
-</ul>
-</li>
-</ul>
-<!-- break -->
-<ul>
-<li><a href="https://github.com/bitbooks">Bitbooks.cc (已停止；已存档)</a> - Bitbooks 将包含 Markdown 文件的仓库转换为美观的、托管的在线书籍 - 由 Bryan Braun 提供<ul>
-<li><a href="https://github.com/bryanbraun/franklin">Franklin</a> - 为在线书籍优化的静态网站框架</li>
-</ul>
-</li>
-</ul>
-<h2 id="文章"><a href="#文章" class="headerlink" title="文章"></a>文章</h2><ul>
-<li><a href="http://ericholscher.com/blog/2016/mar/15/dont-use-markdown-for-technical-docs">为什么你不应该使用 Markdown 编写文档</a> - Eric Holscher，2016 年 3 月</li>
-<li><a href="https://mister-gold.pro/posts/en/asciidoc-vs-markdown/">停止使用 Markdown 编写文档</a> - Anton Zolotukhin，2018 年 4 月</li>
-<li><a href="http://roopc.net/posts/2014/markdown-cfg">为什么 Markdown 没有正式语法？</a> - Roopesh Chander，2014 年 9 月</li>
-<li><a href="https://medium.com/towards-data-science/the-ultimate-markdown-cheat-sheet-3d3976b31a0">终极 Markdown 速查表</a></li>
-</ul>
-<!--more-->]]></content>
-      <categories>
-        <category>Web</category>
-      </categories>
-      <tags>
-        <tag>Markdown</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Hexo</title>
     <url>/2025/01/17/Hexo/</url>
     <content><![CDATA[<p>Welcome to <a href="">Hexo</a>! This is your very first post. Check <a href="">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="">troubleshooting</a> or you can ask me on <a href="">GitHub</a>.</p>
@@ -1014,6 +604,802 @@
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">4 &amp;lt; 5</span><br></pre></td></tr></table></figure>
 <p>需要特别注意的是，在 Markdown 的块级元素和内联元素中， <code>&lt;</code> 和 <code>&amp;</code> 两个符号都会被自动转换成 HTML 实体，这项特性让你可以很容易地用 Markdown 写 HTML。（在 HTML 语法中，你要手动把所有的 <code>&lt;</code> 和 <code>&amp;</code> 都转换为 HTML 实体。）</p>
 ]]></content>
+      <categories>
+        <category>Web</category>
+      </categories>
+      <tags>
+        <tag>Markdown</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>全面排序算法总结C语言</title>
+    <url>/2025/01/23/algorithms/</url>
+    <content><![CDATA[<h1 id="排序算法总结"><a href="#排序算法总结" class="headerlink" title="排序算法总结"></a>排序算法总结</h1><ul>
+<li>排序算法是《数据结构与算法》中最基本的算法之一。</li>
+<li>排序算法可以分为内部排序和外部排序，内部排序是数据记录在内存中进行排序，而外部排序是因排序的数据很大，一次不能容纳全部的排序记录，在排序过程中需要访问外存。</li>
+<li>常见的内部排序算法有：插入排序、希尔排序、选择排序、冒泡排序、归并排序、快速排序、堆排序、基数排序等。</li>
+</ul>
+<p><img src="/algorithms/20250121145229.png" alt=""></p>
+<hr>
+<blockquote>
+<ol>
+<li>排序：所谓排序，就是使一串记录，按照其中的某个或某些关键字的大小，递增或递减的排列起来的操作。</li>
+<li>稳定性：假定在待排序的记录序列中，存在多个具有相同的关键字的记录，若经过排序，这些记录的相对次 序保持不变，即在原序列中，r[i]=r[j]，且r[i]在r[j]之前，而在排序后的序列中，r[i]仍在r[j]之前，则称这种排 序算法是稳定的；否则称为不稳定的。</li>
+<li>内部排序：数据元素全部放在内存中的排序。</li>
+<li>外部排序：数据元素太多不能同时放在内存中，根据排序过程的要求不能在内外存之间移动数据的排序。</li>
+</ol>
+</blockquote>
+<span id="more"></span>
+<h2 id="内部排序"><a href="#内部排序" class="headerlink" title="内部排序"></a>内部排序</h2><p><img src="/algorithms/20250121145323.png" alt=""></p>
+<p><img src="/algorithms/20250121144412.png" alt=""></p>
+<h3 id="（一）选择排序"><a href="#（一）选择排序" class="headerlink" title="（一）选择排序"></a>（一）选择排序</h3><h4 id="直接选择排序"><a href="#直接选择排序" class="headerlink" title="直接选择排序"></a>直接选择排序</h4><p>选择排序是一种简单直观的排序算法，无论什么数据进去都是 O(n²) 的时间复杂度。所以用到它的时候，数据规模越小越好。唯一的好处可能就是不占用额外的内存空间了吧。</p>
+<h5 id="1-算法步骤"><a href="#1-算法步骤" class="headerlink" title="1. 算法步骤"></a>1. 算法步骤</h5><ul>
+<li><p>首先在未排序序列中找到最小（大）元素，存放到排序序列的起始位置。</p>
+</li>
+<li><p>再从剩余未排序元素中继续寻找最小（大）元素，然后放到已排序序列的末尾。</p>
+</li>
+<li><p>重复第二步，直到所有元素均排序完毕。</p>
+</li>
+</ul>
+<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="type">void</span> <span class="title function_">swap</span><span class="params">(<span class="type">int</span> *a,<span class="type">int</span> *b)</span> <span class="comment">//交換兩個變數</span></span><br><span class="line">&#123;</span><br><span class="line">    <span class="type">int</span> temp = *a;</span><br><span class="line">    *a = *b;</span><br><span class="line">    *b = temp;</span><br><span class="line">&#125;</span><br><span class="line"><span class="type">void</span> <span class="title function_">selection_sort</span><span class="params">(<span class="type">int</span> arr[], <span class="type">int</span> len)</span> </span><br><span class="line">&#123;</span><br><span class="line">    <span class="type">int</span> i,j;</span><br><span class="line"></span><br><span class="line">        <span class="keyword">for</span> (i = <span class="number">0</span> ; i &lt; len - <span class="number">1</span> ; i++) </span><br><span class="line">    &#123;</span><br><span class="line">                <span class="type">int</span> min = i;</span><br><span class="line">                <span class="keyword">for</span> (j = i + <span class="number">1</span>; j &lt; len; j++)     <span class="comment">//走訪未排序的元素</span></span><br><span class="line">                        <span class="keyword">if</span> (arr[j] &lt; arr[min])    <span class="comment">//找到目前最小值</span></span><br><span class="line">                                min = j;    <span class="comment">//紀錄最小值</span></span><br><span class="line">                swap(&amp;arr[min], &amp;arr[i]);    <span class="comment">//做交換</span></span><br><span class="line">        &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h5 id="2-动图演示"><a href="#2-动图演示" class="headerlink" title="2. 动图演示"></a>2. 动图演示</h5><p><img src="https://www.runoob.com/wp-content/uploads/2019/03/selectionSort.gif" alt=""></p>
+<h4 id="堆排序"><a href="#堆排序" class="headerlink" title="堆排序"></a>堆排序</h4><p>堆排序（Heapsort）是指利用堆这种数据结构所设计的一种排序算法。堆积是一个近似完全二叉树的结构，并同时满足堆积的性质：即子结点的键值或索引总是小于（或者大于）它的父节点。堆排序可以说是一种利用堆的概念来排序的选择排序。分为两种方法：</p>
+<ul>
+<li>大顶堆：每个节点的值都大于或等于其子节点的值，在堆排序算法中用于升序排列；</li>
+<li>小顶堆：每个节点的值都小于或等于其子节点的值，在堆排序算法中用于降序排列；<br>堆排序的平均时间复杂度为 Ο(nlogn)。<h5 id="1-算法步骤-1"><a href="#1-算法步骤-1" class="headerlink" title="1. 算法步骤"></a>1. 算法步骤</h5></li>
+<li><p>创建一个堆 H[0……n-1]；</p>
+</li>
+<li><p>把堆首（最大值）和堆尾互换；</p>
+</li>
+<li><p>把堆的尺寸缩小 1，并调用 shift_down(0)，目的是把新的数组顶端数据调整到相应位置；</p>
+</li>
+<li><p>重复步骤 2，直到堆的尺寸为 1。</p>
+</li>
+</ul>
+<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;stdio.h&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;stdlib.h&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="type">void</span> <span class="title function_">swap</span><span class="params">(<span class="type">int</span> *a, <span class="type">int</span> *b)</span> &#123;</span><br><span class="line">    <span class="type">int</span> temp = *b;</span><br><span class="line">    *b = *a;</span><br><span class="line">    *a = temp;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="type">void</span> <span class="title function_">max_heapify</span><span class="params">(<span class="type">int</span> arr[], <span class="type">int</span> start, <span class="type">int</span> end)</span> &#123;</span><br><span class="line">    <span class="comment">// 建立父節點指標和子節點指標</span></span><br><span class="line">    <span class="type">int</span> dad = start;</span><br><span class="line">    <span class="type">int</span> son = dad * <span class="number">2</span> + <span class="number">1</span>;</span><br><span class="line">    <span class="keyword">while</span> (son &lt;= end) &#123; <span class="comment">// 若子節點指標在範圍內才做比較</span></span><br><span class="line">        <span class="keyword">if</span> (son + <span class="number">1</span> &lt;= end &amp;&amp; arr[son] &lt; arr[son + <span class="number">1</span>]) <span class="comment">// 先比較兩個子節點大小，選擇最大的</span></span><br><span class="line">            son++;</span><br><span class="line">        <span class="keyword">if</span> (arr[dad] &gt; arr[son]) <span class="comment">//如果父節點大於子節點代表調整完畢，直接跳出函數</span></span><br><span class="line">            <span class="keyword">return</span>;</span><br><span class="line">        <span class="keyword">else</span> &#123; <span class="comment">// 否則交換父子內容再繼續子節點和孫節點比較</span></span><br><span class="line">            swap(&amp;arr[dad], &amp;arr[son]);</span><br><span class="line">            dad = son;</span><br><span class="line">            son = dad * <span class="number">2</span> + <span class="number">1</span>;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="type">void</span> <span class="title function_">heap_sort</span><span class="params">(<span class="type">int</span> arr[], <span class="type">int</span> len)</span> &#123;</span><br><span class="line">    <span class="type">int</span> i;</span><br><span class="line">    <span class="comment">// 初始化，i從最後一個父節點開始調整</span></span><br><span class="line">    <span class="keyword">for</span> (i = len / <span class="number">2</span> - <span class="number">1</span>; i &gt;= <span class="number">0</span>; i--)</span><br><span class="line">        max_heapify(arr, i, len - <span class="number">1</span>);</span><br><span class="line">    <span class="comment">// 先將第一個元素和已排好元素前一位做交換，再重新調整，直到排序完畢</span></span><br><span class="line">    <span class="keyword">for</span> (i = len - <span class="number">1</span>; i &gt; <span class="number">0</span>; i--) &#123;</span><br><span class="line">        swap(&amp;arr[<span class="number">0</span>], &amp;arr[i]);</span><br><span class="line">        max_heapify(arr, <span class="number">0</span>, i - <span class="number">1</span>);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="type">int</span> <span class="title function_">main</span><span class="params">()</span> &#123;</span><br><span class="line">    <span class="type">int</span> arr[] = &#123; <span class="number">3</span>, <span class="number">5</span>, <span class="number">3</span>, <span class="number">0</span>, <span class="number">8</span>, <span class="number">6</span>, <span class="number">1</span>, <span class="number">5</span>, <span class="number">8</span>, <span class="number">6</span>, <span class="number">2</span>, <span class="number">4</span>, <span class="number">9</span>, <span class="number">4</span>, <span class="number">7</span>, <span class="number">0</span>, <span class="number">1</span>, <span class="number">8</span>, <span class="number">9</span>, <span class="number">7</span>, <span class="number">3</span>, <span class="number">1</span>, <span class="number">2</span>, <span class="number">5</span>, <span class="number">9</span>, <span class="number">7</span>, <span class="number">4</span>, <span class="number">0</span>, <span class="number">2</span>, <span class="number">6</span> &#125;;</span><br><span class="line">    <span class="type">int</span> len = (<span class="type">int</span>) <span class="keyword">sizeof</span>(arr) / <span class="keyword">sizeof</span>(*arr);</span><br><span class="line">    heap_sort(arr, len);</span><br><span class="line">    <span class="type">int</span> i;</span><br><span class="line">    <span class="keyword">for</span> (i = <span class="number">0</span>; i &lt; len; i++)</span><br><span class="line">        <span class="built_in">printf</span>(<span class="string">&quot;%d &quot;</span>, arr[i]);</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">&quot;\n&quot;</span>);</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h5 id="2-动图演示-1"><a href="#2-动图演示-1" class="headerlink" title="2. 动图演示"></a>2. 动图演示</h5><p><img src="https://www.runoob.com/wp-content/uploads/2019/03/heapSort.gif" alt=""></p>
+<p><img src="https://www.runoob.com/wp-content/uploads/2019/03/Sorting_heapsort_anim.gif" alt=""></p>
+<h3 id="（二）插入排序"><a href="#（二）插入排序" class="headerlink" title="（二）插入排序"></a>（二）插入排序</h3><h4 id="直接插入排序"><a href="#直接插入排序" class="headerlink" title="直接插入排序"></a>直接插入排序</h4><p>插入排序的代码实现虽然没有冒泡排序和选择排序那么简单粗暴，但它的原理应该是最容易理解的了，因为只要打过扑克牌的人都应该能够秒懂。插入排序是一种最简单直观的排序算法，它的工作原理是通过构建有序序列，对于未排序数据，在已排序序列中从后向前扫描，找到相应位置并插入。</p>
+<p>插入排序和冒泡排序一样，也有一种优化算法，叫做拆半插入。</p>
+<h5 id="1-算法步骤-2"><a href="#1-算法步骤-2" class="headerlink" title="1. 算法步骤"></a>1. 算法步骤</h5><ul>
+<li><p>将第一待排序序列第一个元素看做一个有序序列，把第二个元素到最后一个元素当成是未排序序列。</p>
+</li>
+<li><p>从头到尾依次扫描未排序序列，将扫描到的每个元素插入有序序列的适当位置。（如果待插入的元素与有序序列中的某个元素相等，则将待插入元素插入到相等元素的后面。）</p>
+<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="type">void</span> <span class="title function_">insertion_sort</span><span class="params">(<span class="type">int</span> arr[], <span class="type">int</span> len)</span>&#123;</span><br><span class="line">        <span class="type">int</span> i,j,key;</span><br><span class="line">        <span class="keyword">for</span> (i=<span class="number">1</span>;i&lt;len;i++)&#123;</span><br><span class="line">                key = arr[i];</span><br><span class="line">                j=i<span class="number">-1</span>;</span><br><span class="line">                <span class="keyword">while</span>((j&gt;=<span class="number">0</span>) &amp;&amp; (arr[j]&gt;key)) &#123;</span><br><span class="line">                        arr[j+<span class="number">1</span>] = arr[j];</span><br><span class="line">                        j--;</span><br><span class="line">                &#125;</span><br><span class="line">                arr[j+<span class="number">1</span>] = key;</span><br><span class="line">        &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h5 id="2-动图演示-2"><a href="#2-动图演示-2" class="headerlink" title="2. 动图演示"></a>2. 动图演示</h5><p><img src="https://www.runoob.com/wp-content/uploads/2019/03/insertionSort.gif" alt=""></p>
+<h4 id="希尔排序"><a href="#希尔排序" class="headerlink" title="希尔排序"></a>希尔排序</h4><p>希尔排序，也称递减增量排序算法，是插入排序的一种更高效的改进版本。但希尔排序是非稳定排序算法。</p>
+</li>
+</ul>
+<p>希尔排序是基于插入排序的以下两点性质而提出改进方法的：</p>
+<ul>
+<li>插入排序在对几乎已经排好序的数据操作时，效率高，即可以达到线性排序的效率；</li>
+<li>但插入排序一般来说是低效的，因为插入排序每次只能将数据移动一位；</li>
+</ul>
+<p>希尔排序的基本思想是：先将整个待排序的记录序列分割成为若干子序列分别进行直接插入排序，待整个序列中的记录”基本有序”时，再对全体记录进行依次直接插入排序。</p>
+<h5 id="1-算法步骤-3"><a href="#1-算法步骤-3" class="headerlink" title="1. 算法步骤"></a>1. 算法步骤</h5><ul>
+<li><p>选择一个增量序列 t1，t2，……，tk，其中 ti &gt; tj, tk = 1；</p>
+</li>
+<li><p>按增量序列个数 k，对序列进行 k 趟排序；</p>
+</li>
+<li><p>每趟排序，根据对应的增量 ti，将待排序列分割成若干长度为 m 的子序列，分别对各子表进行直接插入排序。仅增量因子为 1 时，整个序列作为一个表来处理，表长度即为整个序列的长度。</p>
+</li>
+</ul>
+<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="type">void</span> <span class="title function_">shell_sort</span><span class="params">(<span class="type">int</span> arr[], <span class="type">int</span> len)</span> &#123;</span><br><span class="line">        <span class="type">int</span> gap, i, j;</span><br><span class="line">        <span class="type">int</span> temp;</span><br><span class="line">        <span class="keyword">for</span> (gap = len &gt;&gt; <span class="number">1</span>; gap &gt; <span class="number">0</span>; gap &gt;&gt;= <span class="number">1</span>)</span><br><span class="line">                <span class="keyword">for</span> (i = gap; i &lt; len; i++) &#123;</span><br><span class="line">                        temp = arr[i];</span><br><span class="line">                        <span class="keyword">for</span> (j = i - gap; j &gt;= <span class="number">0</span> &amp;&amp; arr[j] &gt; temp; j -= gap)</span><br><span class="line">                                arr[j + gap] = arr[j];</span><br><span class="line">                        arr[j + gap] = temp;</span><br><span class="line">                &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h5 id="2-动图演示-3"><a href="#2-动图演示-3" class="headerlink" title="2. 动图演示"></a>2. 动图演示</h5><p><img src="https://www.runoob.com/wp-content/uploads/2019/03/Sorting_shellsort_anim.gif" alt=""></p>
+<h3 id="（三）交换排序"><a href="#（三）交换排序" class="headerlink" title="（三）交换排序"></a>（三）交换排序</h3><h4 id="冒泡排序"><a href="#冒泡排序" class="headerlink" title="冒泡排序"></a>冒泡排序</h4><p>冒泡排序（Bubble Sort）也是一种简单直观的排序算法。它重复地走访过要排序的数列，一次比较两个元素，如果他们的顺序错误就把他们交换过来。走访数列的工作是重复地进行直到没有再需要交换，也就是说该数列已经排序完成。这个算法的名字由来是因为越小的元素会经由交换慢慢”浮” 到数列的顶端。</p>
+<p>作为最简单的排序算法之一，冒泡排序给我的感觉就像 Abandon 在单词书里出现的感觉一样，每次都在第一页第一位，所以最熟悉。冒泡排序还有一种优化算法，就是立一个 flag，当在一趟序列遍历中元素没有发生交换，则证明该序列已经有序。但这种改进对于提升性能来说并没有什么太大作用。</p>
+<h5 id="1-算法步骤-4"><a href="#1-算法步骤-4" class="headerlink" title="1. 算法步骤"></a>1. 算法步骤</h5><p>比较相邻的元素。如果第一个比第二个大，就交换他们两个。</p>
+<p>对每一对相邻元素作同样的工作，从开始第一对到结尾的最后一对。这步做完后，最后的元素会是最大的数。</p>
+<p>针对所有的元素重复以上的步骤，<font color="#ff0000">除了最后一个</font>。</p>
+<p>持续每次对越来越少的元素重复上面的步骤，直到没有任何一对数字需要比较。</p>
+<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;stdio.h&gt;</span></span></span><br><span class="line"><span class="type">void</span> <span class="title function_">bubble_sort</span><span class="params">(<span class="type">int</span> arr[], <span class="type">int</span> len)</span> &#123;</span><br><span class="line">        <span class="type">int</span> i, j, temp;</span><br><span class="line">        <span class="keyword">for</span> (i = <span class="number">0</span>; i &lt; len - <span class="number">1</span>; i++)</span><br><span class="line">                <span class="keyword">for</span> (j = <span class="number">0</span>; j &lt; len - <span class="number">1</span> - i; j++)</span><br><span class="line">                        <span class="keyword">if</span> (arr[j] &gt; arr[j + <span class="number">1</span>]) &#123;</span><br><span class="line">                                temp = arr[j];</span><br><span class="line">                                arr[j] = arr[j + <span class="number">1</span>];</span><br><span class="line">                                arr[j + <span class="number">1</span>] = temp;</span><br><span class="line">                        &#125;</span><br><span class="line">&#125;</span><br><span class="line"><span class="type">int</span> <span class="title function_">main</span><span class="params">()</span> &#123;</span><br><span class="line">        <span class="type">int</span> arr[] = &#123; <span class="number">22</span>, <span class="number">34</span>, <span class="number">3</span>, <span class="number">32</span>, <span class="number">82</span>, <span class="number">55</span>, <span class="number">89</span>, <span class="number">50</span>, <span class="number">37</span>, <span class="number">5</span>, <span class="number">64</span>, <span class="number">35</span>, <span class="number">9</span>, <span class="number">70</span> &#125;;</span><br><span class="line">        <span class="type">int</span> len = <span class="keyword">sizeof</span>(arr) / <span class="keyword">sizeof</span>(arr[<span class="number">0</span>]);</span><br><span class="line">        bubble_sort(arr, len);</span><br><span class="line">        <span class="type">int</span> i;</span><br><span class="line">        <span class="keyword">for</span> (i = <span class="number">0</span>; i &lt; len; i++)</span><br><span class="line">                <span class="built_in">printf</span>(<span class="string">&quot;%d &quot;</span>, arr[i]);</span><br><span class="line">        <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h5 id="2-动图演示-4"><a href="#2-动图演示-4" class="headerlink" title="2. 动图演示"></a>2. 动图演示</h5><p><img src="https://www.runoob.com/wp-content/uploads/2019/03/bubbleSort.gif" alt=""></p>
+<h5 id="3-最快或最慢的时候"><a href="#3-最快或最慢的时候" class="headerlink" title="3. 最快或最慢的时候"></a>3. 最快或最慢的时候</h5><ul>
+<li>当输入的数据已经是正序时（都已经是正序了，我还要你冒泡排序有何用啊）。</li>
+<li>当输入的数据是反序时（写一个 for 循环反序输出数据不就行了，干嘛要用你冒泡排序呢，我是闲的吗）。<h4 id="快速排序"><a href="#快速排序" class="headerlink" title="快速排序"></a>快速排序</h4>快速排序是由东尼·霍尔所发展的一种排序算法。在平均状况下，排序 n 个项目要 Ο(nlogn) 次比较。在最坏状况下则需要 Ο(n2) 次比较，但这种状况并不常见。事实上，快速排序通常明显比其他 Ο(nlogn) 算法更快，因为它的内部循环（inner loop）可以在大部分的架构上很有效率地被实现出来。</li>
+</ul>
+<p>快速排序使用分治法（Divide and conquer）策略来把一个串行（list）分为两个子串行（sub-lists）。</p>
+<p>快速排序又是一种分而治之思想在排序算法上的典型应用。本质上来看，快速排序应该算是在冒泡排序基础上的递归分治法。</p>
+<p>快速排序的名字起的是简单粗暴，因为一听到这个名字你就知道它存在的意义，就是快，而且效率高！它是处理大数据最快的排序算法之一了。虽然 Worst Case 的时间复杂度达到了 O(n²)，但是人家就是优秀，在大多数情况下都比平均时间复杂度为 O(n logn) 的排序算法表现要更好，可是这是为什么呢，我也不知道。好在我的强迫症又犯了，查了 N 多资料终于在《算法艺术与信息学竞赛》上找到了满意的答案：</p>
+<blockquote>
+<p>快速排序的最坏运行情况是 O(n²)，比如说顺序数列的快排。但它的平摊期望时间是 O(nlogn)，且 O(nlogn) 记号中隐含的常数因子很小，比复杂度稳定等于 O(nlogn) 的归并排序要小很多。所以，对绝大多数顺序性较弱的随机数列而言，快速排序总是优于归并排序。</p>
+</blockquote>
+<h5 id="1-算法步骤-5"><a href="#1-算法步骤-5" class="headerlink" title="1. 算法步骤"></a>1. 算法步骤</h5><ul>
+<li><p>从数列中挑出一个元素，称为 “基准”（pivot）;</p>
+</li>
+<li><p>重新排序数列，所有元素比基准值小的摆放在基准前面，所有元素比基准值大的摆在基准的后面（相同的数可以到任一边）。在这个分区退出之后，该基准就处于数列的中间位置。这个称为分区（partition）操作；</p>
+</li>
+<li><p>递归地（recursive）把小于基准值元素的子数列和大于基准值元素的子数列排序；</p>
+</li>
+</ul>
+<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="keyword">typedef</span> <span class="class"><span class="keyword">struct</span> _<span class="title">Range</span> &#123;</span></span><br><span class="line">    <span class="type">int</span> start, end;</span><br><span class="line">&#125; Range;</span><br><span class="line"></span><br><span class="line">Range <span class="title function_">new_Range</span><span class="params">(<span class="type">int</span> s, <span class="type">int</span> e)</span> &#123;</span><br><span class="line">    Range r;</span><br><span class="line">    r.start = s;</span><br><span class="line">    r.end = e;</span><br><span class="line">    <span class="keyword">return</span> r;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="type">void</span> <span class="title function_">swap</span><span class="params">(<span class="type">int</span> *x, <span class="type">int</span> *y)</span> &#123;</span><br><span class="line">    <span class="type">int</span> t = *x;</span><br><span class="line">    *x = *y;</span><br><span class="line">    *y = t;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="type">void</span> <span class="title function_">quick_sort</span><span class="params">(<span class="type">int</span> arr[], <span class="type">const</span> <span class="type">int</span> len)</span> &#123;</span><br><span class="line">    <span class="keyword">if</span> (len &lt;= <span class="number">0</span>)</span><br><span class="line">        <span class="keyword">return</span>; <span class="comment">// 避免len等於負值時引發段錯誤（Segment Fault）</span></span><br><span class="line">    <span class="comment">// r[]模擬列表,p為數量,r[p++]為push,r[--p]為pop且取得元素</span></span><br><span class="line">    Range r[len];</span><br><span class="line">    <span class="type">int</span> p = <span class="number">0</span>;</span><br><span class="line">    r[p++] = new_Range(<span class="number">0</span>, len - <span class="number">1</span>);</span><br><span class="line">    <span class="keyword">while</span> (p) &#123;</span><br><span class="line">        Range range = r[--p];</span><br><span class="line">        <span class="keyword">if</span> (range.start &gt;= range.end)</span><br><span class="line">            <span class="keyword">continue</span>;</span><br><span class="line">        <span class="type">int</span> mid = arr[(range.start + range.end) / <span class="number">2</span>]; <span class="comment">// 選取中間點為基準點</span></span><br><span class="line">        <span class="type">int</span> left = range.start, right = range.end;</span><br><span class="line">        <span class="keyword">do</span> &#123;</span><br><span class="line">            <span class="keyword">while</span> (arr[left] &lt; mid) ++left;   <span class="comment">// 檢測基準點左側是否符合要求</span></span><br><span class="line">            <span class="keyword">while</span> (arr[right] &gt; mid) --right; <span class="comment">//檢測基準點右側是否符合要求</span></span><br><span class="line">            <span class="keyword">if</span> (left &lt;= right) &#123;</span><br><span class="line">                swap(&amp;arr[left], &amp;arr[right]);</span><br><span class="line">                left++;</span><br><span class="line">                right--;               <span class="comment">// 移動指針以繼續</span></span><br><span class="line">            &#125;</span><br><span class="line">        &#125; <span class="keyword">while</span> (left &lt;= right);</span><br><span class="line">        <span class="keyword">if</span> (range.start &lt; right) r[p++] = new_Range(range.start, right);</span><br><span class="line">        <span class="keyword">if</span> (range.end &gt; left) r[p++] = new_Range(left, range.end);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line">_________________________________________________________________________</span><br><span class="line"></span><br><span class="line"><span class="comment">//递归法</span></span><br><span class="line"><span class="type">void</span> <span class="title function_">swap</span><span class="params">(<span class="type">int</span> *x, <span class="type">int</span> *y)</span> &#123;</span><br><span class="line">    <span class="type">int</span> t = *x;</span><br><span class="line">    *x = *y;</span><br><span class="line">    *y = t;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="type">void</span> <span class="title function_">quick_sort_recursive</span><span class="params">(<span class="type">int</span> arr[], <span class="type">int</span> start, <span class="type">int</span> end)</span> &#123;</span><br><span class="line">    <span class="keyword">if</span> (start &gt;= end)</span><br><span class="line">        <span class="keyword">return</span>;</span><br><span class="line">    <span class="type">int</span> mid = arr[end];</span><br><span class="line">    <span class="type">int</span> left = start, right = end - <span class="number">1</span>;</span><br><span class="line">    <span class="keyword">while</span> (left &lt; right) &#123;</span><br><span class="line">        <span class="keyword">while</span> (arr[left] &lt; mid &amp;&amp; left &lt; right)</span><br><span class="line">            left++;</span><br><span class="line">        <span class="keyword">while</span> (arr[right] &gt;= mid &amp;&amp; left &lt; right)</span><br><span class="line">            right--;</span><br><span class="line">        swap(&amp;arr[left], &amp;arr[right]);</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">if</span> (arr[left] &gt;= arr[end])</span><br><span class="line">        swap(&amp;arr[left], &amp;arr[end]);</span><br><span class="line">    <span class="keyword">else</span></span><br><span class="line">        left++;</span><br><span class="line">    <span class="keyword">if</span> (left)</span><br><span class="line">        quick_sort_recursive(arr, start, left - <span class="number">1</span>);</span><br><span class="line">    quick_sort_recursive(arr, left + <span class="number">1</span>, end);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="type">void</span> <span class="title function_">quick_sort</span><span class="params">(<span class="type">int</span> arr[], <span class="type">int</span> len)</span> &#123;</span><br><span class="line">    quick_sort_recursive(arr, <span class="number">0</span>, len - <span class="number">1</span>);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h5 id="2-动图演示-5"><a href="#2-动图演示-5" class="headerlink" title="2. 动图演示"></a>2. 动图演示</h5><p><img src="https://www.runoob.com/wp-content/uploads/2019/03/quickSort.gif" alt=""></p>
+<h3 id="（四）归并排序"><a href="#（四）归并排序" class="headerlink" title="（四）归并排序"></a>（四）归并排序</h3><p>归并排序（Merge sort）是建立在归并操作上的一种有效的排序算法。该算法是采用分治法（Divide and Conquer）的一个非常典型的应用。</p>
+<p>作为一种典型的分而治之思想的算法应用，归并排序的实现由两种方法：</p>
+<ul>
+<li>自上而下的递归（所有递归的方法都可以用迭代重写，所以就有了第 2 种方法）；</li>
+<li>自下而上的迭代；</li>
+</ul>
+<p>和选择排序一样，归并排序的性能不受输入数据的影响，但表现比选择排序好的多，因为始终都是 O(nlogn) 的时间复杂度。代价是需要额外的内存空间。</p>
+<h4 id="1-算法步骤-6"><a href="#1-算法步骤-6" class="headerlink" title="1. 算法步骤"></a>1. 算法步骤</h4><ul>
+<li><p>申请空间，使其大小为两个已经排序序列之和，该空间用来存放合并后的序列；</p>
+</li>
+<li><p>设定两个指针，最初位置分别为两个已经排序序列的起始位置；</p>
+</li>
+<li><p>比较两个指针所指向的元素，选择相对小的元素放入到合并空间，并移动指针到下一位置；</p>
+</li>
+<li><p>重复步骤 3 直到某一指针达到序列尾；</p>
+</li>
+<li><p>将另一序列剩下的所有元素直接复制到合并序列尾。</p>
+</li>
+</ul>
+<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="type">int</span> <span class="title function_">min</span><span class="params">(<span class="type">int</span> x, <span class="type">int</span> y)</span> &#123;</span><br><span class="line">    <span class="keyword">return</span> x &lt; y ? x : y;</span><br><span class="line">&#125;</span><br><span class="line"><span class="type">void</span> <span class="title function_">merge_sort</span><span class="params">(<span class="type">int</span> arr[], <span class="type">int</span> len)</span> &#123;</span><br><span class="line">    <span class="type">int</span> *a = arr;</span><br><span class="line">    <span class="type">int</span> *b = (<span class="type">int</span> *) <span class="built_in">malloc</span>(len * <span class="keyword">sizeof</span>(<span class="type">int</span>));</span><br><span class="line">    <span class="type">int</span> seg, start;</span><br><span class="line">    <span class="keyword">for</span> (seg = <span class="number">1</span>; seg &lt; len; seg += seg) &#123;</span><br><span class="line">        <span class="keyword">for</span> (start = <span class="number">0</span>; start &lt; len; start += seg * <span class="number">2</span>) &#123;</span><br><span class="line">            <span class="type">int</span> low = start, mid = min(start + seg, len), high = min(start + seg * <span class="number">2</span>, len);</span><br><span class="line">            <span class="type">int</span> k = low;</span><br><span class="line">            <span class="type">int</span> start1 = low, end1 = mid;</span><br><span class="line">            <span class="type">int</span> start2 = mid, end2 = high;</span><br><span class="line">            <span class="keyword">while</span> (start1 &lt; end1 &amp;&amp; start2 &lt; end2)</span><br><span class="line">                b[k++] = a[start1] &lt; a[start2] ? a[start1++] : a[start2++];</span><br><span class="line">            <span class="keyword">while</span> (start1 &lt; end1)</span><br><span class="line">                b[k++] = a[start1++];</span><br><span class="line">            <span class="keyword">while</span> (start2 &lt; end2)</span><br><span class="line">                b[k++] = a[start2++];</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="type">int</span> *temp = a;</span><br><span class="line">        a = b;</span><br><span class="line">        b = temp;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">if</span> (a != arr) &#123;</span><br><span class="line">        <span class="type">int</span> i;</span><br><span class="line">        <span class="keyword">for</span> (i = <span class="number">0</span>; i &lt; len; i++)</span><br><span class="line">            b[i] = a[i];</span><br><span class="line">        b = a;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="built_in">free</span>(b);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h4 id="2-动图演示-6"><a href="#2-动图演示-6" class="headerlink" title="2. 动图演示"></a>2. 动图演示</h4><p><img src="https://www.runoob.com/wp-content/uploads/2019/03/mergeSort.gif" alt=""></p>
+<h3 id="（五）基数排序"><a href="#（五）基数排序" class="headerlink" title="（五）基数排序"></a>（五）基数排序</h3><p>将整数按位数切割成不同的数字，然后按每个位数分别比较。基数排序的方式可以采用LSD（Least significant digital）或MSD（Most significant digital），LSD的排序方式由键值的最右边开始，而MSD则相反，由键值的最左边开始。</p>
+<ul>
+<li><strong>MSD</strong>：先从高位开始进行排序，在每个关键字上，可采用计数排序</li>
+<li><strong>LSD</strong>：先从低位开始进行排序，在每个关键字上，可采用桶排序<h4 id="1-算法步骤-7"><a href="#1-算法步骤-7" class="headerlink" title="1. 算法步骤"></a>1. 算法步骤</h4></li>
+<li>将所有待比较数值（正整数）统一为同样的数位长度，数位较短的数前面补零。</li>
+<li>从最低位开始，依次进行一次排序。</li>
+<li>这样从最低位排序一直到最高位排序完成以后, 数列就变成一个有序序列。</li>
+</ul>
+<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;stdio.h&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">define</span> MAX 20</span></span><br><span class="line"><span class="comment">//#define SHOWPASS</span></span><br><span class="line"><span class="meta">#<span class="keyword">define</span> BASE 10</span></span><br><span class="line"></span><br><span class="line"><span class="type">void</span> <span class="title function_">print</span><span class="params">(<span class="type">int</span> *a, <span class="type">int</span> n)</span> &#123;</span><br><span class="line">  <span class="type">int</span> i;</span><br><span class="line">  <span class="keyword">for</span> (i = <span class="number">0</span>; i &lt; n; i++) &#123;</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">&quot;%d\t&quot;</span>, a[i]);</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="type">void</span> <span class="title function_">radixsort</span><span class="params">(<span class="type">int</span> *a, <span class="type">int</span> n)</span> &#123;</span><br><span class="line">  <span class="type">int</span> i, b[MAX], m = a[<span class="number">0</span>], <span class="built_in">exp</span> = <span class="number">1</span>;</span><br><span class="line"></span><br><span class="line">  <span class="keyword">for</span> (i = <span class="number">1</span>; i &lt; n; i++) &#123;</span><br><span class="line">    <span class="keyword">if</span> (a[i] &gt; m) &#123;</span><br><span class="line">      m = a[i];</span><br><span class="line">    &#125;</span><br><span class="line">  &#125;</span><br><span class="line"></span><br><span class="line">  <span class="keyword">while</span> (m / <span class="built_in">exp</span> &gt; <span class="number">0</span>) &#123;</span><br><span class="line">    <span class="type">int</span> bucket[BASE] = &#123; <span class="number">0</span> &#125;;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">for</span> (i = <span class="number">0</span>; i &lt; n; i++) &#123;</span><br><span class="line">      bucket[(a[i] / <span class="built_in">exp</span>) % BASE]++;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">for</span> (i = <span class="number">1</span>; i &lt; BASE; i++) &#123;</span><br><span class="line">      bucket[i] += bucket[i - <span class="number">1</span>];</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">for</span> (i = n - <span class="number">1</span>; i &gt;= <span class="number">0</span>; i--) &#123;</span><br><span class="line">      b[--bucket[(a[i] / <span class="built_in">exp</span>) % BASE]] = a[i];</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">for</span> (i = <span class="number">0</span>; i &lt; n; i++) &#123;</span><br><span class="line">      a[i] = b[i];</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="built_in">exp</span> *= BASE;</span><br><span class="line"></span><br><span class="line"><span class="meta">#<span class="keyword">ifdef</span> SHOWPASS</span></span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">&quot;\nPASS   : &quot;</span>);</span><br><span class="line">    print(a, n);</span><br><span class="line"><span class="meta">#<span class="keyword">endif</span></span></span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="type">int</span> <span class="title function_">main</span><span class="params">()</span> &#123;</span><br><span class="line">  <span class="type">int</span> arr[MAX];</span><br><span class="line">  <span class="type">int</span> i, n;</span><br><span class="line"></span><br><span class="line">  <span class="built_in">printf</span>(<span class="string">&quot;Enter total elements (n &lt;= %d) : &quot;</span>, MAX);</span><br><span class="line">  <span class="built_in">scanf</span>(<span class="string">&quot;%d&quot;</span>, &amp;n);</span><br><span class="line">  n = n &lt; MAX ? n : MAX;</span><br><span class="line"></span><br><span class="line">  <span class="built_in">printf</span>(<span class="string">&quot;Enter %d Elements : &quot;</span>, n);</span><br><span class="line">  <span class="keyword">for</span> (i = <span class="number">0</span>; i &lt; n; i++) &#123;</span><br><span class="line">    <span class="built_in">scanf</span>(<span class="string">&quot;%d&quot;</span>, &amp;arr[i]);</span><br><span class="line">  &#125;</span><br><span class="line"></span><br><span class="line">  <span class="built_in">printf</span>(<span class="string">&quot;\nARRAY  : &quot;</span>);</span><br><span class="line">  print(&amp;arr[<span class="number">0</span>], n);</span><br><span class="line"></span><br><span class="line">  radixsort(&amp;arr[<span class="number">0</span>], n);</span><br><span class="line"></span><br><span class="line">  <span class="built_in">printf</span>(<span class="string">&quot;\nSORTED : &quot;</span>);</span><br><span class="line">  print(&amp;arr[<span class="number">0</span>], n);</span><br><span class="line">  <span class="built_in">printf</span>(<span class="string">&quot;\n&quot;</span>);</span><br><span class="line"></span><br><span class="line">  <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h4 id="2-LSD-基数排序动图演示"><a href="#2-LSD-基数排序动图演示" class="headerlink" title="2. LSD 基数排序动图演示"></a>2. LSD 基数排序动图演示</h4><p><img src="https://www.runoob.com/wp-content/uploads/2019/03/radixSort.gif" alt=""></p>
+<h4 id="3-基数排序-vs-计数排序-vs-桶排序"><a href="#3-基数排序-vs-计数排序-vs-桶排序" class="headerlink" title="3. 基数排序 vs 计数排序 vs 桶排序"></a>3. 基数排序 vs 计数排序 vs 桶排序</h4><p>这三种排序算法都利用了桶的概念，但对桶的使用方法上有明显差异：</p>
+<ul>
+<li>基数排序：根据键值的每位数字来分配桶；</li>
+<li>计数排序：每个桶只存储单一键值；</li>
+<li>桶排序：每个桶存储一定范围的数值；<h3 id="计数排序"><a href="#计数排序" class="headerlink" title="计数排序"></a>计数排序</h3>计数排序的核心在于将输入的数据值转化为键存储在额外开辟的数组空间中。作为一种线性时间复杂度的排序，计数排序要求输入的数据必须是有确定范围的整数。<h4 id="1-计数排序的特征"><a href="#1-计数排序的特征" class="headerlink" title="1. 计数排序的特征"></a>1. 计数排序的特征</h4>当输入的元素是 n 个 0 到 k 之间的整数时，它的运行时间是 Θ(n + k)。计数排序不是比较排序，排序的速度快于任何比较排序算法。</li>
+</ul>
+<p>由于用来计数的数组C的长度取决于待排序数组中数据的范围（等于待排序数组的最大值与最小值的差加上1），这使得计数排序对于数据范围很大的数组，需要大量时间和内存。例如：计数排序是用来排序0到100之间的数字的最好的算法，但是它不适合按字母顺序排序人名。但是，计数排序可以用在基数排序中的算法来排序数据范围很大的数组。</p>
+<p>通俗地理解，例如有 10 个年龄不同的人，统计出有 8 个人的年龄比 A 小，那 A 的年龄就排在第 9 位,用这个方法可以得到其他每个人的位置,也就排好了序。当然，年龄有重复时需要特殊处理（保证稳定性），这就是为什么最后要反向填充目标数组，以及将每个数字的统计减去 1 的原因。<br> 算法的步骤如下：</p>
+<ul>
+<li>（1）找出待排序的数组中最大和最小的元素</li>
+<li>（2）统计数组中每个值为i的元素出现的次数，存入数组C的第i项</li>
+<li>（3）对所有的计数累加（从C中的第一个元素开始，每一项和前一项相加）</li>
+<li>（4）反向填充目标数组：将每个元素i放在新数组的第C(i)项，每放一个元素就将C(i)减去1</li>
+</ul>
+<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;stdio.h&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;stdlib.h&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;time.h&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="type">void</span> <span class="title function_">print_arr</span><span class="params">(<span class="type">int</span> *arr, <span class="type">int</span> n)</span> &#123;</span><br><span class="line">        <span class="type">int</span> i;</span><br><span class="line">        <span class="built_in">printf</span>(<span class="string">&quot;%d&quot;</span>, arr[<span class="number">0</span>]);</span><br><span class="line">        <span class="keyword">for</span> (i = <span class="number">1</span>; i &lt; n; i++)</span><br><span class="line">                <span class="built_in">printf</span>(<span class="string">&quot; %d&quot;</span>, arr[i]);</span><br><span class="line">        <span class="built_in">printf</span>(<span class="string">&quot;\n&quot;</span>);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="type">void</span> <span class="title function_">counting_sort</span><span class="params">(<span class="type">int</span> *ini_arr, <span class="type">int</span> *sorted_arr, <span class="type">int</span> n)</span> &#123;</span><br><span class="line">        <span class="type">int</span> *count_arr = (<span class="type">int</span> *) <span class="built_in">malloc</span>(<span class="keyword">sizeof</span>(<span class="type">int</span>) * <span class="number">100</span>);</span><br><span class="line">        <span class="type">int</span> i, j, k;</span><br><span class="line">        <span class="keyword">for</span> (k = <span class="number">0</span>; k &lt; <span class="number">100</span>; k++)</span><br><span class="line">                count_arr[k] = <span class="number">0</span>;</span><br><span class="line">        <span class="keyword">for</span> (i = <span class="number">0</span>; i &lt; n; i++)</span><br><span class="line">                count_arr[ini_arr[i]]++;</span><br><span class="line">        <span class="keyword">for</span> (k = <span class="number">1</span>; k &lt; <span class="number">100</span>; k++)</span><br><span class="line">                count_arr[k] += count_arr[k - <span class="number">1</span>];</span><br><span class="line">        <span class="keyword">for</span> (j = n; j &gt; <span class="number">0</span>; j--)</span><br><span class="line">                sorted_arr[--count_arr[ini_arr[j - <span class="number">1</span>]]] = ini_arr[j - <span class="number">1</span>];</span><br><span class="line">        <span class="built_in">free</span>(count_arr);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="type">int</span> <span class="title function_">main</span><span class="params">(<span class="type">int</span> argc, <span class="type">char</span> **argv)</span> &#123;</span><br><span class="line">        <span class="type">int</span> n = <span class="number">10</span>;</span><br><span class="line">        <span class="type">int</span> i;</span><br><span class="line">        <span class="type">int</span> *arr = (<span class="type">int</span> *) <span class="built_in">malloc</span>(<span class="keyword">sizeof</span>(<span class="type">int</span>) * n);</span><br><span class="line">        <span class="type">int</span> *sorted_arr = (<span class="type">int</span> *) <span class="built_in">malloc</span>(<span class="keyword">sizeof</span>(<span class="type">int</span>) * n);</span><br><span class="line">        srand(time(<span class="number">0</span>));</span><br><span class="line">        <span class="keyword">for</span> (i = <span class="number">0</span>; i &lt; n; i++)</span><br><span class="line">                arr[i] = rand() % <span class="number">100</span>;</span><br><span class="line">        <span class="built_in">printf</span>(<span class="string">&quot;ini_array: &quot;</span>);</span><br><span class="line">        print_arr(arr, n);</span><br><span class="line">        counting_sort(arr, sorted_arr, n);</span><br><span class="line">        <span class="built_in">printf</span>(<span class="string">&quot;sorted_array: &quot;</span>);</span><br><span class="line">        print_arr(sorted_arr, n);</span><br><span class="line">        <span class="built_in">free</span>(arr);</span><br><span class="line">        <span class="built_in">free</span>(sorted_arr);</span><br><span class="line">        <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h4 id="2-动图演示-7"><a href="#2-动图演示-7" class="headerlink" title="2. 动图演示"></a>2. 动图演示</h4><p><img src="https://www.runoob.com/wp-content/uploads/2019/03/countingSort.gif" alt=""></p>
+<h3 id="桶排序"><a href="#桶排序" class="headerlink" title="桶排序"></a>桶排序</h3><p>假设一种场景，对 {5, 2, 1, 4, 3} 进行升序排序，桶排序算法的实现思路是：</p>
+<ul>
+<li>准备 5 个桶，从 1~5 对它们进行编号；</li>
+<li>将待排序序列的各个元素放置到相同编号的桶中；</li>
+<li>从 1 号桶开始，依次获取桶中放置的元素，得到的就是一个升序序列。<br>整个实现思路如下图所示：</li>
+</ul>
+<p><img src="https://c.biancheng.net/uploads/allimg/210820/2-210R0132U3Q1.gif" alt=""></p>
+<p>桶排序算法中，待排序的数据量和桶的数量并不一定是简单的“一对一”的关系，更多场景中是“多对一”的关系，例如，使用桶排序算法对 {11, 9, 21, 8, 17, 19, 13, 1, 24, 12} 进行升序排序，实现过程如下图所示：</p>
+<p><img src="https://c.biancheng.net/uploads/allimg/210820/2-210R013291B38.gif" alt=""></p>
+<p>待排序序列中有 10 个元素，但算法中只用了 5 个桶，因此有些桶需要存放多个元素。实际场景中，我们可以自定义各个桶存放元素的区间（范围），比如上图中第一个桶存放 [0,5) 区间内的元素，第二个桶存放[6,10) 之间的元素。</p>
+<p>当存在“一个桶中有多个元素”的情况时，要先使用合适的排序算法对各个痛内的元素进行排序，然后再根据桶的次序逐一取出所有元素，最终得到的才是一个有序序列。</p>
+<p>总之，桶排序算法的实现思路是：将待排序序列中的元素根据规则分组，每一组采用快排、插入排序等算法进行排序，然后再按照次序将所有元素合并，就可以得到一个有序序列。</p>
+<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;stdio.h&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;stdlib.h&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="meta">#<span class="keyword">define</span> N 7   <span class="comment">// 待排序序列中的元素个数</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">define</span> NBUCKET 6  <span class="comment">// 桶的数量</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">define</span> INTERVAL 10  <span class="comment">// 每个桶能存放的元素个数</span></span></span><br><span class="line"><span class="comment">//建立桶</span></span><br><span class="line"><span class="class"><span class="keyword">struct</span> <span class="title">Node</span> &#123;</span></span><br><span class="line">    <span class="type">float</span> data;</span><br><span class="line">    <span class="class"><span class="keyword">struct</span> <span class="title">Node</span> *<span class="title">next</span>;</span></span><br><span class="line">&#125;;</span><br><span class="line"></span><br><span class="line"><span class="type">void</span> <span class="title function_">BucketSort</span><span class="params">(<span class="type">float</span> arr[])</span>;</span><br><span class="line"><span class="keyword">struct</span> Node *<span class="title function_">InsertionSort</span><span class="params">(<span class="keyword">struct</span> Node *<span class="built_in">list</span>)</span>;</span><br><span class="line"><span class="type">void</span> <span class="title function_">print</span><span class="params">(<span class="type">float</span> arr[])</span>;</span><br><span class="line"></span><br><span class="line"><span class="type">int</span> <span class="title function_">main</span><span class="params">()</span> &#123;</span><br><span class="line">    <span class="type">float</span> <span class="built_in">array</span>[N] = &#123; <span class="number">0.42</span>, <span class="number">0.32</span>, <span class="number">0.23</span>, <span class="number">0.52</span>, <span class="number">0.25</span>, <span class="number">0.47</span>, <span class="number">0.51</span> &#125;;</span><br><span class="line">    BucketSort(<span class="built_in">array</span>);</span><br><span class="line">    print(<span class="built_in">array</span>);</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">// 桶排序，arr 为待排序序列</span></span><br><span class="line"><span class="type">void</span> <span class="title function_">BucketSort</span><span class="params">(<span class="type">float</span> arr[])</span> &#123;</span><br><span class="line">    <span class="type">int</span> i, j;</span><br><span class="line">    <span class="class"><span class="keyword">struct</span> <span class="title">Node</span> **<span class="title">buckets</span>;</span></span><br><span class="line">    <span class="comment">// 创建所有桶</span></span><br><span class="line">    buckets = (<span class="keyword">struct</span> Node **)<span class="built_in">malloc</span>(<span class="keyword">sizeof</span>(<span class="keyword">struct</span> Node *) * NBUCKET);</span><br><span class="line">    <span class="comment">// 设置每个桶为空桶</span></span><br><span class="line">    <span class="keyword">for</span> (i = <span class="number">0</span>; i &lt; NBUCKET; ++i) &#123;</span><br><span class="line">        buckets[i] = <span class="literal">NULL</span>;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="comment">// 根据规定，将 arr 中的每个元素分散存储到各个桶中</span></span><br><span class="line">    <span class="keyword">for</span> (i = <span class="number">0</span>; i &lt; N; ++i) &#123;</span><br><span class="line">        <span class="class"><span class="keyword">struct</span> <span class="title">Node</span> *<span class="title">current</span>;</span></span><br><span class="line">        <span class="type">int</span> pos = arr[i] * <span class="number">10</span>;  <span class="comment">//根据规则，确定元素所在的桶</span></span><br><span class="line">        <span class="comment">//创建存储该元素的存储块，并连接到指定的桶中</span></span><br><span class="line">        current = (<span class="keyword">struct</span> Node *)<span class="built_in">malloc</span>(<span class="keyword">sizeof</span>(<span class="keyword">struct</span> Node));</span><br><span class="line">        current-&gt;data = arr[i];</span><br><span class="line">        current-&gt;next = buckets[pos];</span><br><span class="line">        buckets[pos] = current;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="comment">// 调用自定义的排序算法，对各个桶进行排序</span></span><br><span class="line">    <span class="keyword">for</span> (i = <span class="number">0</span>; i &lt; NBUCKET; ++i) &#123;</span><br><span class="line">        buckets[i] = InsertionSort(buckets[i]);</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="comment">// 合并所有桶内的元素</span></span><br><span class="line">    <span class="keyword">for</span> (j = <span class="number">0</span>, i = <span class="number">0</span>; i &lt; NBUCKET; ++i) &#123;</span><br><span class="line">        <span class="class"><span class="keyword">struct</span> <span class="title">Node</span> *<span class="title">node</span>;</span></span><br><span class="line">        node = buckets[i];</span><br><span class="line">        <span class="keyword">while</span> (node) &#123;</span><br><span class="line">            arr[j++] = node-&gt;data;</span><br><span class="line">            node = node-&gt;next;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">// 自定义的排序算法，用于对各个桶内元素进行排序</span></span><br><span class="line"><span class="keyword">struct</span> Node *<span class="title function_">InsertionSort</span><span class="params">(<span class="keyword">struct</span> Node *<span class="built_in">list</span>)</span> &#123;</span><br><span class="line">    <span class="class"><span class="keyword">struct</span> <span class="title">Node</span> *<span class="title">k</span>, *<span class="title">nodeList</span>;</span></span><br><span class="line">    <span class="keyword">if</span> (<span class="built_in">list</span> == <span class="literal">NULL</span> || <span class="built_in">list</span>-&gt;next == <span class="literal">NULL</span>) &#123;</span><br><span class="line">        <span class="keyword">return</span> <span class="built_in">list</span>;</span><br><span class="line">    &#125;</span><br><span class="line">    nodeList = <span class="built_in">list</span>;</span><br><span class="line">    k = <span class="built_in">list</span>-&gt;next;</span><br><span class="line">    nodeList-&gt;next = <span class="literal">NULL</span>;</span><br><span class="line">    <span class="keyword">while</span> (k != <span class="literal">NULL</span>) &#123;</span><br><span class="line">        <span class="class"><span class="keyword">struct</span> <span class="title">Node</span> *<span class="title">ptr</span>;</span></span><br><span class="line">        <span class="keyword">if</span> (nodeList-&gt;data &gt; k-&gt;data) &#123;</span><br><span class="line">            <span class="class"><span class="keyword">struct</span> <span class="title">Node</span> *<span class="title">tmp</span>;</span></span><br><span class="line">            tmp = k;</span><br><span class="line">            k = k-&gt;next;</span><br><span class="line">            tmp-&gt;next = nodeList;</span><br><span class="line">            nodeList = tmp;</span><br><span class="line">            <span class="keyword">continue</span>;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">for</span> (ptr = nodeList; ptr-&gt;next != <span class="number">0</span>; ptr = ptr-&gt;next) &#123;</span><br><span class="line">            <span class="keyword">if</span> (ptr-&gt;next-&gt;data &gt; k-&gt;data)</span><br><span class="line">                <span class="keyword">break</span>;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">if</span> (ptr-&gt;next != <span class="number">0</span>) &#123;</span><br><span class="line">            <span class="class"><span class="keyword">struct</span> <span class="title">Node</span> *<span class="title">tmp</span>;</span></span><br><span class="line">            tmp = k;</span><br><span class="line">            k = k-&gt;next;</span><br><span class="line">            tmp-&gt;next = ptr-&gt;next;</span><br><span class="line">            ptr-&gt;next = tmp;</span><br><span class="line">            <span class="keyword">continue</span>;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">else</span> &#123;</span><br><span class="line">            ptr-&gt;next = k;</span><br><span class="line">            k = k-&gt;next;</span><br><span class="line">            ptr-&gt;next-&gt;next = <span class="number">0</span>;</span><br><span class="line">            <span class="keyword">continue</span>;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">return</span> nodeList;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="type">void</span> <span class="title function_">print</span><span class="params">(<span class="type">float</span> ar[])</span> &#123;</span><br><span class="line">    <span class="type">int</span> i;</span><br><span class="line">    <span class="keyword">for</span> (i = <span class="number">0</span>; i &lt; N; ++i) &#123;</span><br><span class="line">        <span class="built_in">printf</span>(<span class="string">&quot;%.2f &quot;</span>, ar[i]);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h2 id="外部排序"><a href="#外部排序" class="headerlink" title="外部排序"></a>外部排序</h2><h3 id="核心部分"><a href="#核心部分" class="headerlink" title="核心部分"></a>核心部分</h3><p><strong>1. 实现外部排序的两个过程：</strong></p>
+<ul>
+<li>将整个初始文件分为多个初始归并段;</li>
+<li>将初始归并段进行归并，直至得到一个有序的完整文件；</li>
+</ul>
+<p><strong>2. 时间组成：</strong></p>
+<ul>
+<li>内部排序所需要的时间</li>
+<li>外存信息读写所需要的时间 （关键）<br>  与归并的趟数有关<br>  k要大 —– 传统方法 会引起内部归并时间增大<br>  赢者树<br>败者树（目的：提高在k个归并串中当前值中找到最小值的效率）<br>m要小 —– 置换选择排序<br>Huffman（归并的顺序，对外存的I/O次数降到最低）</li>
+<li>内部归并所需要的时间　　　　</li>
+</ul>
+<p><strong>3. 为了提高整个外部排序的效率，分别从以上两个方面对外部排序进行了优化：</strong></p>
+<ul>
+<li>在实现将初始文件分为 m 个初始归并段时，为了尽量减小 m 的值，<strong>采用置换-选择排序算法(内部使用败者树实现)</strong>，可实现将整个初始文件分为数量较少的长度不等的初始归并段。</li>
+<li>同时在将初始归并段归并为有序完整文件的过程中，为了尽量减少读写外存的次数，采用<strong>构建最佳归并树的方式（哈夫曼树实现），对初始归并段进行归并（败者树实现）</strong>，而归并的具体实现方法是采用败者树的方式。</li>
+</ul>
+<p><strong>4. 优化递进顺序：</strong></p>
+<ul>
+<li>二路归并【因为硬盘的读写速度比内存要慢的多，按照以上这种方法，每个数据都从硬盘读了三次，写了三次，要花很多时间。考虑K路】</li>
+<li>多路归并【K不是越大越好，因为K越大，在内部排序需要的时间越长，效率低。考虑减少初始顺串的数量M】</li>
+<li>置换选择算法【可以用败者树和堆排序实现，得到多个长度不等的初始归并段，如何设置它们的归并顺序，可以使得对外存的访问次数降到最低? 考虑结合哈夫曼树】</li>
+<li>最佳归并树（置换选择算法+哈夫曼树+多路归并+败者树）</li>
+</ul>
+<p><strong>5 胜者树 &amp; 败者树 &amp; 堆排序</strong></p>
+<ul>
+<li><strong>发展历史</strong><br>　　<strong>堆</strong>：其实一开始就是只有堆来完成多路归并的，但是人们发现堆每次取出最小值之后，把最后一个数放到堆顶，调整堆的时候，每次都要选出父节点的两个孩子节点的最小值，然后再用孩子节点的最小值和父节点进行比较，所以每调整一层需要比较两次。<br>　　<br>　　<strong>胜者树</strong>：这时人们想能否简化比较过程，这时就有了胜者树，这样每次比较只用跟自己的兄弟节点进行比较就好，所以用胜者树可以比堆少一半的比较次数。 而胜者树在节点上升的时候首选需要获得父节点，然后再获得兄弟节点，然后再比较。</li>
+</ul>
+<p><strong>败者树</strong>：这时人们又想能否再次减少比较次数，于是就有了败者树。在使用败者树的时候，每个新元素上升时，只需要获得父节点并比较即可。<br>　所以总的来说，减少了访存的时间。 现在程序的主要瓶颈在于访存了，计算倒几乎可以忽略不计了。</p>
+<ul>
+<li><p><strong>相同点</strong><br>首先它们三个的相同点就是在于：空间和时间复杂度都是一样的O(N*logN)。调整一次的时间复杂度都是O(logN)的。<br>所以这道题用堆来做，跟用败者树来做并没有本质上的算法复杂度量级上的差别。</p>
+</li>
+<li><p><strong>不同点</strong><br>　　<strong>堆</strong>：所有的节点都是关键字； 每次调整一层需要比较两次（父亲 左孩子|  父亲 右孩子）。<br>　　<br>　　<strong>胜者树</strong>：叶子节点是关键字，非叶子节点保存胜者索引；每次调整一层需要比较1次（自己 兄弟），读取两次（父亲| 兄弟）。</p>
+</li>
+</ul>
+<p><strong>败者树</strong>：叶子节点是关键字，非叶子节点保存败者索引；每次调整一层需要比较1次（自己 父亲），读取一次（父亲），只需要和路径上的节点比较，不需要和兄弟节点比较，简化了重构的过程。； 新增B[0]记录比赛的胜者【在本例子中是ls[0]】</p>
+<p><strong>6. 涉及到的算法：</strong></p>
+<ul>
+<li>多路归并算法</li>
+<li>败者树选择算法</li>
+<li>置换选择算法</li>
+<li>哈夫曼树</li>
+<li>内部排序算法（堆排序）</li>
+</ul>
+<h3 id="（一）定义"><a href="#（一）定义" class="headerlink" title="（一）定义"></a>（一）定义</h3><p>外部排序指的是大文件的排序，即待排序的记录存储在外存储器上，待排序的文件无法一次装入内存，需要在内存和外部存储器之间进行多次数据交换，以达到排序整个文件的目的。</p>
+<h3 id="（二）步骤"><a href="#（二）步骤" class="headerlink" title="（二）步骤"></a>（二）步骤</h3><p>外部排序算法由两个阶段构成：预处理和合并排序。</p>
+<ol>
+<li><strong>预处理产生有序的顺串：</strong><br>按照内存大小，将外存上含有 n 个纪录的大文件分成若干长度为 t 的子文件（t 应小于内存的可使用容量），然后将各个子文件依次读入内存，使用适当的内部排序算法对子文件的 t 个纪录进行排序（排好序的子文件统称为“归并段”或者“顺段”），将排好序的归并段重新写入外存，为下一个子文件排序腾出内存空间；这样在外存上就得到了m个顺串（m=[n/t]）。</li>
+<li><strong>合并序列：</strong><br>对得到的顺段进行合并，直至得到整个有序的文件为止。</li>
+</ol>
+<h3 id="（三）k-路平衡归并"><a href="#（三）k-路平衡归并" class="headerlink" title="（三）k-路平衡归并"></a>（三）<strong>k-路平衡归并</strong></h3><h4 id="1-2-路平衡归并"><a href="#1-2-路平衡归并" class="headerlink" title="1. 2-路平衡归并"></a>1. <strong>2-路平衡归并</strong></h4><p><strong>例子1</strong><br>给你一个包含20亿个int类型整数的文件，计算机的内存只有2GB，怎么给它们排序？一个int数占4个字节，20个亿需要80亿字节，大概占用8GB的内存，而计算机只有2GB的内存，数据都装不下！可以把8GB分割成4个2GB的数据来排，然后在把他们拼凑回去。</p>
+<p>在2G内存中排序的时候可以选择合适的内部排序，比如快速排序或归并排序等算法。为了方便，我们把排序好的2G有序数据称为有序子串。接着把两个小的有序子串合并成一个大的有序子串。<br> <img src="https://img-blog.csdnimg.cn/20181126161926964.jpeg" alt=""></p>
+<p>注意:读取的时候是每次读取一个int数，通过比较之后再输出。按照这个方法来回合并，总共经过三次合并之后就可以得到8G的有序子串。</p>
+<p>我们假设需要排序的int数有12个，内存一次只能装下3个int数。接下来把12个数据分成4份，然后排序成有序子串：<br><img src="https://img-blog.csdnimg.cn/20181126161926984.jpeg" alt=""></p>
+<p>然后把子串进行两两合并：输出哪个元素就在那个元素所在的有序子串再次读入一个元素：<br>继续<br><img src="https://img-blog.csdnimg.cn/2018112616192755.jpeg" alt=""></p>
+<p>重复直到合并成一个包含6个int有序子串：<br><img src="https://img-blog.csdnimg.cn/2018112616192757.jpeg" alt=""></p>
+<p>再把两个包含6个int的有序子串合并成一个包含12个int数据的最终有序子串。</p>
+<blockquote>
+<p>因为硬盘的读写速度比内存要慢的多，按照以上这种方法，每个数据都从硬盘读了三次，写了三次，要花很多时间。</p>
+<p>解释下：例如对于数据2，我们把无序的12个数据分成有序的4个子串需要读写各一次，把2份3个有序子串合并成6个有序子串读写各一次；把2份6个有序子串合并从12个有序子串读写各一次，一共需要读写各3次。</p>
+<p>在进行有序子串合并的时候，不采取两两合并的方法，而是可以3个子串，或4个子串一起来合并。</p>
+</blockquote>
+<p><strong>例子2</strong><br>例如，有一个含有 10000 个记录的文件，但是内存的可使用容量仅为 1000 个记录，毫无疑问需要使用外部排序算法，具体分为两步：</p>
+<ul>
+<li>将整个文件其等分为 10 个临时文件（每个文件中含有 1000 个记录），然后将这 10 个文件依次进入内存，采取适当的内存排序算法（快排或者归并排序）对其中的记录进行排序，将得到的有序文件（初始归并段）移至外存。</li>
+<li>对得到的 10 个初始归并段进行如图 1 的两两归并，直至得到一个完整的有序文件。</li>
+</ul>
+<blockquote>
+<p>注意：此例中采用了将文件进行等分的操作，还有不等分的算法，后面会介绍。</p>
+</blockquote>
+<p><img src="http://c.biancheng.net/uploads/allimg/190427/10593M623-0.png" alt=""><br>图 1 2-路平衡归并</p>
+<p>如图 1 所示有 10 个初始归并段到一个有序文件，共进行了 4 次归并，每次都由 m 个归并段得到 ⌈m/2⌉ 个归并段，这种归并方式被称为 2-路平衡归并。</p>
+<blockquote>
+<p>注意：在实际归并的过程中，由于内存容量的限制不能满足同时将 2 个归并段全部完整的读入内存进行归并，只能不断地取 2 个归并段中的每一小部分进行归并，通过不断地读数据和向外存写数据，直至 2 个归并段完成归并变为 1 个大的有序文件。</p>
+</blockquote>
+<p><strong>对于外部排序算法来说，影响整体排序效率的因素主要取决于读写外存的次数，即访问外存的次数越多，算法花费的时间就越多，效率就越低。</strong></p>
+<p>计算机中处理数据的为中央处理器（CPU），如若需要访问外存中的数据，只能通过将数据从外存导入内存，然后从内存中获取。同时由于内存读写速度快，外存读写速度慢的差异，更加影响了外部排序的效率。</p>
+<p><strong>对于同一个文件来说，对其进行外部排序时访问外存的次数同归并的次数成正比，即归并操作的次数越多，访问外存的次数就越多</strong>。</p>
+<h4 id="2-多路归并"><a href="#2-多路归并" class="headerlink" title="2. 多路归并"></a>2. 多路归并</h4><p><strong>对于同一个文件来说，对其进行外部排序时访问外存的次数同归并的次数成正比，即归并操作的次数越多，访问外存的次数就越多</strong>。3.1 中图 1 中使用的是 2-路平衡归并的方式，举一反三，还可以使用 3-路归并、4-路归并甚至是 10-路归并的方式。</p>
+<p><strong>例子1</strong></p>
+<p>我们假设内存一共可以装4个int型数据。</p>
+<p>刚才我们是采取两两合并的方式，现在我们可以采取4个有序子串一起合并的方式，这样的话，每个数据从硬盘读写的次数各需要2次就可以了。如图：<br><img src="https://img-blog.csdnimg.cn/20181126161927115.jpeg" alt=""></p>
+<p>4个有序子串的合并，叫4路归并。如果是n个有序子串的合并，就把它称为n路归并。n并非越大越好。N越大，内部排序所需要的时间越多。<br><strong>例子2</strong></p>
+<p>图 2 为 5-路归并的方式：<br><img src="http://c.biancheng.net/uploads/allimg/190427/10593GY1-1.png" alt=""><br>图 2 5-路平衡归并</p>
+<p>对比3.1 中 图 1 和 3.2 中图 2可以看出<strong>，对于 k-路平衡归并中 k 值得选择，增加 k 可以减少归并的次数，从而减少外存读写的次数，最终达到提高算法效率的目的。除此之外，一般情况下对于具有 m 个初始归并段进行 k-路平衡归并时，归并的次数为：s=⌊logk⁡m ⌋（其中 s 表示归并次数）。</strong></p>
+<p><strong>从公式上可以判断出，想要达到减少归并次数从而提高算法效率的目的，可以从两个角度实现：  
+</strong></p>
+<ul>
+<li><strong>增加 k-路平衡归并中的 k 值；[但不能影响内部归并的效率]</strong></li>
+<li><strong>尽量减少初始归并段的数量 m，即增加每个归并段的容量；</strong></li>
+</ul>
+<blockquote>
+<p><strong>其增加 k 值的想法引申出了一种外部排序算法：多路平衡归并算法；增加数量 m 的想法引申出了另一种外部排序算法：置换-选择排序算法。</strong></p>
+</blockquote>
+<h3 id="（四）多路平衡归并排序（胜者树、败者树）算法"><a href="#（四）多路平衡归并排序（胜者树、败者树）算法" class="headerlink" title="（四）多路平衡归并排序（胜者树、败者树）算法"></a>（四）多路平衡归并排序（胜者树、败者树）算法</h3><p><strong><font color="#ff0000">对于外部排序算法来说，其直接影响算法效率的因素为读写外存的次数，即次数越多，算法效率越低。若想提高算法的效率，即减少算法运行过程中读写外存的次数，可以增加 k –路平衡归并中的 k 值。但是经过计算得知，如果毫无限度地增加 k 值，虽然会减少读写外存数据的次数，但会增加内部归并的时间，得不偿失。</font></strong> <strong>（k越大，内部归并排序【比如选出最小值】需要花费更多的时间，所以k不是越大越好）</strong></p>
+<p>例如在上节中，对于 10 个临时文件，当采用 2-路平衡归并时，若每次从 2 个文件中想得到一个最小值时只需比较 1 次；而采用 5-路平衡归并时，若每次从 5 个文件中想得到一个最小值就需要比较 4 次。以上仅仅是得到一个最小值记录，如要得到整个临时文件，其耗费的时间就会相差很大。</p>
+<p>为了避免在增加 k 值的过程中影响内部归并的效率，在进行 k-路归并时可以使用“败者树”来实现，该方法在增加 k 值时不会影响其内部归并的效率。</p>
+<p>胜者树和败者树都是完全二叉树（非叶子节点存储的是索引），他们是树形选择排序的变形（非叶子节点存储的是具体的值）。</p>
+<h4 id="1-胜者树实现内部归并"><a href="#1-胜者树实现内部归并" class="headerlink" title="1. 胜者树实现内部归并"></a>1. 胜者树实现内部归并</h4><p>我们对胜者树进行定义：</p>
+<ol>
+<li>胜者树是一颗完全二叉树</li>
+<li>胜者树的叶子结点保存我们的一个输入缓冲区（一路归并顺序表）；  叶节点L[ 1……n]</li>
+<li>胜者树的非叶子节点保存当前比较的胜者的输入缓冲区的指针；非叶子节点B[1……n-1] //存储的是数组L的索引</li>
+<li>胜者树的根节点保存我们的胜者树当前的的一次比较中的冠军（最优值） B[0]<br><img src="https://img2018.cnblogs.com/blog/728328/201905/728328-20190521171305804-2144743096.png" alt=""><br>　　　　<br>当我们将我们的胜者树的最优值输入到我们的输出缓冲区（<strong>输出缓冲区从内存中额外开辟出来的一段，我们存储当前的归并的结果，缓冲区满写入磁盘</strong>）之后，我们的根节点便出现了空的情况，<strong>我们需要从根节点对应的输入缓冲区中在读入一个数据来充当下一次比较的选手</strong>，然后<strong>从下到上进行维护</strong>，我们的每一次的维护都需要比较兄弟的胜者然后选出新一轮的胜者然后一直优化到我们的根的路径上（从低至上，贯穿整个树）之后我们不断地进行上述的操作，指导我们的所有的输入缓冲区已经为空为止。</li>
+</ol>
+<p><strong>例子：</strong> 胜者树的一个优点是，如果一个选手的值改变了，可以很容易地修改这棵胜者树。只需要沿着从该结点到根结点的路径修改这棵二叉树，而不必改变其他比赛的结果。</p>
+<p>我们把胜者树分为两部分：<br>b[]：<code>用来保存K路数组的首元素，叶节点存放在此处，即底下那七个数组</code><br>ls[]：<code>用来保存胜者数组的下标，ls[1]是最终的胜者(即所求的数)。</code></p>
+<p>胜者树的中间结点记录的是胜者的标号<br>胜者树的示例。规定数值小者胜。</p>
+<p><img src="https://img-blog.csdn.net/2018052113140774?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzM2NzcxMjY5/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70" alt="这里写图片描述"><br>b3 PK b4，b3胜b4负，内部结点ls[4]的值为3；<br>b3 PK b0，b3胜b0负，内部结点ls[2]的值为3；<br>b1 PK b2，b1胜b2负，内部结点ls[3]的值为1；<br>b3 PK b1，b3胜b1负，内部结点ls[1]的值为3。</p>
+<p>叶子结点b3的值变为11时，重构的胜者树如图所示<br><img src="https://img-blog.csdn.net/20180521131743865?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzM2NzcxMjY5/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70" alt="这里写图片描述">   </p>
+<ol>
+<li>b3 PK b4，b3胜b4负，内部结点ls[4]的值为3；</li>
+<li>b3 PK b0，b0胜b3负，内部结点ls[2]的值为0；</li>
+<li>b1 PK b2，b1胜b2负，内部结点ls[3]的值为1；</li>
+<li>b0 PK b1，b1胜b0负，内部结点ls[1]的值为1。.</li>
+</ol>
+<h4 id="2-败者树实现内部归并"><a href="#2-败者树实现内部归并" class="headerlink" title="2. 败者树实现内部归并"></a>2. 败者树实现内部归并</h4><p>我们的胜者树维护的时候每次都需要去查找我们的根的兄弟节点的位置来进行比较，但是我们的每一次都要多一步查找兄弟的划，无论是对我们的程序的实现过程还是我们的时间效率上来看都还存在改进的余地。这里我们就要引入败者树，败者树与胜者树恰好相反，其双亲结点存储的是左右孩子比较之后的失败者，而胜利者则继续同其它的胜者去比较。</p>
+<p>败者树的定义：</p>
+<ol>
+<li>败者树是一颗完全二叉树（败者树是树形选择排序的一种变形）</li>
+<li>败者树的叶子结点保存的是我们的输入缓冲区</li>
+<li>败者树的非叶子结点保存我们的当前的比较中败者的对应的输入缓冲区的指针</li>
+<li>败者树根保存我们的当前比较的亚军，根上面还有一个节点保存我们的冠军</li>
+</ol>
+<p>比赛过程</p>
+<ol>
+<li>将新入树的节点与其父亲进行比较</li>
+<li>把败者存放在父亲节点</li>
+<li>把胜者再与上一级的父亲进行比赛</li>
+<li>比赛不断进行</li>
+<li>把败者的索引存放在B[1]</li>
+<li>把胜者的索引放到节点B[0]</li>
+</ol>
+<p><strong>例子1：</strong><br>败者树是胜者树的一种变体。在败者树中，用父结点记录其左右子结点进行比赛的败者，而让胜者参加下一轮的比赛。败者树的根结点记录的是败者，需要加一个结点来记录整个比赛的胜利者。采用败者树可以简化重构的过程。</p>
+<p>我们把败者树分为两部分：<br>b[]：<code>用来保存K路数组的首元素，叶节点存放在此处，即底下那七个数组</code><br>ls[]：<code>用来保存败者数组的下标，b[0]是最终的胜者(即所求的数)，败者节点存放在中间节点。</code><br>败者树的中间结点记录的败者的标号<br>败者树示例，规定数大者败。<br><img src="https://img-blog.csdn.net/20180521132227631?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzM2NzcxMjY5/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70" alt="这里写图片描述"></p>
+<p>b3 PK b4，b3胜b4负，内部结点ls[4]的值为4；<br>b3 PK b0，b3胜b0负，内部结点ls[2]的值为0；<br>b1 PK b2，b1胜b2负，内部结点ls[3]的值为2；<br>b3 PK b1，b3胜b1负，内部结点ls[1]的值为1；<br>在根结点ls[1]上又加了一个结点ls[0]=3，记录的最后的胜者。</p>
+<p>败者树重构过程如下：将新进入选择树的结点与其父结点进行比赛：将败者存放在父结点中；而胜者再与上一级的父结点比较。比赛沿着到根结点的路径不断进行，直到ls[1]处。把败者存放在结点ls[1]中，胜者存放在ls[0]中。是当b3变为13时，败者树的重构图：<br><img src="https://img-blog.csdn.net/20180521132633556?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzM2NzcxMjY5/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70" alt="这里写图片描述"></p>
+<p>注意，败者树的重构跟胜者树是不一样的，败者树的重构只需要与其父结点比较。b3与结点ls[4]的原值比较，ls[4]中存放的原值是结点4，即b3与b4比较，b3负b4胜，则修改ls[4]的值为结点3。同理，以此类推，沿着根结点不断比赛，直至结束。</p>
+<p><strong>例子2：</strong><br>例如还是图 1 中，叶子结点 49 和 38 比较，38 更小，所以 38 是胜利者，49 为失败者，但由于是败者树，所以其双亲结点存储的应该是 49；同样，叶子结点 65 和 97 比较，其双亲结点中存储的是 97 ，而 65 则用来同 38 进行比较，65 会存储到 97 和 49 的双亲结点的位置，38 继续做后续的胜者比较，依次类推。</p>
+<blockquote>
+<p><strong>胜者树和败者树的区别就是：胜者树中的非终端结点中存储的是胜利的一方；而败者树中的非终端结点存储的是失败的一方。而在比较过程中，都是拿胜者去比较。</strong></p>
+</blockquote>
+<p><img src="http://c.biancheng.net/uploads/allimg/190427/1100125I7-1.png" alt=""><br>图 2 败者树  </p>
+<p>如图 2 所示为一棵 5-路归并的败者树，其中 <strong>b0—b4</strong> 为树的叶子结点，分别为 5 个归并段中存储的记录的关键字。<strong>ls</strong> 为一维数组，表示的是非终端结点，其中存储的数值表示第几归并段（例如 b0 为第 0 个归并段）。ls[0] 中存储的为最终的胜者，表示当前第 3 归并段中的关键字最小。</p>
+<p>当最终胜者判断完成后，只需要更新叶子结点 b3 的值，即导入关键字 15，然后让<strong>该结点不断同其双亲结点所表示的关键字进行比较，败者留在双亲结点中，胜者继续向上比较。</strong></p>
+<p>例如，叶子结点 15 先同其双亲结点 ls[4] 中表示的 b4 中的 12 进行比较，12 为胜利者，则 ls[4] 改为失败者 15 所在的归并段即 b3，然后 12 继续同 ls[2] 中表示的 10 做比较，10 为胜者，则 ls[2] 改为失败者 12 所在的归并段即 b4，然后 10 继续同其双亲结点 ls[1] 表示的 b1（关键字 9）作比较，最终 9 为胜者。整个过程如下图所示：<br><img src="http://c.biancheng.net/uploads/allimg/190427/1100123961-2.png" alt="">  </p>
+<blockquote>
+<p>注意：为了防止在归并过程中某个归并段变为空，处理的办法为：<strong>可以在每个归并段最后附加一个关键字为最大值的记录。这样当某一时刻选出的冠军为最大值时，表明 5 个归并段已全部归并完成。</strong>（因为只要还有记录，最终的胜者就不可能是附加的最大值）</p>
+</blockquote>
+<p>本节介绍了通过使用败者树来实现增加 k-路归并的规模来提高外部排序的整体效率。但是对于 k 值得选择也并不是一味地越大越好，而是需要综合考虑选择一个合适的 k 值。</p>
+<h4 id="3-胜者树-amp-败者树-amp-堆排序"><a href="#3-胜者树-amp-败者树-amp-堆排序" class="headerlink" title="3. 胜者树 &amp; 败者树 &amp; 堆排序"></a>3. 胜者树 &amp; 败者树 &amp; 堆排序</h4><p><strong>发展历史</strong><br>　　<strong>堆</strong>：其实一开始就是只有堆来完成多路归并的，但是人们发现堆每次取出最小值之后，把最后一个数放到堆顶，调整堆的时候，每次都要选出父节点的两个孩子节点的最小值，然后再用孩子节点的最小值和父节点进行比较，所以每调整一层需要比较两次。<br>　　<strong>胜者树</strong>：这时人们想能否简化比较过程，这时就有了胜者树，这样每次比较只用跟自己的兄弟节点进行比较就好，所以用胜者树可以比堆少一半的比较次数。 而胜者树在节点上升的时候首选需要获得父节点，然后再获得兄弟节点，然后再比较。</p>
+<p><strong>败者树</strong>：这时人们又想能否再次减少比较次数，于是就有了败者树。在使用败者树的时候，每个新元素上升时，只需要获得父节点并比较即可。 </p>
+<p>　　所以总的来说，减少了访存的时间。 现在程序的主要瓶颈在于访存了，计算倒几乎可以忽略不计了。</p>
+<p><strong>相同点</strong><br>首先它们三个的相同点就是在于：空间和时间复杂度都是一样的O(N*logN)。调整一次的时间复杂度都是O(logN)的。<br>所以这道题用堆来做，跟用败者树来做并没有本质上的算法复杂度量级上的差别。</p>
+<p><strong>不同点</strong><br>　　<strong>堆</strong>：所有的节点都是关键字； 每次调整一层需要比较两次（父亲 左孩子|  父亲 右孩子）。<br>　　<strong>胜者树</strong>：叶子节点是关键字，非叶子节点保存胜者索引；每次调整一层需要比较1次（自己 兄弟），读取两次（父亲| 兄弟）。</p>
+<p><strong>败者树</strong>：叶子节点是关键字，非叶子节点保存败者索引；每次调整一层需要比较1次（自己 父亲），读取一次（父亲），只需要和路径上的节点比较，不需要和兄弟节点比较，简化了重构的过程。； 新增B[0]记录比赛的胜者【在本例子中是ls[0]】</p>
+<h3 id="（五）置换选择排序算法详解"><a href="#（五）置换选择排序算法详解" class="headerlink" title="（五）置换选择排序算法详解"></a>（五）置换选择排序算法详解</h3><p>k 不是越大越好，那么我们可以想办法减少有序子串的总个数 m。这样，也能减少数据从硬盘读写的次数。</p>
+<p>上一节介绍了增加 k-路归并排序中的 k 值来提高外部排序效率的方法，而除此之外，还有另外一条路可走，<strong>即减少初始归并段的个数</strong>，也就是本章第一节中提到的减小 m 的值。</p>
+<blockquote>
+<p>m 的求值方法为：m=⌈n/l⌉（n 表示为外部文件中的记录数，l 表示初始归并段中包含的记录数）</p>
+</blockquote>
+<p>如果要想减小 m 的值，在外部文件总的记录数 n 值一定的情况下，只能增加每个归并段中所包含的记录数 l。而对于初始归并段的形成，就不能再采用上一章所介绍的内部排序的算法，因为所有的内部排序算法正常运行的前提是所有的记录都存在于内存中，而内存的可使用空间是一定的，如果增加 l 的值，内存是盛不下的。所以要另想它法，探索一种新的排序方法：置换—选择排序算法。</p>
+<p><img src="https://img2018.cnblogs.com/blog/728328/201905/728328-20190521151117407-1614422312.png" alt=""><br><img src="https://img2018.cnblogs.com/blog/728328/201905/728328-20190521151205128-688921159.png" alt=""></p>
+<p>例如已知初始文件中总共有 24 个记录，假设内存工作区最多可容纳 6 个记录，按照之前的选择排序算法最少也只能分为 4 个初始归并段。而如果使用置换—选择排序，可以实现将 24 个记录分为 3 个初始归并段，如图 1 所示：<br><img src="http://c.biancheng.net/uploads/allimg/190427/1100441347-0.png" alt=""></p>
+<p>置换—选择排序算法的具体操作过程为：</p>
+<ol>
+<li>首先从初始文件中输入 6 个记录到内存工作区中；</li>
+<li>从内存工作区中选出关键字最小的记录，将其记为 MINIMAX 记录；</li>
+<li>然后将 MINIMAX 记录输出到归并段文件中；</li>
+<li>此时内存工作区中还剩余 5 个记录，若初始文件不为空，则从初始文件中输入下一个记录到内存工作区中；</li>
+<li>从内存工作区中的所有比 MINIMAX 值大的记录中选出值最小的关键字的记录，作为新的 MINIMAX 记录；[使用败者树或者堆排序实现]</li>
+<li>重复过程 3—5，直至在内存工作区中选不出新的 MINIMAX 记录为止，由此就得到了一个初始归并段；</li>
+<li>重复 2—6，直至内存工作为空，由此就可以得到全部的初始归并段。</li>
+</ol>
+<p>拿图 1 中的初始文件为例，首先输入前 6 个记录到内存工作区，其中关键字最小的为 29，所以选其为 MINIMAX 记录，同时将其输出到归并段文件中，如下图所示：<br><img src="http://c.biancheng.net/uploads/allimg/190427/1100444232-1.png" alt=""></p>
+<p>此时初始文件不为空，所以从中输入下一个记录 14 到内存工作区中，然后从内存工作区中的比 29 大的记录中，选择一个最小值作为新的 MINIMAX 值输出到 归并段文件中，如下图所示：<br><img src="http://c.biancheng.net/uploads/allimg/190427/1100443O6-2.png" alt=""></p>
+<p>初始文件还不为空，所以继续输入 61 到内存工作区中，从内存工作区中的所有关键字比 38 大的记录中，选择一个最小值作为新的 MINIMAX 值输出到归并段文件中，如下图所示：<br><img src="http://c.biancheng.net/uploads/allimg/190427/1100441W3-3.png" alt=""></p>
+<p>如此重复性进行，直至选不出 MINIMAX 值为止，如下图所示：<br><img src="http://c.biancheng.net/uploads/allimg/190427/1100444T0-4.png" alt=""></p>
+<p>当选不出 MINIMAX 值时，表示一个归并段已经生成，则开始下一个归并段的创建，创建过程同第一个归并段一样，这里不再赘述。</p>
+<h4 id="败者树实现"><a href="#败者树实现" class="headerlink" title="败者树实现"></a>败者树实现</h4><p>在上述创建初始段文件的过程中，需要不断地在内存工作区中选择新的 MINIMAX 记录，即选择不小于旧的 MINIMAX 记录的最小值，此过程需要利用“败者树”来实现。<br>　　<br>同上一节所用到的败者树不同的是，在不断选择新的 MINIMAX 记录时，为了防止新加入的关键字值小的的影响，每个叶子结点附加一个序号位，当进行关键字的比较时，先比较序号，序号小的为胜者；序号相同的关键字值小的为胜者。<br>　　<br>在初期创建败者树时也可以通过不断调整败者树的方式，其中所有记录的序号均设为 0 ，然后从初始文件中逐个输入记录到内存工作区中，自下而上调整败者树。过程如下：</p>
+<ol>
+<li>首先创建一个空的败者树，如下图所示：<br><img src="https://c.biancheng.net/uploads/allimg/190427/1100442Q8-5.png" alt=""><br>提示：败者树根结点上方的方框内表示的为最终的胜者所处的位置。</li>
+<li>从初始文件中读入关键字为 51 的记录，自下往上调整败者树，如下图所示：<br><img src="https://c.biancheng.net/uploads/allimg/190427/110044CX-6.png" alt=""><br>提示：序号 1 为败者。 先比较序号，序号小的为胜者；序号相同的关键字值小的为胜者。</li>
+<li>从初始文件中读入关键字为 49 的记录，调整败者树如下图所示：<br><img src="https://c.biancheng.net/uploads/allimg/190427/1100444218-7.png" alt="">   </li>
+<li>从初始文件依次读入关键字为 39、46、38、29 的记录，调整败者树如下图所示：  <pre><code>![](http://c.biancheng.net/uploads/allimg/190427/1100444F4-8.png)
+</code></pre></li>
+</ol>
+<p>由败者树得知，其最终胜者为 29，设为 MINIMAX 值，将其输出到初始归并文件中，同时再读入下一个记录 14，调整败者树，如下图所示：<br><img src="http://c.biancheng.net/uploads/allimg/190427/1100442U0-9.png" alt=""></p>
+<p>注意：当读入新的记录时，如果其值比 MINIMAX 大，其序号则仍为 1；反之则为 2 ，比较时先比较序号，序号小的为胜者；序号相同的关键字值小的为胜者。。</p>
+<p>通过不断地向败者树中读入记录，会产生多个 MINIMAX，直到最终所有叶子结点中的序号都为 2，此时产生的新的 MINIMAX 值的序号 2，表明此归并段生成完成，而此新的 MINIMAX 值就是下一个归并段中的第一个记录。</p>
+<p>通过置换选择排序算法得到的初始归并段，其长度并不会受内存容量的限制，且通过证明得知使用该方法所获得的归并段的平均长度为内存工作区大小的两倍。</p>
+<p><strong>通过对初始文件进行置换选择排序能够获得多个长度不等的初始归并段</strong></p>
+<blockquote>
+<p>证明此结论的方法是 E.F.Moore（人名）在 1961 年从置换—选择排序和扫雪机的类比中得出的，有兴趣的可以自己了解一下。</p>
+</blockquote>
+<p>若不计输入输出的时间，通过置换选择排序生成初始归并段的所需时间为<strong><code>O(nlogw)</code>（其中 n 为记录数，w 为内存工作区的大小）</strong>。</p>
+<h3 id="（六）最佳归并树详解"><a href="#（六）最佳归并树详解" class="headerlink" title="（六）最佳归并树详解"></a>（六）最佳归并树详解</h3><h4 id="1-哈夫曼树"><a href="#1-哈夫曼树" class="headerlink" title="1. 哈夫曼树"></a>1. 哈夫曼树</h4><p>通过上一节对置换-选择排序算法的学习了解到，<strong>通过对初始文件进行置换选择排序能够获得多个长度不等的初始归并段</strong>，相比于按照内存容量大小对初始文件进行等分，大大减少了初始归并段的数量，从而提高了外部排序的整体效率。</p>
+<p>本节带领大家思考一个问题：<strong>无论是通过等分还是置换-选择排序得到的归并段，如何设置它们的归并顺序，可以使得对外存的访问次数降到最低</strong>？</p>
+<p>例如，现有通过置换选择排序算法所得到的 9 个初始归并段，其长度分别为：<code>9，30，12，18，3，17，2，6，24</code>。在对其采用 3-路平衡归并的方式时可能出现如图 1 所示的情况：<br><img src="http://c.biancheng.net/uploads/allimg/190427/11012121F-0.png" alt=""><br>图 1 3-路平衡归并</p>
+<blockquote>
+<p>提示：图 1 中的叶子结点表示初始归并段，各自包含记录的长度用结点的权重来表示；非终端结点表示归并后的临时文件。</p>
+</blockquote>
+<p>假设在进行平衡归并时，操作每个记录都需要单独进行一次对外存的读写，那么图 1 <strong>中的归并过程需要对外存进行读或者写的次数为</strong>：（9+30+12+18+3+17+2+6+24）<em>2</em>2=484（图 1 中涉及到了两次归并，对外存的读和写各进行 2 次）从计算结果上看，对于图 1 中的 3 叉树来讲，其操作外存的次数恰好是树的带权路径长度的 2 倍。所以，<strong>对于如何减少访问外存的次数的问题，就等同于考虑如何使 k-路归并所构成的 k 叉树的带权路径长度最短。**</strong>若想使树的带权路径长度最短，就是构造赫夫曼树。**</p>
+<blockquote>
+<p>在学习赫夫曼树时，只是涉及到了带权路径长度最短的二叉树为赫夫曼树，其实扩展到一般情况，对于 k 叉树，只要其带权路径长度最短，亦可以称为赫夫曼树。</p>
+</blockquote>
+<p>若对上述 9 个初始归并段构造一棵赫夫曼树作为归并树，如图 2 所示：<br><img src="http://c.biancheng.net/uploads/allimg/190427/1101213M7-1.png" alt=""><br>图 2 赫夫曼树作为3-路归并树</p>
+<p>依照图 2 所示，其对外存的读写次数为：(2<em>3+3</em>3+6<em>3+9</em>2+12<em>2+17</em>2+18<em>2+24</em>2+30)*2=446</p>
+<p><strong>通过以构建赫夫曼树的方式构建归并树，使其对读写外存的次数降至最低（k-路平衡归并，需要选取合适的 k 值，构建赫夫曼树作为归并树）。所以称此归并树为最佳归并树。</strong></p>
+<h4 id="2-附加“虚段”的归并树"><a href="#2-附加“虚段”的归并树" class="headerlink" title="2. 附加“虚段”的归并树"></a>2. 附加“虚段”的归并树</h4><p>上述图 2 中所构建的为一颗真正的 3叉树（树中各结点的度不是 3 就是 0），而若 9 个初始归并段改为 8 个，在做 3-路平衡归并的时候就需要有一个结点的度为 2。</p>
+<p>对于具体设置哪个结点的度为 2，为了使总的带权路径长度最短，正确的选择方法是：附加一个权值为 0 的结点（称为“虚段”），然后再构建赫夫曼树。例如图 2 中若去掉权值为 30 的结点，其附加虚段的最佳归并树如图 3 所示：</p>
+<p><img src="http://c.biancheng.net/uploads/allimg/190427/1101211635-2.png" alt=""><br>图 3 附加虚段的最佳归并树</p>
+<blockquote>
+<p>注意：虚段的设置只是为了方便构建赫夫曼树，在构建完成后虚段自动去掉即可。</p>
+</blockquote>
+<p><strong>对于如何判断是否需要增加虚段，以及增加多少虚段的问题，有以下结论直接套用即可：在一般情况下，对于 k–路平衡归并来说，若 (m-1) MOD (k-1) = 0，则不需要增加虚段；否则需附加 k - (m-1)MOD(k-1) - 1 个虚段。</strong> </p>
+]]></content>
+      <categories>
+        <category>Algorithms</category>
+      </categories>
+      <tags>
+        <tag>排序</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Markdown 资源集</title>
+    <url>/2025/01/18/markdown_2/</url>
+    <content><![CDATA[<h1 id="Markdown-资源集"><a href="#Markdown-资源集" class="headerlink" title="Markdown 资源集"></a>Markdown 资源集</h1><p>这是一个收集了各种优秀的Markdown资源（库、服务、编辑器、工具、速查表等）的列表。</p>
+<span id="more"></span>
+<hr>
+<h2 id="目录"><a href="#目录" class="headerlink" title="目录"></a>目录</h2><!-- !toc (minlevel=2 omit="目录") -->
+<ul>
+<li><a href="#markdown">Markdown</a></li>
+<li><a href="#markdown语法扩展">Markdown语法扩展</a><ul>
+<li><a href="#multimarkdown-mmd">MultiMarkdown (MMD)</a></li>
+<li><a href="#markdown-extra">Markdown Extra</a></li>
+<li><a href="#markdown-extended-mde">Markdown Extended (MDE)</a></li>
+</ul>
+</li>
+<li><a href="#手稿">手稿</a></li>
+<li><a href="#commonmark">CommonMark</a></li>
+<li><a href="#github风格的markdown-gfm">GitHub风格的Markdown (GFM)</a></li>
+<li><a href="#纯味markdown-vfmd">纯味Markdown (VFMD)</a></li>
+<li><a href="#markdown文档">Markdown文档</a><ul>
+<li><a href="#markdown速查表--快速参考">Markdown速查表 / 快速参考</a></li>
+<li><a href="#markdown入门指南--教程">Markdown入门指南 / 教程</a></li>
+</ul>
+</li>
+<li><a href="#markdown构建模块">Markdown构建模块</a><ul>
+<li><a href="#markdown库--工具">Markdown库 &amp; 工具</a></li>
+<li><a href="#babelmark">Babelmark</a></li>
+<li><a href="#markdown风格指南--最佳实践">Markdown风格指南 / 最佳实践</a></li>
+<li><a href="#markdown-lint--风格规则检查器">Markdown Lint / 风格规则检查器</a></li>
+<li><a href="#markdown-web组件--自定义元素">Markdown Web组件 / 自定义元素</a></li>
+<li><a href="#markdown转网站--博客">Markdown转网站 / 博客</a></li>
+<li><a href="#markdown转电子邮件">Markdown转电子邮件</a></li>
+<li><a href="#markdown转演示文稿--幻灯片">Markdown转演示文稿 / 幻灯片</a></li>
+<li><a href="#markdown转便携式文档格式-pdf">Markdown转便携式文档格式 (PDF)</a></li>
+<li><a href="#markdown样式--文档--页面">Markdown样式 / 文档 / 页面</a></li>
+<li><a href="#markdown转书籍">Markdown转书籍</a></li>
+<li><a href="#markdown转目录-toc">Markdown转目录 (TOC)</a></li>
+<li><a href="#markdown转markdown预处理器">Markdown转Markdown预处理器</a></li>
+</ul>
+</li>
+<li><a href="#转换为markdown的工具">转换为Markdown的工具</a><ul>
+<li><a href="#microsoft-word转markdown">Microsoft Word转Markdown</a></li>
+<li><a href="#超文本标记语言-html转markdown">超文本标记语言 (HTML) 转Markdown</a></li>
+<li><a href="#源代码转markdown">源代码转Markdown</a></li>
+<li><a href="#技术文档转markdown">技术文档转Markdown</a></li>
+<li><a href="#屏幕录像转markdown">屏幕录像转Markdown</a></li>
+<li><a href="#json转markdown">JSON转Markdown</a></li>
+</ul>
+</li>
+<li><a href="#书籍服务">书籍服务</a></li>
+<li><a href="#文章">文章</a></li>
+<li><a href="#元数据">元数据</a></li>
+</ul>
+<!-- toc! -->
+<h2 id="Markdown"><a href="#Markdown" class="headerlink" title="Markdown"></a>Markdown</h2><p><em>email-style writing for the web by John Gruber and Aaron Swartz</em> </p>
+<ul>
+<li><strong>Markdown</strong> (web: <a href="http://daringfireball.net/projects/markdown">daringfireball.net/projects/markdown</a>) - 原始的Markdown语法编写和用Perl编写的处理器，由John Gruber编写；不再维护（最后一次更新于2004年12月）</li>
+</ul>
+<p>历史 / 起源</p>
+<ul>
+<li><p>Introducing Markdown by John Gruber - 2004年3月15日</p>
+<blockquote>
+<p>  我编写了一个名为Markdown的文本到HTML的格式化工具，现已可供下载。<br>Markdown允许网络写作者使用简单、易读的纯文本格式语法进行写作；<br>Markdown负责将其转换为有效的XHTML（或者，如果你愿意，也可以是HTML）。</p>
+</blockquote>
+</li>
+<li><p>Dive into Markdown by John Gruber - 2004年3月19日</p>
+<blockquote>
+<p> 你不需要在发送电子邮件之前“预览”它——你写它，你读它，你编辑它，就在那里。</p>
+<p> 事实上，我非常喜欢写电子邮件。电子邮件是我最喜欢的写作媒介。在过去的五年里，我发送了超过16,000封电子邮件。<br>平面文本电子邮件的约定使我能够清晰、准确地表达自己，而不会有任何干扰。</p>
+<p>因此，有了Markdown。网络上的电子邮件风格写作。</p>
+</blockquote>
+</li>
+<li><p>Markdown by Aaron Swartz - 2004年3月22日</p>
+<blockquote>
+<p>   几个月来，我一直在和John Gruber合作一个新项目。这个想法是通过允许你使用几乎相同的语法并自动将其转换为HTML，使编写简单的网页，<br>特别是博客文章，变得和写电子邮件一样容易。</p>
+<p>  我们从上到下仔细研究了语法细节，试图开发出完美的格式，<br>我认为我们得到了一个非常棒的结果。我们进行了广泛的测试：在我们的博客上，在我的评论表单中，在我们的电子邮件中。</p>
+</blockquote>
+</li>
+</ul>
+<h2 id="Markdown语法扩展"><a href="#Markdown语法扩展" class="headerlink" title="Markdown语法扩展"></a>Markdown语法扩展</h2><ul>
+<li><a href="http://daringfireball.net/projects/smartypants">SmartyPants</a> - 将(c)转换为？，””转换为？等 </li>
+<li><a href="http://www.emoji-cheat-sheet.com">Emojis</a> - <a href="https://github.com/arvida/emoji-cheat-sheet.com">:octocat:</a></li>
+<li><a href="http://criticmarkup.com">CriticMarkup</a> - <a href="https://github.com/CriticMarkup">:octocat:</a></li>
+<li><a href="https://help.github.com/articles/github-flavored-markdown">GitHub风格的标记 (GFM)</a> - @mention，带[ ]和[x]的待办事项列表等</li>
+</ul>
+<h3 id="MultiMarkdown-MMD"><a href="#MultiMarkdown-MMD" class="headerlink" title="MultiMarkdown (MMD)"></a>MultiMarkdown (MMD)</h3><ul>
+<li><a href="http://fletcherpenney.net/multimarkdown">MultiMarkdown (MMD)</a> - 由Fletcher Penney编写的Markdown扩展，增加了脚注、表格、定义列表、文档元数据（例如标题、作者、日期等）等；首次添加到MultiMarkdown.pl<ul>
+<li><a href="https://rawgit.com/fletcher/human-markdown-reference/master/index.html">速查表</a>  - 语法快速参考</li>
+<li><a href="https://github.com/fletcher/MMD-Test-Suite">测试套件 :octocat:</a></li>
+</ul>
+</li>
+<li><a href="https://github.com/fletcher/MultiMarkdown">MultiMarkdown.pl :octocat:</a> - 历史上的MultiMarkdown.pl代码；用Perl编写的转换脚本（最后一次更新于2011年1月）</li>
+</ul>
+<h3 id="Markdown-Extra"><a href="#Markdown-Extra" class="headerlink" title="Markdown Extra"></a>Markdown Extra</h3><ul>
+<li><a href="https://michelf.ca/projects/php-markdown/extra/">Markdown Extra</a> - 由Michel Fortin编写的Markdown扩展；首次添加到PHP Markdown (Extra)</li>
+<li><a href="https://michelf.ca/projects/php-markdown/dingus/">Dingus</a>  - 在浏览器中尝试Markdown Extra</li>
+</ul>
+<h3 id="Markdown-Extended-MDE"><a href="#Markdown-Extended-MDE" class="headerlink" title="Markdown Extended (MDE)"></a>Markdown Extended (MDE)</h3><ul>
+<li><a href="http://aboutmde.org">Markdown Extended (MDE) @ aboutmde.org</a><ul>
+<li><a href="http://manifest.aboutmde.org">规范</a></li>
+<li><a href="http://cheatsheet.aboutmde.org/">速查表</a> - 语法快速参考；示例并排显示</li>
+<li><a href="http://dingus.aboutmde.org">Dingus</a> - 在浏览器中尝试Markdown Extended</li>
+</ul>
+</li>
+<li><a href="https://github.com/piwi/markdown-extended">代码 :octocat:</a> - 用PHP编写的转换脚本</li>
+</ul>
+<h2 id="手稿"><a href="#手稿" class="headerlink" title="手稿"></a>手稿</h2><p><em>用于Markdown的免费书籍格式</em></p>
+<p><strong>手稿</strong><br>(web: <a href="http://manuscripts.github.io"><code>manuscripts.github.io</code></a>,<br> github: <a href="https://github.com/manuscripts"><code>manuscripts</code></a>) -<br>添加book.yml用于书籍（元）信息，例如标题、作者、出版商、年份等。<br>和contents.yml用于目录和文件结构</p>
+<ul>
+<li>Manuscripts Book Starter Kit (github: <a href="https://github.com/manuscripts/book-starter"><code>manuscripts/book-starter</code></a>)</li>
+</ul>
+<h2 id="CommonMark"><a href="#CommonMark" class="headerlink" title="CommonMark"></a>CommonMark</h2><p><em>一个强烈规范、高度兼容的Markdown实现</em></p>
+<p><strong>CommonMark</strong><br>(web: <a href="http://commonmark.org"><code>commonmark.org</code></a>)</p>
+<ul>
+<li>规范 (web: <a href="http://spec.commonmark.org"><code>spec.commonmark.org</code></a>) - 由John MacFarlane编辑 </li>
+<li>Dingus (web: <a href="http://spec.commonmark.org/dingus"><code>spec.commonmark.org/dingus</code></a>) - 在浏览器中尝试CommonMark</li>
+<li>讨论 (web: <a href="http://talk.commonmark.org"><code>talk.commonmark.org</code></a>)</li>
+<li>代码 (github: <a href="https://github.com/jgm/CommonMark"><code>jgm/CommonMark</code></a>) - 规范和用JavaScript和C编写的参考代码</li>
+</ul>
+<h2 id="GitHub-Flavored-Markdown-GFM"><a href="#GitHub-Flavored-Markdown-GFM" class="headerlink" title="GitHub Flavored Markdown (GFM)"></a>GitHub Flavored Markdown (GFM)</h2><p><em>CommonMark with GitHub Extensions</em></p>
+<p><strong>GitHub Flavored Markdown (GFM)</strong></p>
+<ul>
+<li>Spec (web: <a href="https://github.github.com/gfm">github.github.com/gfm</a>) </li>
+<li>Code (github: <a href="https://github.com/github/cmark">github/cmark</a> - reference code in C (fork of cmark w/ extensions)</li>
+</ul>
+<p>扩展包括：</p>
+<p>Leaf Blocks: 表格 ++<br>Container Blocks: 任务列表项 ++<br>Inlines: 删除线；自动链接；禁止原始 HTML</p>
+<h2 id="Vanilla-Flavored-Markdown-VFMD"><a href="#Vanilla-Flavored-Markdown-VFMD" class="headerlink" title="Vanilla Flavored Markdown (VFMD)"></a>Vanilla Flavored Markdown (VFMD)</h2><p><em>A variant of Markdown with an unambiguous specification of its syntax</em> </p>
+<p><strong>Vanilla Flavored Markdown (VFMD)</strong><br>(web: <a href="http://www.vfmd.org">vfmd.org</a>, github: <a href="https://github.com/vfmd">vfmd</a>) </p>
+<ul>
+<li>Spec (web: <a href="http://www.vfmd.org/vfmd-spec/specification">vfmd.org/vfmd-spec/specification</a>) - Edited by Roopesh Chander</li>
+<li>Code (github: <a href="https://github.com/vfmd/vfmd-src">vfmd/vfmd-src</a>) - reference code in C++</li>
+</ul>
+<p>不同之处包括：</p>
+<p>单词内强调；<br>引用链接/图片语法简化；<br>列表和 4 空格规则；<br>更好的自动链接检测；<br>双空行作为块的结束；<br>列表的起始数字；<br>嵌套结构错误；<br>包含原始 HTML；<br>字符编码</p>
+<h2 id="Markdown-文档"><a href="#Markdown-文档" class="headerlink" title="Markdown 文档"></a>Markdown 文档</h2><h3 id="Markdown-速查表-快速参考"><a href="#Markdown-速查表-快速参考" class="headerlink" title="Markdown 速查表 / 快速参考"></a>Markdown 速查表 / 快速参考</h3><ul>
+<li><a href="https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet">Markdown 速查表 :octocat:</a> </li>
+<li><a href="https://github.com/lifeparticle/Markdown-Cheatsheet">终极 Markdown 速查表</a> </li>
+</ul>
+<h3 id="Markdown-入门指南-教程"><a href="#Markdown-入门指南-教程" class="headerlink" title="Markdown 入门指南 / 教程"></a>Markdown 入门指南 / 教程</h3><ul>
+<li><a href="http://markdowntutorial.com">Markdown 教程</a> - <a href="https://github.com/gjtorikian/markdowntutorial.com">:octocat:</a> </li>
+<li><a href="https://guides.github.com/features/mastering-markdown">掌握 Markdown @ GitHub 指南</a> </li>
+<li><a href="https://help.github.com/articles/markdown-basics">Markdown 基础 @ GitHub 帮助</a> </li>
+<li><a href="https://www.markdownguide.org/">Markdown 指南</a> </li>
+</ul>
+<h2 id="Markdown-构建块"><a href="#Markdown-构建块" class="headerlink" title="Markdown 构建块"></a>Markdown 构建块</h2><h3 id="Markdown-库-amp-工具"><a href="#Markdown-库-amp-工具" class="headerlink" title="Markdown 库 &amp; 工具"></a>Markdown 库 &amp; 工具</h3><p><a name="pandoc"></a><br><strong>Pandoc</strong><br>(web: <a href="http://pandoc.org">pandoc.org</a>, github: <a href="https://github.com/jgm/pandoc">github.com/jgm/pandoc</a>) - 一个通用文档转换器（用 Haskell 编写）</p>
+<p><strong>kramdown</strong><br>(web: <a href="http://kramdown.gettalong.org">kramdown.gettalong.org</a>, github: <a href="https://github.com/gettalong/kramdown">gettalong/kramdown</a>, gem: <a href="https://rubygems.org/gems/kramdown">kramdown</a>) - Markdown 库和命令行工具（用 Ruby 编写）</p>
+<p><strong>Markdown Extended (MDE)</strong><br>(github: <a href="https://github.com/e-picas/markdown-extended">e-picas/markdown-extended</a> - 将纯文本输入（字符串或文件）转换为各种输出格式（用 PHP 编写）<br><a name="marked"></a><br><strong>marked</strong><br>(web: <a href="https://marked.js.org">marked.js.org</a>, github: <a href="https://github.com/markedjs/marked">marked :octocat:</a>) - 一个 Markdown 解析器和编译器。为速度而构建。（用 Javascript 编写）</p>
+<p><a name="markdown-it"></a></p>
+<p><strong>markdown-it</strong><br>(web: <a href="https://markdown-it.github.io/">markdown-it.github.io</a>, github: <a href="https://github.com/markdown-it/markdown-it">markdown-it :octocat:</a>) - Javascript Markdown 解析器。100% CommonMark 支持，扩展，语法插件和高速。<br>可通过 <a href="https://www.npmjs.com/search?q=keywords:markdown-it-plugin">插件</a> 进行扩展。</p>
+<p><strong>concat-md</strong><br>(<a href="https://www.npmjs.com/package/concat-md">npm</a>, <a href="https://github.com/ozum/concat-md#readme">github</a>) - CLI 和 API 用于连接 Markdown 文件并根据需要进行修改。还可以从 FrontMatter、文件名和目录名添加标题，降低现有标题的级别以符合添加的标题。</p>
+<p><strong>mdcode</strong><br>(github: <a href="https://github.com/szkiba/mdcode">mdcode</a>) - Markdown 代码块编写工具。它支持可测试的代码块，实现代码块与源文件之间的双向同步。</p>
+<h3 id="Babelmark"><a href="#Babelmark" class="headerlink" title="Babelmark"></a>Babelmark</h3><ul>
+<li><a href="">Babelmark 2</a> - 一个用于比较各种 Markdown 语法实现输出的工具<ul>
+<li><a href="http://johnmacfarlane.net/babelmark2/faq.html">Babelmark 2 F.A.Q.</a> - 常见问题（及答案）例如 … ??</li>
+</ul>
+</li>
+</ul>
+<h3 id="Markdown-风格指南-最佳实践"><a href="#Markdown-风格指南-最佳实践" class="headerlink" title="Markdown 风格指南 / 最佳实践"></a>Markdown 风格指南 / 最佳实践</h3><p>待完成</p>
+<h3 id="Markdown-Lint-风格规则检查器"><a href="#Markdown-Lint-风格规则检查器" class="headerlink" title="Markdown Lint / 风格规则检查器"></a>Markdown Lint / 风格规则检查器</h3><ul>
+<li><a href="https://github.com/DavidAnson/markdownlint">markdownlint</a> - 一个 Node.js 风格检查器和 lint 工具，为 Markdown/CommonMark 文件提供一套良好的默认设置。允许自定义。</li>
+<li><a href="https://github.com/executablebooks/mdformat">mdformat</a> - CommonMark 兼容的 Markdown 格式化器</li>
+<li><a href="">mdlint</a> 待完成</li>
+<li><a href="https://github.com/hougesen/mdsf">mdsf</a> - 使用你偏好的代码格式化器来格式化 Markdown 代码片段。</li>
+<li><a href="https://github.com/DavidAnson/vscode-markdownlint">vscode-markdownlint</a> - <a href="https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint">Visual Studio Code 插件</a> 启用 markdown 文件的原位 linting。</li>
+</ul>
+<h3 id="Markdown-Web-组件-自定义元素"><a href="#Markdown-Web-组件-自定义元素" class="headerlink" title="Markdown Web 组件 / 自定义元素"></a>Markdown Web 组件 / 自定义元素</h3><ul>
+<li><a href="https://github.com/MarketingPipeline/Markdown-Tag">Markdown-Tag</a> - 使用 md 标签在任何网站上渲染 Markdown 到 HTML</li>
+<li><a href=""><code>&lt;x-markdown&gt;</code></a> - 待完成</li>
+</ul>
+<h3 id="Markdown-转网站-博客"><a href="#Markdown-转网站-博客" class="headerlink" title="Markdown 转网站 / 博客"></a>Markdown 转网站 / 博客</h3><p><strong>Jekyll</strong><br>(web: <a href="http://jekyllrb.com">jekyllrb.com</a>, github: <a href="https://github.com/jekyll/jekyll">jekyll/jekyll :octocat:</a>, gem: <a href="https://rubygems.org/gems/jekyll">jekyll :gem:</a>) - 将你的纯文本转换为静态网站和博客（用 Ruby 编写）</p>
+<p><strong>Middleman</strong><br>(web: <a href="https://middlemanapp.com">middlemanapp.com</a>, github: <a href="https://github.com/middleman/middleman">middleman/middleman :octocat:</a>, gem: <a href="https://rubygems.org/gems/middleman">middleman :gem:</a>) - 使网站开发变得简单（用 Ruby 编写）</p>
+<p><strong>Slate</strong> (github: <a href="https://github.com/lord/slate">lord/slate :octocat:</a>) - 基于 <strong>Middleman</strong> 的美丽 API 文档</p>
+<p><strong>Shins</strong> (github: <a href="https://github.com/Mermade/shins">Mermade/shins :octocat:</a>, npm: <a href="https://www.npmjs.com/package/shins">shins</a>) – 美丽的 API 文档，使用 node.js（<strong>Slate</strong> 的移植）</p>
+<p><strong>md-fileserver</strong> (github: <a href="https://github.com/commenthol/md-fileserver">md-fileserver :octocat:</a>, npm: <a href="https://www.npmjs.com/package/md-fileserver">md-fileserver</a>) – 在浏览器中本地查看 markdown 文件。</p>
+<p><strong>Compiiile</strong> (github: <a href="https://github.com/compiiile/compiiile">@compiiile/compiiile :octocat:</a>, npm: <a href="https://www.npmjs.com/package/@compiiile/compiiile">@compiiile/compiiile</a>) – 预览和提供包含 Markdown 文件的文件夹，支持全文搜索和演示幻灯片。</p>
+<h3 id="Markdown-转电子邮件"><a href="#Markdown-转电子邮件" class="headerlink" title="Markdown 转电子邮件"></a>Markdown 转电子邮件</h3><p><strong>Markdown Here</strong><br>(web: <a href="http://markdown-here.com">markdown-here.com</a>, github: <a href="https://github.com/adam-p/markdown-here">adam-p/markdown-here</a>) - 一个浏览器扩展，用于渲染用 Markdown 编写的电子邮件；<br>适用于 Chrome、Firefox、Safari、Thunderbird 等；<br>除了电子邮件，还适用于 Evernote、Google Groups、Blogger 等</p>
+<h3 id="Markdown-转演示文稿-幻灯片"><a href="#Markdown-转演示文稿-幻灯片" class="headerlink" title="Markdown 转演示文稿 / 幻灯片"></a>Markdown 转演示文稿 / 幻灯片</h3><p><strong>Slide Show (S9)</strong></p>
+<ul>
+<li>网站：<a href="http://slideshow-s9.github.io">slideshow-s9.github.io</a></li>
+<li>GitHub：<a href="https://github.com/slideshow-s9">slideshow-s9/slideshow</a></li>
+<li><p>Gem：<a href="https://rubygems.org/gems/slideshow">slideshow</a></p>
+<ul>
+<li>这是一个用 Ruby 编写的免费 Web 替代品，用于 PowerPoint 和 Keynote。</li>
+</ul>
+</li>
+<li><p>模板 (GitHub：<a href="https://github.com/slideshow-templates">slideshow-templates</a>)</p>
+</li>
+</ul>
+<p><strong>Slidev</strong></p>
+<ul>
+<li>GitHub：<a href="http://github.com/slidevjs/slidev">slidev</a><ul>
+<li>Slidev 允许你从 Markdown 文件创建幻灯片。你可以在 Markdown 中包含 HTML 和 Vue 组件。</li>
+</ul>
+</li>
+</ul>
+<p><strong>Markpress</strong></p>
+<ul>
+<li>GitHub：<a href="https://github.com/gamell/markpress">markpress</a><ul>
+<li>一个命令行工具和 Node 包，用于将 Markdown 文件转换为自包含的 <a href="https://github.com/impress/impress.js/">impressjs</a> HTML 演示文稿。<a href="https://gamell.github.io/markpress">示例</a></li>
+</ul>
+</li>
+</ul>
+<p><strong>nodePPT</strong></p>
+<ul>
+<li>GitHub：<a href="https://github.com/ksky521/nodePPT">nodePPT</a><ul>
+<li>一个支持基于 GFM 的 Markdown 的 Web 演示工具。</li>
+</ul>
+</li>
+</ul>
+<p><strong>Deckset</strong></p>
+<ul>
+<li>网站：<a href="http://www.decksetapp.com">Deckset</a><ul>
+<li>一款 macOS 桌面应用程序，可在精美设计的模板中呈现 Markdown 演示文稿。</li>
+</ul>
+</li>
+</ul>
+<p><strong>GitPitch</strong></p>
+<ul>
+<li>网站：<a href="http://gitpitch.com/">GitPitch</a></li>
+<li>GitHub：<a href="https://github.com/gitpitch/gitpitch/">gitpitch</a><ul>
+<li>在 GitHub、GitLab、Bitbucket、GitBucket、Gitea 和 Gogs 上为每个人提供 Markdown 演示文稿。<a href="https://gitpitch.com/gitpitch/gitpitch/master">示例</a></li>
+</ul>
+</li>
+</ul>
+<p><strong>zoetic</strong></p>
+<ul>
+<li>GitHub：<a href="https://github.com/kantord/zoetic">zoetic</a><ul>
+<li>在演示时，使用你的网络摄像头作为背景的 Markdown 演示文稿。</li>
+</ul>
+</li>
+</ul>
+<h3 id="Markdown-转便携式文档格式-PDF"><a href="#Markdown-转便携式文档格式-PDF" class="headerlink" title="Markdown 转便携式文档格式 (PDF)"></a>Markdown 转便携式文档格式 (PDF)</h3><ul>
+<li><a href="https://github.com/alanshaw/markdown-pdf">markdown-pdf</a><ul>
+<li>一个将 Markdown 文件转换为 PDF 的工具。</li>
+</ul>
+</li>
+</ul>
+<h3 id="Markdown-样式-文档-页面"><a href="#Markdown-样式-文档-页面" class="headerlink" title="Markdown 样式 / 文档 / 页面"></a>Markdown 样式 / 文档 / 页面</h3><p><strong>页面设计的禅意</strong></p>
+<ul>
+<li>GitHub：<a href="https://github.com/pagedesigns">pagedesigns</a></li>
+</ul>
+<h3 id="Markdown-转书籍"><a href="#Markdown-转书籍" class="headerlink" title="Markdown 转书籍"></a>Markdown 转书籍</h3><p><strong>书籍设计的禅意</strong></p>
+<ul>
+<li>GitHub：<a href="https://github.com/bookdesigns">bookdesigns</a></li>
+</ul>
+<p><strong>Hyper Book (H9)</strong></p>
+<ul>
+<li>GitHub：<a href="https://github.com/hybook">hybook</a></li>
+<li>Gem：<a href="https://rubygems.org/gems/hybook">hybook</a><ul>
+<li><a href="https://github.com/book-templates">模板</a></li>
+</ul>
+</li>
+</ul>
+<h3 id="Markdown-转目录-TOC"><a href="#Markdown-转目录-TOC" class="headerlink" title="Markdown 转目录 (TOC)"></a>Markdown 转目录 (TOC)</h3><ul>
+<li><strong>使用 <a href="https://github.com/jonschlinkert/remarkable">remarkable</a> 生成 Markdown 目录 (TOC)</strong><ul>
+<li>GitHub：<a href="https://github.com/jonschlinkert/markdown-toc">markdown-toc</a></li>
+</ul>
+</li>
+<li><a href="#markedpp">markedpp</a> Markdown 到 Markdown 预处理器</li>
+<li><a href="https://github.com/tallclair/mdtoc">mdtoc</a><ul>
+<li>为 CI 设计的独立 TOC 生成器</li>
+</ul>
+</li>
+</ul>
+<h3 id="Markdown-到-Markdown-预处理器"><a href="#Markdown-到-Markdown-预处理器" class="headerlink" title="Markdown 到 Markdown 预处理器"></a>Markdown 到 Markdown 预处理器</h3><ul>
+<li><strong>markedpp</strong><ul>
+<li>GitHub：<a href="https://github.com/commenthol/markedpp">markedpp</a></li>
+<li>添加对目录 (TOC)、编号标题、包含其他 Markdown 文件和/或创建引用列表的支持，适用于不同的 Markdown 处理器，如 <a href="#marked">marked</a>、<a href="#markdown-it">markdown-it</a>、<a href="#pandoc">pandoc</a>，或用于在 github.com、gitlab.com、bitbucket.org 或 ghost.org 上托管。</li>
+</ul>
+</li>
+</ul>
+<h2 id="转换为-Markdown-的工具"><a href="#转换为-Markdown-的工具" class="headerlink" title="转换为 Markdown 的工具"></a>转换为 Markdown 的工具</h2><h3 id="Microsoft-Word-转-Markdown"><a href="#Microsoft-Word-转-Markdown" class="headerlink" title="Microsoft Word 转 Markdown"></a>Microsoft Word 转 Markdown</h3><ul>
+<li><a href="https://github.com/benbalter/word-to-markdown">word-to-markdown gem</a><ul>
+<li>Gem：<a href="https://rubygems.org/gems/word-to-markdown">word-to-markdown</a></li>
+<li>从 Microsoft Word 文档的“监狱”中“解放”内容；转换为纯文本 Markdown。</li>
+</ul>
+</li>
+</ul>
+<h3 id="超文本标记语言-HTML-转-Markdown"><a href="#超文本标记语言-HTML-转-Markdown" class="headerlink" title="超文本标记语言 (HTML) 转 Markdown"></a>超文本标记语言 (HTML) 转 Markdown</h3><h4 id="Ruby"><a href="#Ruby" class="headerlink" title="Ruby"></a>Ruby</h4><ul>
+<li><a href="https://github.com/xijo/reverse_markdown">reverse_markdown</a><ul>
+<li>Gem：<a href="https://rubygems.org/gems/reverse_markdown">reverse_markdown</a></li>
+<li>将简单的 HTML 映射回 Markdown。</li>
+</ul>
+</li>
+<li><a href="https://github.com/29decibel/html2markdown">html2markdown</a><ul>
+<li>Gem：<a href="https://rubygems.org/gems/html2markdown">html2markdown</a></li>
+<li>简单且灵活的 HTML 到 Markdown 转换器。</li>
+</ul>
+</li>
+<li><a href="https://github.com/jcheatham/hypertextmarkdown">hypertextmarkdown</a><ul>
+<li>Gem：<a href="https://rubygems.org/gems/hypertextmarkdown">hypertextmarkdown</a></li>
+<li>HTML 到 Markdown 转换器。</li>
+</ul>
+</li>
+<li><a href="https://github.com/pmorton/html2md">html2md</a><ul>
+<li>Gem：<a href="https://rubygems.org/gems/html2md">html2md</a></li>
+<li>转换基本的 HTML 到 Markdown。</li>
+</ul>
+</li>
+<li><a href="https://github.com/soffes/unmarkdown">unmarkdown</a><ul>
+<li>Gem：<a href="https://rubygems.org/gems/unmarkdown">unmarkdown</a></li>
+<li>转换 HTML 到 Markdown。</li>
+</ul>
+</li>
+<li><a href="https://github.com/conversation/upmark">upmark</a><ul>
+<li>Gem：<a href="https://rubygems.org/gems/upmark">upmark</a></li>
+<li>一个 HTML 到 Markdown 转换器。</li>
+</ul>
+</li>
+<li><a href="https://github.com/mislav/remark">remark</a><ul>
+<li>用 Ruby 编写的 HTML 到 Markdown 转换器。</li>
+</ul>
+</li>
+</ul>
+<h4 id="JavaScript-Node-js"><a href="#JavaScript-Node-js" class="headerlink" title="JavaScript / Node.js"></a>JavaScript / Node.js</h4><ul>
+<li><a href="https://github.com/domchristie/turndown">turndown</a><ul>
+<li>npm 包：<a href="https://www.npmjs.com/package/turndown">turndown</a></li>
+<li>演示网站：<a href="http://domchristie.github.io/turndown/">turndown</a></li>
+<li>用 JavaScript 编写的 HTML 到 Markdown 转换器（以前称为 <code>to-markdown</code>）。</li>
+</ul>
+</li>
+<li><a href="https://github.com/alexgorbatchev/html2markdown">html2markdown</a><ul>
+<li>npm 包：<a href="https://www.npmjs.com/package/html2markdown">html2markdown</a></li>
+<li>转换 HTML 到 Markdown。</li>
+</ul>
+</li>
+<li><a href="http://markitdown.medusis.com">Markitdown</a><ul>
+<li>一个客户端 Web 应用程序，允许你粘贴来自网页的格式化文本（例如，链接保持完整）并接收 Markdown 输出。</li>
+<li>GitHub：<a href="https://github.com/bambax/markitdown.medusis.com">Markitdown.medusis.com</a></li>
+<li>一个用于将富文本转换为 Markdown 的客户端 Web 应用程序。</li>
+</ul>
+</li>
+</ul>
+<h4 id="其他"><a href="#其他" class="headerlink" title="其他"></a>其他</h4><ul>
+<li><a href="http://heckyesmarkdown.com">heckyesmarkdown.com</a><ul>
+<li>立即转换网页为 Markdown；该服务提供了一个简单的界面，将任何合理的网页转换为 Markdown（注意：该服务似乎使用 Readability API 从源页面中删除所有非内容的多余部分，然后再进行 Markdown 转换）。</li>
+</ul>
+</li>
+</ul>
+<h3 id="源代码转-Markdown"><a href="#源代码转-Markdown" class="headerlink" title="源代码转 Markdown"></a>源代码转 Markdown</h3><p>从源代码生成 API 文档的 Markdown，然后使用许多 <a href="#markdown-to-website--blog">Markdown 转网站</a> 工具之一将其托管和提供服务。</p>
+<ul>
+<li><a href="https://github.com/Mermade/widdershins">widdershins</a><ul>
+<li>将 <a href="https://www.openapis.org">OpenAPI/Swagger</a> REST API 文档转换为 Markdown。</li>
+</ul>
+</li>
+<li><a href="https://github.com/sourcey/moxygen">Moxygen</a><ul>
+<li>将 <a href="http://www.stack.nl/~dimitri/doxygen/">Doxygen</a>（C++，但也支持其他流行的编程语言，如 C、Objective-C、C#、PHP、Java、Python、IDL、Fortran、VHDL、Tcl，以及在一定程度上支持 D）文档转换为 Markdown。</li>
+</ul>
+</li>
+<li><a href="https://github.com/raml2html/markdown-theme">raml2html/markdown-theme</a><ul>
+<li>使用 raml2html 将 <a href="http://raml.org">RAML</a> REST API 文档转换为 Markdown。</li>
+</ul>
+</li>
+<li><a href="https://github.com/jsdoc2md/jsdoc-to-markdown">jsdoc-to-markdown</a><ul>
+<li>通过 JSDoc 将 JavaScript API 文档转换为 Markdown。</li>
+</ul>
+</li>
+<li><a href="https://github.com/albinotonnina/mmarkdown">mmarkdown</a><ul>
+<li>解释 Markdown 文件中的 mmd 代码块，并生成更酷的版本。</li>
+</ul>
+</li>
+<li><a href="https://gitlab.com/alex20465/markpush">markpush</a><ul>
+<li>Firefox/Chrome 扩展，以可读的 Markdown 格式推送 Git 仓库中的文章。</li>
+</ul>
+</li>
+</ul>
+<h3 id="技术文档转-Markdown"><a href="#技术文档转-Markdown" class="headerlink" title="技术文档转 Markdown"></a>技术文档转 Markdown</h3><ul>
+<li><a href="https://github.com/jelovirt/dita-ot-markdown">dita-ot-markdown</a> – 将 DITA 转换为 Markdown，并与标准 DITA OT 工具链集成</li>
+</ul>
+<h3 id="屏幕录像转-Markdown"><a href="#屏幕录像转-Markdown" class="headerlink" title="屏幕录像转 Markdown"></a>屏幕录像转 Markdown</h3><ul>
+<li><a href="https://paircast.io">Paircast</a> - 将桌面视频、git 差异和语音转录整合成 Markdown 文档。</li>
+</ul>
+<h3 id="JSON-转-Markdown"><a href="#JSON-转-Markdown" class="headerlink" title="JSON 转 Markdown"></a>JSON 转 Markdown</h3><p>JavaScript / Node.js</p>
+<ul>
+<li><a href="https://github.com/IonicaBizau/json2md">json2md</a> - 一个 JSON 到 Markdown 的转换器。</li>
+<li><a href="https://github.com/kgar/ts-markdown">ts-markdown</a> - 一个可扩展的 TypeScript Markdown 生成器，它接受 JSON 并创建 Markdown 文档。</li>
+</ul>
+<h2 id="出版服务"><a href="#出版服务" class="headerlink" title="出版服务"></a>出版服务</h2><ul>
+<li><a href="https://www.softcover.io">Softcover.io</a> - 由 Michael Hartl 等人提供的命令行出版工具<ul>
+<li><a href="https://github.com/softcover/softcover">Softcover</a> - 书籍生成、构建和发布的命令行工具</li>
+<li><a href="https://rubygems.org/gems/softcover">RubyGems</a> - RubyGems 上的 Softcover 包</li>
+</ul>
+</li>
+<li><a href="https://www.gitbook.com">GitBook.com</a> - 使用 Markdown 和 Git 编写和发布书籍，由 Samy Pessé 等人提供<ul>
+<li><a href="https://github.com/GitbookIO/gitbook">GitBook</a> - 使用 GitHub/Git 和 Markdown（或 AsciiDoc）构建精美书籍的命令行工具（和 Node.js 库）</li>
+</ul>
+</li>
+</ul>
+<!-- break -->
+<ul>
+<li><a href="https://github.com/bitbooks">Bitbooks.cc (已停止；已存档)</a> - Bitbooks 将包含 Markdown 文件的仓库转换为美观的、托管的在线书籍 - 由 Bryan Braun 提供<ul>
+<li><a href="https://github.com/bryanbraun/franklin">Franklin</a> - 为在线书籍优化的静态网站框架</li>
+</ul>
+</li>
+</ul>
+<h2 id="文章"><a href="#文章" class="headerlink" title="文章"></a>文章</h2><ul>
+<li><a href="http://ericholscher.com/blog/2016/mar/15/dont-use-markdown-for-technical-docs">为什么你不应该使用 Markdown 编写文档</a> - Eric Holscher，2016 年 3 月</li>
+<li><a href="https://mister-gold.pro/posts/en/asciidoc-vs-markdown/">停止使用 Markdown 编写文档</a> - Anton Zolotukhin，2018 年 4 月</li>
+<li><a href="http://roopc.net/posts/2014/markdown-cfg">为什么 Markdown 没有正式语法？</a> - Roopesh Chander，2014 年 9 月</li>
+<li><a href="https://medium.com/towards-data-science/the-ultimate-markdown-cheat-sheet-3d3976b31a0">终极 Markdown 速查表</a></li>
+</ul>
+<!--more-->]]></content>
       <categories>
         <category>Web</category>
       </categories>
